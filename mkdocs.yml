@@ -18,7 +18,6 @@ theme:
       name: "Switch to light mode"
   features:
     - navigation.tabs 
-  repo_url: https://github.com/aastroza/aastroza.github.io
   nav:
   - Home:
     - This is me: index.md
