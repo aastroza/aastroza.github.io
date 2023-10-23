@@ -18,12 +18,10 @@ theme:
       name: "Switch to light mode"
   features:
     - navigation.tabs
-    - navigation.indexes
-    - navigation.sections
-  nav:
-  - Home:
-    - This is me: index.md
-  - Generative AI Course:
-    - Intro: genai/intro.md
-  - Data Products Course:
-    - Intro: dataproducts/intro.md
+nav:
+- Home:
+  - This is me: index.md
+- Generative AI Course:
+  - Intro: genai/intro.md
+- Data Products Course:
+  - Intro: dataproducts/intro.md
