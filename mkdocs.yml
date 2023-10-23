@@ -30,3 +30,15 @@ nav:
 - PowerBI:
   - Introduccion: powerbi/introduccion.md
 
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<alonsoastroza@gmail.com>
+    - icon: fontawesome/brands/github
+      link: https://github.com/aastroza
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/aastrozacl/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/aastroza
+
+copyright: Copyright &copy; 2023 Alonso Astroza

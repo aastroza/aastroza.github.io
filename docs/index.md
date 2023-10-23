@@ -30,8 +30,8 @@ hide:
 
 ### Workshops
 
-* [Data Science for establishing a University Esports Team](esports/introduccion.md)
-* [Introduction to PowerBI](powerbi/introduccion.md)
+* [Data Science for establishing a University Esports Team](esports/introduccion.md).
+* [Introduction to PowerBI](powerbi/introduccion.md).
 
 ## Links
 
