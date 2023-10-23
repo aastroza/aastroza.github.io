@@ -32,6 +32,11 @@ nav:
 - PowerBI:
   - Video Course: powerbi/introduccion.md
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
