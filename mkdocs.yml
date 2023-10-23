@@ -22,4 +22,4 @@ theme:
   - Home:
     - This is me: index.md
   - Generative AI Course:
-    - Intro: courses/genai.md
+    - Intro: generative ai/intro.md
