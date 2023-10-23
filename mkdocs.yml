@@ -16,10 +16,9 @@ theme:
     toggle:
       icon: material/lightbulb
       name: "Switch to light mode"
-  
-  repo_name: aastroza.github.io
+  features:
+    - navigation.tabs 
   repo_url: https://github.com/aastroza/aastroza.github.io
-
   nav:
   - Home:
     - This is me: index.md
