@@ -20,3 +20,7 @@ A short workshop for undergraduate students at Universidad del Desarrollo. The p
 ## Data Visualization
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cBhxh-8HJcA?si=jnOaCywqRUI7szou" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Further Steps
+
+If you are a student at UDD and are interested in delving deeper into this tool, I recommend the following [Zigna course](https://zigna.udd.cl/analisis-de-datos-con-power-bi/).
