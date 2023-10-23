@@ -1,4 +1,4 @@
-# Intro to PowerBI Workshop
+# [Workshop] Intro to PowerBI
 
 A short workshop for undergraduate students at Universidad del Desarrollo. The purpose is to highlight the importance of learning data visualization tools like [PowerBI](https://powerbi.microsoft.com) and to provide a basic introduction to its use.
 
