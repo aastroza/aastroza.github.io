@@ -2,21 +2,30 @@
 hide:
   - navigation
 ---
+🤖
 
 # This is me
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+* I'm the Deputy Director of Industry Paternships @  Data Science Institute of Universidad del Desarrollo.
+* Independent Contributor: [GeoVictoria](https://www.geovictoria.com), [Defontana](https://www.defontana.com), [Discolab](https://www.discolab.cl)
+* Associate Professor of the Data Science Master’s program @ Universidad del Desarrollo.
+* Bachelor of Science, Electrical Engineer @ Universidad de Chile.
 
-## Commands
+## Contact
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* alonsoastroza@gmail.com - [github](https://github.com/aastroza) - [linkedin](https://www.linkedin.com/in/aastrozacl/) - [twitter](https://twitter.com/aastroza)
 
-## Project layout
+## Life
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Things I'm passionated about: AI, Data Products, Python, padel, crossfit, keto diet, videogames.
+* I have a [twin brother](https://sastroza.cl/).
+* I'm from Santiago, Chile, South America.
+
+## Teaching
+
+* [Generative Artificial Intelligence](genai/introduccion.md)
+* [Development of Data Products and Projects](genai/introduccion.md)
+
+## Links
+
+* My [AI newsletter](https://aastroza.substack.com/) (spanish)
