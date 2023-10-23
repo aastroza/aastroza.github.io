@@ -22,7 +22,7 @@ nav:
 - Home:
   - About Me: index.md
 - Generative AI:
-  - Introduccion: genai/introduccion.md
+  - Intro: genai/introduccion.md
 - Data Products:
   - Introduccion: dataproducts/introduccion.md
 - AI Pair Programming:
