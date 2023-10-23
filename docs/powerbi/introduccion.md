@@ -2,7 +2,7 @@
 
 A short workshop for undergraduate students at Universidad del Desarrollo. The purpose is to highlight the importance of learning data visualization tools like [PowerBI](https://powerbi.microsoft.com) and to provide a basic introduction to its use.
 
-* **Slides** [[Google Docs]](https://powerbi.microsoft.com/es-es/) [[pptx]](https://powerbi.microsoft.com/es-es/) [[pdf]](https://powerbi.microsoft.com/es-es/)
+* **Slides** [[Google Docs]](https://docs.google.com/presentation/d/1ULt28fRJrzrTPIa4yei6v6nUrYsksTPnoN9hugWwo8k/edit?usp=sharing) [[pptx]](Visualización_de_Datos_PowerBI[2023].pptx) [[pdf]](Visualización_de_Datos_PowerBI[2023].pdf)
 * **Data** [[zip]](data.zip)
 
 ## First Steps
