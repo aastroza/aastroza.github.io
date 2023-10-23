@@ -1,3 +1,22 @@
-# Introducción
+# PowerBI Workshop
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A short workshop for undergraduate students at Universidad del Desarrollo. The purpose is to highlight the importance of learning data visualization tools like [PowerBI](https://powerbi.microsoft.com) and to provide a basic introduction to its use.
+
+* [Slides](https://powerbi.microsoft.com/es-es/)
+* [Data](data.zip)
+
+## First Steps
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e6NI7_kkNu4?si=Jkh_j__Ybv87EFkV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Data Load
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yMcy94APjvs?si=ELKef64zC94dQD_C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Data Model
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CmNrcFI23l0?si=G1rhP7R8nmP6V4mB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Data Visualization
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cBhxh-8HJcA?si=jnOaCywqRUI7szou" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
