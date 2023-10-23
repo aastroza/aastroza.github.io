@@ -11,11 +11,12 @@
 Durante el desafío responderemos todas estas preguntas pero con enfoque basado en datos. Cada decisión será justificada con evidencia y aprenderemos estrategias básicas para lograrlo. Recopilaremos información desde muchas fuentes de datos (Twitch, Riot Games, Prensa, Redes Sociales, Encuestas, etc.) y luego el procesamiento de datos, análisis exploratorios, visualizaciones de datos, diseño de AB testing e incluso modelos simples de Machine Learning serán nuestras herramientas para estudiar de forma crítica todo lo que rodea a un equipo de esports. Y, por qué no, crear nuevas iniciativas o estrategias que entreguen la ventaja en el campo de juego digital. Si eres un amante de estos juegos, este desafío es para ti.
 
 ## Área temática
-Ciencia, Tecnología E Innovación
+Ciencia, Tecnología e Innovación
 
 
 ## Competencias asociadas
-Competencias De Base:
+Competencias de Base:
+
 * Visión Global
 * Emprendimiento
 * Liderazgo
