@@ -22,6 +22,6 @@ nav:
 - Home:
   - This is me: index.md
 - Generative AI Course:
-  - Intro: genai/intro.md
+  - Introduccion: genai/introduccion.md
 - Data Products Course:
-  - Intro: dataproducts/intro.md
+  - Introduccion: dataproducts/introduccion.md
