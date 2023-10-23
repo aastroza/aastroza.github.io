@@ -20,8 +20,8 @@ theme:
     - navigation.tabs
 nav:
 - Home:
-  - This is me: index.md
-- Generative AI Course:
+  - About Me: index.md
+- Generative AI:
   - Introduccion: genai/introduccion.md
-- Data Products Course:
+- Data Products:
   - Introduccion: dataproducts/introduccion.md
