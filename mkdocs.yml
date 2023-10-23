@@ -22,6 +22,5 @@ theme:
   nav:
   - Home:
     - This is me: index.md
-  - Courses:
-    - Generative AI: courses/genai/generative-ai.md
-    - Data Products: courses/dataproducts/dataproducts.md
+  - Generative AI Course:
+    - Intro: courses/genai.md
