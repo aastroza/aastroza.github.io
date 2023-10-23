@@ -17,9 +17,13 @@ theme:
       icon: material/lightbulb
       name: "Switch to light mode"
   features:
-    - navigation.tabs 
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
   nav:
   - Home:
     - This is me: index.md
   - Generative AI Course:
-    - Intro: generative AI/intro.md
+    - Intro: genai/intro.md
+  - Data Products Course:
+    - Intro: dataproducts/intro.md
