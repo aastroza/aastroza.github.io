@@ -37,6 +37,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+plugins:
+  - social
+
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
