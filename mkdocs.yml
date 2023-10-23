@@ -25,7 +25,9 @@ nav:
   - Introduccion: genai/introduccion.md
 - Data Products:
   - Introduccion: dataproducts/introduccion.md
-- esports:
+- AI Pair Programming:
+  - Intro: [aicoding/intro.md]
+- Esports:
   - Introduccion: esports/introduccion.md
 - PowerBI:
   - Video Course: powerbi/introduccion.md
