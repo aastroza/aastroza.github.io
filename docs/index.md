@@ -26,7 +26,12 @@ hide:
 ### Courses
 
 * [Generative Artificial Intelligence](genai/introduccion.md).
-* [Development of Data Products and Projects](genai/introduccion.md).
+* [Development of Data Products and Projects](dataproducts/introduccion.md).
+
+### Workshops
+
+* [Data Science for establishing a University Esports Team](esports/introduccion.md)
+* [Introduction to PowerBI](powerbi/introduccion.md)
 
 ## Links
 

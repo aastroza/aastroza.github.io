@@ -25,3 +25,8 @@ nav:
   - Introduccion: genai/introduccion.md
 - Data Products:
   - Introduccion: dataproducts/introduccion.md
+- esports:
+  - Introduccion: esports/introduccion.md
+- PowerBI:
+  - Introduccion: powerbi/introduccion.md
+
