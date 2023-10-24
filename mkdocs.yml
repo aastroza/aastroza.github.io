@@ -24,7 +24,13 @@ nav:
 - Home:
   - About Me: index.md
 - Generative AI:
-  - Intro: genai/introduccion.md
+  - Acerca del Curso: genai/about.md
+  - Bibliografía: genai/bibliografia.md
+  - Introducción a la IA Generativa: genai/introduccion.md
+  - Generando Texto: genai/texto.md
+  - Generando Imágenes: genai/imagenes.md
+  - Generando Video: genai/video.md
+  - Generando Audio: genai/audio.md
 - Data Products:
   - Introduccion: dataproducts/introduccion.md
 - AI Pair Programming:
