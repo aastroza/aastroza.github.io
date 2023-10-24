@@ -1,5 +1,7 @@
 site_name: aastroza
 theme:
+  icon:
+    logo: simple/robotframework
   name: material
   palette:
   - media: "(prefers-color-scheme: light)"
