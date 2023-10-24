@@ -25,7 +25,7 @@ hide:
 
 ### Courses
 
-* [Generative Artificial Intelligence](genai/introduccion.md).
+* [Generative Artificial Intelligence](genai/about.md).
 * [Development of Data Products and Projects](dataproducts/introduccion.md).
 
 ### Workshops
