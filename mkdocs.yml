@@ -50,5 +50,8 @@ extra:
       link: https://www.linkedin.com/in/aastrozacl/
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/aastroza
+  analytics:
+    provider: google
+    property: G-SKBY5FHZWG
 
 copyright: Copyright &copy; 2023 Alonso Astroza

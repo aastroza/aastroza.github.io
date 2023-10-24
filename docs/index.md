@@ -32,7 +32,7 @@ hide:
 
 * [Data Science for establishing a University Esports Team](esports/introduccion.md).
 * [Introduction to PowerBI](powerbi/introduccion.md).
-* [Intro to Generative AI Pair Programming](aicoding/intro.md)
+* [Intro to Generative AI Pair Programming](aicoding/intro.md).
 
 ## Links
 
