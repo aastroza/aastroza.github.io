@@ -20,6 +20,9 @@ theme:
       name: "Switch to light mode"
   features:
     - navigation.tabs
+  font:
+    text: Inter
+    code: Source Code Pro
 nav:
 - Home:
   - About Me: index.md
