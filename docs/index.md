@@ -8,7 +8,7 @@ hide:
 
 * I'm the Deputy Director of Industry Partnerships @  Data Science Institute of Universidad del Desarrollo.
 * Independent Contributor: [GeoVictoria](https://www.geovictoria.com) - [Defontana](https://www.defontana.com) - [Discolab](https://www.discolab.cl).
-* Associate Professor of the Data Science Master’s program @ Universidad del Desarrollo.
+* Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.
 * Electrical Engineer @ Universidad de Chile.
 
 ## Contact
