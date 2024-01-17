@@ -4,7 +4,7 @@
 
 # [Workshop] Orbitar Jupyter y Aterrizar en la Tierra: un viaje en Github hacia la Ciencia de Datos Práctica y Colaborativa.
 
-<img src="introduccion.png" alt="portada" width="300"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/introduccion.png?raw=true" alt="portada" width="400"/>
 
 ## Resumen
 
@@ -37,12 +37,12 @@ También se introducen temas clave para generar proyectos estructurados y listos
 
 ## Profesor
 
-* Deputy Director of Industry Partnerships @  [Insitituo de Ciencia de Datos, Universidad del Desarrollo](https://ingenieria.udd.cl/persona/alonso-astroza-tagle/).
+* Subdirector de Alianzas con la Industria @  [Instituto de Ciencia de Datos, Universidad del Desarrollo](https://ingenieria.udd.cl/persona/alonso-astroza-tagle/).
 * Consultor Independiente: [GeoVictoria](https://www.geovictoria.com) - [Defontana](https://www.defontana.com) - [Discolab](https://www.discolab.cl) - [Subconscious.ai](https://www.subconscious.ai/).
-* Profesor en el [Magíster de Data Science Master @ Universidad del Desarrollo](https://ingenieria.udd.cl/postgrado/magister-en-data-science/profesores/).
+* Profesor en el [Magíster de Data Science @ Universidad del Desarrollo](https://ingenieria.udd.cl/postgrado/magister-en-data-science/profesores/).
 * Ingeniero Eléctrico @ Universidad de Chile.
 
-<img src="companies.PNG" alt="companies" width="300"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/companies.PNG?raw=true" alt="companies" width="400"/>
 
 ## Ciencia de Datos
 
@@ -60,4 +60,4 @@ También se introducen temas clave para generar proyectos estructurados y listos
 
 - [Github Skills](https://skills.github.com/)
 - [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
-- [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow.](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
+- [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
