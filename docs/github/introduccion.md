@@ -291,9 +291,17 @@ Trataremos de implementar esta opción #2, ya que los pasos manuales que necesit
 
 ## Los futuros destinos de este viaje
 
+### Open Source
+
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/open.PNG?raw=true" alt="deploy" width="600"/>
+
+*[GitHub Open Source](https://github.com/open-source)*
+
+[Making a pull request to an open-source project](https://github.com/gabrieldemarmiesse/getting_started_open_source)
+
 ### Data Drift / Concept Drift
 
-<img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*dCy-F02P3u4kWruKbz4FuA.png" alt="decay" width="600"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/decayPNG.PNG?raw=true" alt="decay" width="600"/>
 
 *[Machine Learning in Production: Why You Should Care About Data and Concept Drift](https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb?gi=765431c69ef4)*
 
