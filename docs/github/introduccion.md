@@ -73,6 +73,73 @@ También se introducen temas clave para generar proyectos estructurados y listos
 
 *[Understanding the GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)*
 
+Algunos tips de [Git for Data Science](https://valohai.com/blog/git-for-data-science/):
+
+### No agregues los datasets
+
+Git es un sistema de control de versiones diseñado para servir a los desarrolladores de software. Cuenta con excelentes herramientas para manejar el código fuente y otros contenidos relacionados como configuración, dependencias, documentación. No está pensado para datos de entrenamiento. Punto. Git es solo para código.
+
+En el desarrollo de software, el código es rey y todo lo demás sirve al código. En la ciencia de datos, esto ya no es el caso y existe una dualidad entre datos y código. No tiene sentido que el código dependa de los datos tanto como no tiene sentido que los datos dependan del código. Deben estar desacoplados y aquí es donde el modelo de desarrollo de software centrado en el código te falla. Git no debería ser el punto central de verdad para un proyecto de ciencia de datos.
+
+Hay extensiones como LFS que se refieren a conjuntos de datos externos desde un repositorio git. Aunque cumplen un propósito y resuelven algunos de los límites técnicos (tamaño, velocidad), no resuelven el problema central de una mentalidad de desarrollo de software centrada en el código arraigada en git.
+
+Siempre tendrás conjuntos de datos flotando en tu directorio local, sin embargo. Es bastante fácil agregarlos accidentalmente al escenario y hacer un commit de ellos si no tienes cuidado. La forma correcta de asegurarte de que no necesitas preocuparte por los conjuntos de datos con git es usar el archivo de configuración .gitignore. Agrega tus conjuntos de datos o la carpeta de datos a la configuración y no mires atrás.
+
+Ejemplo:
+
+```
+# ignore archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ignore dataset folder and subfolders
+data/
+```
+
+### No agregues tus passwords/keys
+
+Esto debería ser obvio, pero los constantes errores en el mundo real nos demuestran que no lo es. No importa si el repositorio es privado. En ninguna circunstancia se debe hacer un commit de ningún nombre de usuario, contraseña, token de API, código clave, certificados TLS, o cualquier otro dato sensible en git.
+
+Incluso los repositorios privados son accesibles por múltiples cuentas y también se clonan en múltiples máquinas locales. Esto le da al hipotético atacante exponencialmente más objetivos. Recuerda que los repositorios privados también pueden volverse públicos en algún momento.
+
+Desacopla tus secretos de tu código y pásalos usando el entorno en su lugar. Para Python, puedes usar el común archivo .env, que contiene las variables de entorno, y el archivo .gitignore, que asegura que el archivo .env no se envíe al repositorio remoto de git. Es una buena idea también proporcionar el .env.template para que otros sepan qué tipo de variables de entorno espera el sistema.
+
+**.env:**
+
+`API_TOKEN=98789fsda789a89sdafsa9f87sda98f7sda89f7`
+
+**.env.template:**
+
+`API_TOKEN=`
+
+**.gitignore:**
+
+```
+.env
+```
+
+**hello.py:**
+
+```python
+from dotenv import load_dotenv
+load_dotenv()
+api_token = os.getenv('API_TOKEN')
+```
+
+Esto todavía requiere algo de copiar y pegar manualmente para cualquiera que clone el repositorio por primera vez. Para una configuración más avanzada, hay herramientas encriptadas y con acceso restringido que pueden compartir secretos a través del entorno, como Doppler
+
+!!! note
+
+    Si ya has enviado tus secretos al repositorio remoto, no intentes arreglar la situación simplemente borrándolos. Es demasiado tarde ya que git está diseñado para ser inmutable. Una vez que el gato está fuera de la bolsa, la única estrategia válida es cambiar las contraseñas o desactivar los tokens.
+
+### Realiza commits pequeños con descripciones claras
+
+### No le tengas miedo a las ramas y pull requests
+
+### [Opcional] No agregues los outputs de los Jupyter Notebooks
+
 ## Cookiecutter
 
 ## Los futuros destinos de este viaje
@@ -89,4 +156,5 @@ También se introducen temas clave para generar proyectos estructurados y listos
 
 - [Github Skills](https://skills.github.com/)
 - [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
+- [Git for Data Science](https://valohai.com/blog/git-for-data-science/)
 - [Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
