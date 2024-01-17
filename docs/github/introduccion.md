@@ -267,10 +267,24 @@ Los pull requests no son un concepto de git, sino de GitHub. Son una solicitud p
 
 ### [Opcional] No agregues los outputs de los Jupyter Notebooks
 
+Los notebooks son geniales porque te permiten no solo almacenar código, sino también los resultados de las celdas, como imágenes, gráficos y tablas. El problema surge cuando haces commit y push del notebook con sus salidas a git.
+
+La forma en que los notebooks serializan todas las imágenes, gráficos y tablas no es atractiva. En lugar de archivos separados, codifica todo como sintaxis JSON en el archivo .ipynb. Esto confunde a git.
+
+Git piensa que la sintaxis JSON son igual de importantes que tu código. Las tres líneas de código que cambiaste se mezclan con las tres mil líneas que se cambiaron en la sintaxis JSON. Intentar comparar las dos versiones se vuelve inútil debido a todo el ruido adicional.
+
 <img src="https://valohai.com/blog/git-for-data-science/git_image_diff.png" alt="diff" width="600"/>
 
 *[ReviewNB Blog](https://blog.reviewnb.com/jupyter-version-control/)*
 
+Se vuelve aún más confuso si hemos cambiado algo de código después de que se generaron las salidas. Ahora el código y las salidas que están almacenadas en el control de versiones ya no coinciden.
+
+Hay dos opciones a nuestra disposición:
+
+- Puedes borrar manualmente las salidas desde el menú principal (Celdas -> Toda la Salida -> Borrar) antes de crear tu commit en git.
+- Puedes configurar un hook de pre-commit para git que borre las salidas automáticamente.
+
+Trataremos de implementar esta opción #2, ya que los pasos manuales que necesitas recordar están destinados a fallar eventualmente.
 
 ## Los futuros destinos de este viaje
 
