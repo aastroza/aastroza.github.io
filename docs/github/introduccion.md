@@ -47,7 +47,7 @@ También se introducen temas clave para generar proyectos estructurados y listos
 ## Ciencia de Datos
 
 
-<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/piramide.PNG?raw=true" alt="piramide" width="600"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/piramidePNG.PNG?raw=true" alt="piramide" width="600"/>
 
 *[The AI Hierarchy of Needs (Mónica Rogati, Hackernoon)​](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)*
 
@@ -65,9 +65,25 @@ También se introducen temas clave para generar proyectos estructurados y listos
 
 ## Git/Github
 
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/repos.PNG?raw=true" alt="mlops" width="600"/>
+
+*[Norman Perrin, Introducción a Git y Github](https://github.com/NormanPerrin/introduccion-a-git-y-github)*
+
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/git.PNG?raw=true" alt="mlops" width="600"/>
+
+*[Understanding the GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)*
+
 ## Cookiecutter
 
 ## Los futuros destinos de este viaje
+
+### Data Drift / Concepto Drift
+
+### Devops/MLOps/LLMOps
+
+### Contenedores
+
+### Otras formas de contar esta historia
 
 ## Bibliografía
 
