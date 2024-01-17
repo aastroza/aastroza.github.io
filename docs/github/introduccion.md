@@ -44,6 +44,8 @@ También se introducen temas clave para generar proyectos estructurados y listos
 
 <img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/companies.PNG?raw=true" alt="companies" width="600"/>
 
+*Empresas con las que he trabajado en la construcción de algún Producto de Datos*
+
 ## Ciencia de Datos
 
 
@@ -94,13 +96,83 @@ La forma más fácil de alcanzar eso es mediante una estructura para el código 
 * ¿Cuál notebook iba primero, era “procesar datos” o “limpiar datos”?
 * ¿De dónde fue que bajé los shapefiles para dibujar los mapas?
 
+## Cookiecutter
+
+### Estructura
+
+Está basada en [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) pero simplifacada en el [Template IDS Cookiecutter](https://github.com/aastroza/cookiecutter-ids).
+
+├── LICENSE
+├── README.md          <- The top-level README for developers using this project.
+├── data
+│   ├── external       <- Data from third party sources.
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+│
+├── models             <- Trained and serialized models, model predictions, or model summaries
+│
+├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+│                         the creator's initials, and a short `-` delimited description, e.g.
+│                         `1.0-jqp-initial-data-exploration`.
+│
+├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│
+├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+│   └── figures        <- Generated graphics and figures to be used in reporting
+│
+│
+├── src                <- Source code for use in this project.
+│   ├── __init__.py    <- Makes src a Python module
+│   │
+│   ├── data           <- Scripts to download or generate data
+│   │   └── make_dataset.py
+│   │
+│   ├── features       <- Scripts to turn raw data into features for modeling
+│   │   └── build_features.py
+│   │
+│   ├── models         <- Scripts to train models and then use trained models to make
+│   │   │                 predictions
+│   │   ├── predict_model.py
+│   │   └── train_model.py
+│   │
+│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+│       └── visualize.py
+├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+                           generated with `pip freeze > requirements.txt`
+
+### Los datos son inmutables
+
+* Nunca se debe editar la data cruda (raw data).
+    * Nunca se debe editar manualmente.
+        * Nunca se debe editar en Excel.
+* Nunca se debe sobre-escribir raw data.
+* No se debe guardar múltiples versiones de un archivo de raw data
+* El código que se escriba debe mover la data cruda por medio de un pipeline hacia el análisis final.
+* Cualquier persona debería poder reproducir los resultados sólo teniendo la carpeta `data/raw` y el código en la carpeta `src`.
+* Si los datos son inmutables entonces no necesita tener el mismo control de versiones que el código. Por defecto el directorio data debería estar incluido en el archivo `.gitignore`.
+
+### Los notebooks son para exploración y comunicación
+
+* Son muy buenos para análisis exploratorio pero no tan buenos para reproducir de forma efectiva ese análisis.
+* Se sugiere trabajar en carpetas dentro del directorio notebooks.
+* Se sugiere seguir una convención para nombrar los archivos: `<step>-<ghuser>-<description>.ipynb`. Ejemplo: `03-aastroza-visualize-distributions.ipynb`
+* Hay que hacer refactorizaciones de las partes claves. No se debe repetir el código de la misma tarea en diferentes notebooks. Si el código es útil, escribanlo siempre a la carpeta `src`.
+* Por ejemplo: si es una tarea de preprocesamiento de datos, hay que poner el pipeline en `src/data/make_dataset.py` y cargar datos desde `data/interim`. 
+
 ## Git/Github
 
-<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/repos.PNG?raw=true" alt="mlops" width="600"/>
+Aprenderemos Github usando este [Template](https://github.com/aastroza/introduccion-a-github). Hay que abrir este enlace y seguir las instrucciones.
+
+>Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.
+
+*[Git en Wikipedia](https://es.wikipedia.org/wiki/Git)*
+
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/repos.PNG?raw=true" alt="repos" width="600"/>
 
 *[Norman Perrin, Introducción a Git y Github](https://github.com/NormanPerrin/introduccion-a-git-y-github)*
 
-<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/git.PNG?raw=true" alt="mlops" width="600"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/git.PNG?raw=true" alt="git" width="600"/>
 
 *[Understanding the GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow)*
 
@@ -173,11 +245,11 @@ La razón por la que usas el control de versiones es para que otra persona pueda
 
 **Ejemplo de un mal repositorio**
 
-<img src="https://valohai.com/blog/git-for-data-science/bad-repo.png" alt="mlops" width="600"/>
+<img src="https://valohai.com/blog/git-for-data-science/bad-repo.png" alt="bad" width="600"/>
 
 **Ejemplo de un buen repositorio**
 
-<img src="https://valohai.com/blog/git-for-data-science/good-repo.png" alt="mlops" width="600"/>
+<img src="https://valohai.com/blog/git-for-data-science/good-repo.png" alt="good" width="600"/>
 
 ### No le tengas miedo a las ramas y pull requests
 
@@ -185,7 +257,7 @@ El uso de ramas y, en especial, de pull requests son técnicas ligeramente más 
 
 Cuando creas un nuevo repositorio git, este comienza con una única rama llamada main (o master). La rama main se considera como la *verdad central*. Crear ramas significa que te desviarás temporalmente para crear una nueva característica o una corrección a una antigua. Mientras tanto, alguien más puede trabajar en paralelo en su propia rama. Esto se conoce comúnmente como flujo de trabajo de rama de características.
 
-<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/gitflow.PNG?raw=true" alt="mlops" width="600"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/gitflow.PNG?raw=true" alt="gitflow" width="600"/>
 
 *[Git for Data Science](https://valohai.com/blog/git-for-data-science/)*
 
@@ -195,21 +267,36 @@ Los pull requests no son un concepto de git, sino de GitHub. Son una solicitud p
 
 ### [Opcional] No agregues los outputs de los Jupyter Notebooks
 
-<img src="https://valohai.com/blog/git-for-data-science/git_image_diff.png" alt="mlops" width="600"/>
+<img src="https://valohai.com/blog/git-for-data-science/git_image_diff.png" alt="diff" width="600"/>
 
 *[ReviewNB Blog](https://blog.reviewnb.com/jupyter-version-control/)*
 
-## Cookiecutter
 
 ## Los futuros destinos de este viaje
 
-### Data Drift / Concepto Drift
+### Data Drift / Concept Drift
+
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/decay.PNG?raw=true" alt="decay" width="600"/>
+
+*[Machine Learning in Production: Why You Should Care About Data and Concept Drift](https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb?gi=765431c69ef4)*
 
 ### Devops/MLOps/LLMOps
 
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/deploy.PNG?raw=true" alt="deploy" width="600"/>
+
+*Advanced Model Deployments (Hannes Hapke y Catherine Nelson)*
+
 ### Contenedores
 
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/modal.PNG?raw=true" alt="modal" width="600"/>
+
+*[Modal](https://modal.com/)*
+
 ### Otras formas de contar esta historia
+
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/nbdev.PNG?raw=true" alt="nbdev" width="600"/>
+
+*[Nbdev](https://nbdev.fast.ai/)*
 
 ## Bibliografía
 
