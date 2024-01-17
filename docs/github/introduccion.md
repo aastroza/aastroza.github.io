@@ -24,16 +24,26 @@ También se introducen temas clave para generar proyectos estructurados y listos
 
 ## Material
 
-* **Slides** [[Google Docs]](https://docs.google.com/presentation/d/1ULt28fRJrzrTPIa4yei6v6nUrYsksTPnoN9hugWwo8k/edit?usp=sharing) [[pptx]](Visualización_de_Datos_PowerBI[2023].pptx) [[pdf]](Visualización_de_Datos_PowerBI[2023].pdf)
-* **Github Links:**
-- [Lista](https://github.com/stars/aastroza/lists/curso-navegar-jupyter-y-github)
-- [Template: Introduccion a Github](https://github.com/aastroza/introduccion-a-github)
-- [Template: IDS Cookiecutter](https://github.com/aastroza/cookiecutter-ids)
-- [Hands-On ML](https://github.com/aastroza/handson-ml3-cookiecutter)
+* [Github Repositories List](https://github.com/stars/aastroza/lists/curso-navegar-jupyter-y-github)
+* [Template: Introduccion a Github](https://github.com/aastroza/introduccion-a-github)
+* [Template: IDS Cookiecutter](https://github.com/aastroza/cookiecutter-ids)
+* [Hands-On ML](https://github.com/aastroza/handson-ml3-cookiecutter)
 
 ## Introduccion
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=pBy1zgt0XPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pBy1zgt0XPc?si=TDJQufznmZ8EQ48R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Ciencia de Datos
+
+## Necesidad de 
+
+## Por qué es necesario esta metodología
+
+## Git/Github
+
+## Cookiecutter
+
+## Los futuros destinos de este viaje
 
 ## Bibliografía
 
