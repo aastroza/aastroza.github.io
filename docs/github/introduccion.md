@@ -48,6 +48,9 @@ También se introducen temas clave para generar proyectos estructurados y listos
 
 ## Ciencia de Datos
 
+> Ciencia de Datos es el estudio de extraer valor de los datos. Valor que puede ser en forma de insights (nuevas perspectivas) o conclusiones.
+
+*[Data Science in Context: Foundations, Challenges, Opportunities.](https://datascienceincontext.com/)*
 
 <img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/piramidePNG.PNG?raw=true" alt="piramide" width="600"/>
 
@@ -290,7 +293,7 @@ Trataremos de implementar esta opción #2, ya que los pasos manuales que necesit
 
 ### Data Drift / Concept Drift
 
-<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/decay.PNG?raw=true" alt="decay" width="600"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/decayPNG.PNG?raw=true" alt="decay" width="600"/>
 
 *[Machine Learning in Production: Why You Should Care About Data and Concept Drift](https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb?gi=765431c69ef4)*
 
