@@ -102,6 +102,7 @@ La forma más fácil de alcanzar eso es mediante una estructura para el código 
 
 Está basada en [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) pero simplifacada en el [Template IDS Cookiecutter](https://github.com/aastroza/cookiecutter-ids).
 
+```
 ├── LICENSE
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
@@ -138,9 +139,8 @@ Está basada en [Cookiecutter Data Science](https://drivendata.github.io/cookiec
 │   │
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
 │       └── visualize.py
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-                           generated with `pip freeze > requirements.txt`
-
+├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`
+```
 ### Los datos son inmutables
 
 * Nunca se debe editar la data cruda (raw data).
