@@ -42,6 +42,8 @@ nav:
   - Introduccion: esports/introduccion.md
 - PowerBI:
   - Video Course: powerbi/introduccion.md
+- Github:
+  - Workshop: github/introduccion.md
 - Blog: 
   - "blog/index.md"
 
