@@ -4,7 +4,7 @@
 
 # [Workshop] Orbitar Jupyter y Aterrizar en la Tierra: un viaje en Github hacia la Ciencia de Datos Práctica y Colaborativa.
 
-![introduccion](introduccion.png)
+<img src="introduccion.png" alt="portada" width="300"/>
 
 ## Resumen
 
@@ -34,6 +34,15 @@ También se introducen temas clave para generar proyectos estructurados y listos
 ## Introduccion
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pBy1zgt0XPc?si=TDJQufznmZ8EQ48R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Profesor
+
+* Deputy Director of Industry Partnerships @  [Insitituo de Ciencia de Datos, Universidad del Desarrollo](https://ingenieria.udd.cl/persona/alonso-astroza-tagle/).
+* Consultor Independiente: [GeoVictoria](https://www.geovictoria.com) - [Defontana](https://www.defontana.com) - [Discolab](https://www.discolab.cl) - [Subconscious.ai](https://www.subconscious.ai/).
+* Profesor en el [Magíster de Data Science Master @ Universidad del Desarrollo](https://ingenieria.udd.cl/postgrado/magister-en-data-science/profesores/).
+* Ingeniero Eléctrico @ Universidad de Chile.
+
+<img src="companies.PNG" alt="companies" width="300"/>
 
 ## Ciencia de Datos
 
