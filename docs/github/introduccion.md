@@ -4,7 +4,7 @@
 
 # [Workshop] Orbitar Jupyter y Aterrizar en la Tierra: un viaje en Github hacia la Ciencia de Datos Práctica y Colaborativa.
 
-<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/introduccion.png?raw=true" alt="portada" width="400"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/introduccion.png?raw=true" alt="portada" width="600"/>
 
 ## Resumen
 
@@ -42,18 +42,21 @@ También se introducen temas clave para generar proyectos estructurados y listos
 * Profesor en el [Magíster de Data Science @ Universidad del Desarrollo](https://ingenieria.udd.cl/postgrado/magister-en-data-science/profesores/).
 * Ingeniero Eléctrico @ Universidad de Chile.
 
-<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/companies.PNG?raw=true" alt="companies" width="400"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/companies.PNG?raw=true" alt="companies" width="600"/>
 
 ## Ciencia de Datos
 
 
-<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/piramide.PNG?raw=true" alt="piramide" width="400"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/piramide.PNG?raw=true" alt="piramide" width="600"/>
+
 *[The AI Hierarchy of Needs (Mónica Rogati, Hackernoon)​](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)*
 
 > La triste realidad es que la mayoría de los proyectos de IA fracasan. Según una investigación de Gartner, solo el 15% de las soluciones de IA implementadas para 2022 serán exitosas, y serán muchas menos las que crearán un valor positivo en términos de ROI.
+
 *[Why most AI implementations fail, and what enterprises can do to beat the odds​.](https://venturebeat.com/ai/why-most-ai-implementations-fail-and-what-enterprises-can-do-to-beat-the-odds/)*
 
-<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/mlops.PNG?raw=true" alt="mlops" width="400"/>
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/mlops.PNG?raw=true" alt="mlops" width="600"/>
+
 *[MLOps: Why you Might Want to use Machine Learning](https://ml-ops.org/content/motivation)*
 
 ## Necesidad de 
