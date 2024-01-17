@@ -59,9 +59,40 @@ También se introducen temas clave para generar proyectos estructurados y listos
 
 *[MLOps: Why you Might Want to use Machine Learning](https://ml-ops.org/content/motivation)*
 
-## Necesidad de 
+## Necesidades
+
+La ejecución de un proyecto de Ciencia de Datos aborda todo el proceso de resolución de un problema: desde la recopilación y el procesamiento de datos, hasta el diseño del mejor método para resolver el problema y la implementación de una solución. 
+Los problemas y los conjuntos de datos provienen de entornos realistas similares a los que nos podríamos encontrar en la industria, la academia o el gobierno. Por lo tanto, los proyectos por lo menos incluirán: 
+
+* Formulación de una pregunta para ser respondida por los datos.
+* Limpieza y procesamiento de datos.
+* Elegir y aplicar un modelo y/o método analítico adecuado al problema.
+* Y comunicar los resultados a una audiencia no técnica.
+
+Entre los desafíos que algo así plantea, encontramos que:
+
+* Se debe atender el ciclo completo del proyecto: no sólo es mostrar el bello resultado final.
+* En la mayoría de los casos trabajaremos en equipos, nunca solos.
+* Será necesario responder con facilidad y rapidez por cada parte del proceso, ya que un grupo de investigadores/compañeros de equipo/stakeholders estarán presionando.
+* Todo esto se desarrolla programando.
+
+¡La calidad del código es muy importante! En Ciencia de Datos todo se reduce a prolijidad y reproducibilidad.
+La forma más fácil de alcanzar eso es mediante una estructura para el código o un cierto diseño del proyecto. Debemos empezar con una estructura limpia y mantenerla viva en todo el ciclo del proyecto.
 
 ## Por qué es necesario esta metodología
+
+### El mundo te lo agradecerá
+
+* Será mucho más fácil colaborar en equipo.
+* Se podrá aprender más al analizar de forma más fácil el proceso que se sigue al construir proyectos.
+* Todos podremos sentirnos más confiados sobre la veracidad de las conclusiones a las que lleguen los proyectos.
+
+### Tú te lo agradecerás
+
+* ¿Había que usar `plot_figures.py.old` o era `new_figures01.py` o `new_figures01_updated.py`?
+* ¿Había que hacer el merge con la columna X antes de empezar o eso quedaba dentro de alguno de los notebooks
+* ¿Cuál notebook iba primero, era “procesar datos” o “limpiar datos”?
+* ¿De dónde fue que bajé los shapefiles para dibujar los mapas?
 
 ## Git/Github
 
@@ -128,7 +159,7 @@ load_dotenv()
 api_token = os.getenv('API_TOKEN')
 ```
 
-Esto todavía requiere algo de copiar y pegar manualmente para cualquiera que clone el repositorio por primera vez. Para una configuración más avanzada, hay herramientas encriptadas y con acceso restringido que pueden compartir secretos a través del entorno, como Doppler
+Esto todavía requiere algo de copiar y pegar manualmente para cualquiera que clone el repositorio por primera vez. Para una configuración más avanzada, hay herramientas encriptadas y con acceso restringido que pueden compartir secretos a través del entorno, como [Doppler](https://www.doppler.com/)
 
 !!! note
 
@@ -136,9 +167,37 @@ Esto todavía requiere algo de copiar y pegar manualmente para cualquiera que cl
 
 ### Realiza commits pequeños con descripciones claras
 
+Los usuarios inexpertos a menudo caen en la trampa de hacer commits enormes con descripciones sin sentido. Una buena regla general para cualquier commit en git es que solo debe hacer una cosa. Arreglar un bug, no tres. Resolver un problema, no doce. Recuerda que los problemas a menudo pueden dividirse en partes más pequeñas también. Cuanto más pequeño puedas hacerlo, mejor.
+
+La razón por la que usas el control de versiones es para que otra persona pueda entender lo que ha sucedido en el pasado. Si tu commit arregla doce bugs y la descripción dice "Modelo arreglado", su valor es cercano a cero dos meses después. El commit solo debe hacer una cosa y solo una cosa. La descripción debe comunicar lo que esa cosa fue. No necesitas hacer descripciones extensas si los commits son pequeños. De hecho, ¡una descripción larga para un mensaje de commit implica que el commit es demasiado grande y deberías dividirlo en partes más pequeñas!
+
+**Ejemplo de un mal repositorio**
+
+<img src="https://valohai.com/blog/git-for-data-science/bad-repo.png" alt="mlops" width="600"/>
+
+**Ejemplo de un buen repositorio**
+
+<img src="https://valohai.com/blog/git-for-data-science/good-repo.png" alt="mlops" width="600"/>
+
 ### No le tengas miedo a las ramas y pull requests
 
+El uso de ramas y, en especial, de pull requests son técnicas ligeramente más avanzadas y no son del agrado de todos, pero si tu proyecto de ciencia de datos está maduro, en producción y constantemente manejado por muchas personas diferentes, los pull requests podrían ser justo lo que falta en tu proceso.
+
+Cuando creas un nuevo repositorio git, este comienza con una única rama llamada main (o master). La rama main se considera como la *verdad central*. Crear ramas significa que te desviarás temporalmente para crear una nueva característica o una corrección a una antigua. Mientras tanto, alguien más puede trabajar en paralelo en su propia rama. Esto se conoce comúnmente como flujo de trabajo de rama de características.
+
+<img src="https://github.com/aastroza/aastroza.github.io/blob/main/docs/github/gitflow.PNG?raw=true" alt="mlops" width="600"/>
+
+*[Git for Data Science](https://valohai.com/blog/git-for-data-science/)*
+
+La idea con las ramas es eventualmente fusionarse de nuevo a la rama main y actualizar *la verdad central*. Aquí es donde entran en juego los pull requests. Al resto del mundo no le importan tus commits en tu propia rama, pero fusionarse a main es cuando tu rama se convierte en la última verdad. Ese es el momento de hacer un pull request.
+
+Los pull requests no son un concepto de git, sino de GitHub. Son una solicitud para hacer de tu rama la nueva verdad central. Mediante el pull request, otros usuarios revisarán tus cambios antes de que se les permita convertirse en la nueva verdad central. GitHub ofrece excelentes herramientas para hacer comentarios, sugerir modificaciones, señalar aprobaciones y finalmente aplicar la fusión automáticamente.
+
 ### [Opcional] No agregues los outputs de los Jupyter Notebooks
+
+<img src="https://valohai.com/blog/git-for-data-science/git_image_diff.png" alt="mlops" width="600"/>
+
+*[ReviewNB Blog](https://blog.reviewnb.com/jupyter-version-control/)*
 
 ## Cookiecutter
 
