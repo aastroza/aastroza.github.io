@@ -24,3 +24,7 @@ A short workshop for undergraduate students at Universidad del Desarrollo. The p
 ## Further Steps
 
 If you are a student at UDD and are interested in delving deeper into this tool, I recommend the following [Zigna course](https://zigna.udd.cl/analisis-de-datos-con-power-bi/).
+
+## How to import SQLite data to PowerBI
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n5ELoULhQIo?si=HBcpvhO2jCW4vXf3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
