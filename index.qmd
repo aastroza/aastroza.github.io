@@ -94,9 +94,7 @@ resources:
     </div>
 
     <p class="site-into fs-5">
-      I’m a <strong>Machine Learning Engineer</strong> at
-      <strong">Data Science Institute</strong> of
-      <a href="https://ingenieria.udd.cl/persona/alonso-astroza-tagle/">Universidad del Desarrollo</a>. I build data products that help organizations to get value from AI.
+      I’m a <strong>Machine Learning Engineer</strong>. I build products that help organizations get value from their data using AI.
     </p>
     <a class="mt4 action text" href="/about">About Me →</a>
   </div>
