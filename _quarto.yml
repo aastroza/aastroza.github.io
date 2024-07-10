@@ -5,7 +5,8 @@ website:
   title: "Alonso Astroza"
   navbar:
     right:
-      - about.qmd
+      - text: About
+        href: about.qmd
       - text: Contact
         href: contact.qmd
       - icon: github
