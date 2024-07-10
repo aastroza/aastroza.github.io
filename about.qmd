@@ -16,16 +16,21 @@ about:
 
 ---
 
-I'm Alonso Astroza Tagle. [This is my resume](https://docs.google.com/document/d/1wxtLNsBQYz-peTrHwgZdpdJh3xIa_v-jNS0JNXj7tUo/edit?usp=sharing).
+I'm *Alonso Astroza Tagle*. [This is my resume](https://docs.google.com/document/d/1wxtLNsBQYz-peTrHwgZdpdJh3xIa_v-jNS0JNXj7tUo/edit?usp=sharing).
 
-* I'm the Deputy Director of Industry Partnerships @  [Data Science Institute of Universidad del Desarrollo](https://ingenieria.udd.cl/persona/alonso-astroza-tagle/).
-* Independent Contributor: [GeoVictoria](https://www.geovictoria.com) - [Defontana](https://www.defontana.com) - [Discolab](https://www.discolab.cl) - [Subconscious.ai](https://www.subconscious.ai/).
-* Lecturer of the [Data Science Master’s program @ Universidad del Desarrollo](https://ingenieria.udd.cl/postgrado/magister-en-data-science/profesores/).
-* Electrical Engineer @ Universidad de Chile.
+🏭 I'm the Deputy Director of Industry Partnerships @  [Data Science Institute of Universidad del Desarrollo](https://ingenieria.udd.cl/persona/alonso-astroza-tagle/).
+
+👨‍💻 Independent Contributor: [GeoVictoria](https://www.geovictoria.com) - [Defontana](https://www.defontana.com) - [Discolab](https://www.discolab.cl) - [Subconscious.ai](https://www.subconscious.ai/).
+
+👨🏻‍🏫 Lecturer of the [Data Science Master’s program @ Universidad del Desarrollo](https://ingenieria.udd.cl/postgrado/magister-en-data-science/profesores/).
+
+💡 Electrical Engineer @ Universidad de Chile.
 
 
 ## Personal
 
-* Things I'm passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.
-* I have a [twin brother](https://sastroza.cl/).
-* I'm from Santiago, Chile, South America.
+🔥 Things I'm passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.
+
+🧑‍🤝‍🧑 I have a [twin brother](https://sastroza.cl/).
+
+⛰️ I'm from Santiago, Chile, South America.
