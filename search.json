@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "I’d love to hear from you! {{< fa envelope >}}",
+    "section": "",
+    "text": "I’d love to hear from you! {{&lt; fa envelope &gt;}}\nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved.\n{{&lt; bi substack &gt;}} {{&lt; fa brands github &gt;}} {{&lt; fa brands linkedin &gt;}} {{&lt; fa brands twitter &gt;}}\n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter {{&lt; bi substack &gt;}}\nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "blog",
@@ -14,13 +21,6 @@
     "text": "This is a post with executable code."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
@@ -28,10 +28,10 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "I’d love to hear from you! {{< fa envelope >}}",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "I’d love to hear from you! {{&lt; fa envelope &gt;}}\nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved.\n{{&lt; bi substack &gt;}} {{&lt; fa brands github &gt;}} {{&lt; fa brands linkedin &gt;}} {{&lt; fa brands twitter &gt;}}\n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter {{&lt; bi substack &gt;}}\nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio."
+    "text": "About this blog"
   }
 ]
