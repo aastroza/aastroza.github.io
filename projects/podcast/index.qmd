@@ -1,6 +1,5 @@
 ---
 title: "AI-Podcast Generator"
-author: "Alonso Astroza"
 date: "2023-04-23"
 image: pexels-tdcat-70911.jpg
 categories: [llm, ai]
