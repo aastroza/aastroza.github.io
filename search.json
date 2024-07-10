@@ -32,14 +32,14 @@
     "href": "posteos/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://aastroza.github.io/blog/posteos/welcome/."
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://aastroza.github.io/blog/posts/post-with-code/."
   },
   {
     "objectID": "projects.html",
@@ -67,14 +67,14 @@
     "href": "talks/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://aastroza.github.io/blog/talks/welcome/."
   },
   {
     "objectID": "talks/post-with-code/index.html",
     "href": "talks/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://aastroza.github.io/blog/talks/post-with-code/."
   },
   {
     "objectID": "teaching/welcome/index.html",
@@ -109,7 +109,7 @@
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://aastroza.github.io/blog/posts/welcome/."
   },
   {
     "objectID": "contact.html",
@@ -123,7 +123,7 @@
     "href": "posteos/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://aastroza.github.io/blog/posteos/post-with-code/."
   },
   {
     "objectID": "spanish.html",
@@ -137,6 +137,6 @@
     "href": "projects/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://aastroza.github.io/blog/projects/post-with-code/."
   }
 ]
