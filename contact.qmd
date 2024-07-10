@@ -19,8 +19,6 @@ You can use this form to contact me about speaking engagements, collaborations, 
 
 I also love hearing if my educational materials have been helpful for you, and how they could be improved.
 
-
-<a class="link-dark me-1" href="https://aastroza.substack.com" title="Substack" target="_blank" rel="noopener">{{< bi substack >}}</a>
 <a class="link-dark me-1" href="https://github.com/aastroza" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
 <a class="link-dark me-1" href="https://linkedin.com/in/aastrozacl" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
 <a class="link-dark me-1" href="https://twitter.com/aastroza" title="Twitter" target="_blank" rel="noopener">{{< fa brands twitter >}}</a>
@@ -43,7 +41,7 @@ I also love hearing if my educational materials have been helpful for you, and h
 <input type="email" name="_replyto" id="email-address" class="form-control" placeholder="your@email.here" required>
 
 <label for="message">Message</label>
-  <textarea rows="6" name="message" id="message" class="form-control" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required></textarea>
+  <textarea rows="6" name="message" id="message" class="form-control" placeholder="Hi Alonso!" required></textarea>
 
 <button type="submit" class="btn btn-primary mt-4">Send</button>
 </form>
@@ -52,7 +50,7 @@ I also love hearing if my educational materials have been helpful for you, and h
 
 ::: {.g-col-5 #substack}
 
-# Si hablas español, inscríbete en mi newsletter {{< bi substack >}}
+# Si hablas español, inscríbete en mi newsletter {{< fa envelope >}}
 
 Puedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio.
 
