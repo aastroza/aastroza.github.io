@@ -7,17 +7,15 @@ website:
     right:
       - text: About
         href: about.qmd
+      - text: Blog
+        href: blog.qmd
       - text: Contact
         href: contact.qmd
       - icon: github
         href: https://github.com/aastroza
-      - icon: twitter
-        href: https://twitter.com/aastroza
 format:
   html:
     theme: cosmo
     css: styles.css
 execute:
   freeze: auto
-
-
