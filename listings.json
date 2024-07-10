@@ -7,6 +7,13 @@
     ]
   },
   {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/post-with-code/index.html",
+      "/teaching/welcome/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/post-with-code/index.html",
@@ -14,10 +21,10 @@
     ]
   },
   {
-    "listing": "/teaching.html",
+    "listing": "/spanish.html",
     "items": [
-      "/teaching/post-with-code/index.html",
-      "/teaching/welcome/index.html"
+      "/posteos/post-with-code/index.html",
+      "/posteos/welcome/index.html"
     ]
   },
   {
