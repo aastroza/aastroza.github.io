@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "blog"
+  title: "Alonso Astroza"
   navbar:
     right:
       - about.qmd

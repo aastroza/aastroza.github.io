@@ -13,7 +13,7 @@ format:
 
 ::: {.g-col-5 #note}
 
-# I'd love to hear from you! {{< fa envelope >}}
+# I'd love to hear from you! {{< fa heart >}}
 
 You can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.
 
