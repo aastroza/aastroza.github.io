@@ -2,7 +2,7 @@
 title: "About"
 image: aastroza.jpeg
 about:
-  template: jolla
+  template: solana
   links:
     - icon: twitter
       text: Twitter
@@ -16,7 +16,7 @@ about:
 
 ---
 
-I'm *Alonso Astroza Tagle*. [This is my resume](https://docs.google.com/document/d/1wxtLNsBQYz-peTrHwgZdpdJh3xIa_v-jNS0JNXj7tUo/edit?usp=sharing).
+I'm **Alonso Astroza Tagle**. [This is my resume](https://docs.google.com/document/d/1wxtLNsBQYz-peTrHwgZdpdJh3xIa_v-jNS0JNXj7tUo/edit?usp=sharing).
 
 🏭 I'm the Deputy Director of Industry Partnerships @  [Data Science Institute of Universidad del Desarrollo](https://ingenieria.udd.cl/persona/alonso-astroza-tagle/).
 
