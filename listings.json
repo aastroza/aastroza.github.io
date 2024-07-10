@@ -1,9 +1,9 @@
 [
   {
-    "listing": "/talks.html",
+    "listing": "/index.html",
     "items": [
-      "/talks/post-with-code/index.html",
-      "/talks/welcome/index.html"
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
     ]
   },
   {
@@ -14,10 +14,17 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/projects.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/projects/post-with-code/index.html",
+      "/projects/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/post-with-code/index.html",
+      "/talks/welcome/index.html"
     ]
   },
   {
@@ -25,13 +32,6 @@
     "items": [
       "/posteos/post-with-code/index.html",
       "/posteos/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/post-with-code/index.html",
-      "/projects/welcome/index.html"
     ]
   }
 ]
