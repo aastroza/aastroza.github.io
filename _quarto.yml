@@ -8,7 +8,9 @@ website:
       - text: About
         href: about.qmd
       - text: Blog
-        href: blog.qmd
+        href: index.qmd
+      - text: Projects
+      - text: Teaching
       - text: Contact
         href: contact.qmd
       - icon: github
