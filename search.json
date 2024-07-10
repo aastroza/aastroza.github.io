@@ -16,72 +16,58 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Blog",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "",
+    "text": "I’m a Machine Learning Engineer at\n      Data Science Institute of\n      Universidad del Desarrollo. I build data products that help organizations to get value from AI.\n    \n    About Me →\n  \n\n  \n    \n      Go to Home"
+  },
+  {
+    "objectID": "index.html#latest-posts",
+    "href": "index.html#latest-posts",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Posts",
+    "text": "Latest Posts\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#latest-projects",
+    "href": "index.html#latest-projects",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Projects",
+    "text": "Latest Projects\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\n\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#latest-talks",
+    "href": "index.html#latest-talks",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Talks",
+    "text": "Latest Talks\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "spanish.html",
+    "href": "spanish.html",
+    "title": "Blog en Español",
     "section": "",
     "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posteos/welcome/index.html",
-    "href": "posteos/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://aastroza.github.io/blog/posteos/welcome/."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "posteos/post-with-code/index.html",
+    "href": "posteos/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://aastroza.github.io/blog/posts/post-with-code/."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/posteos/post-with-code/."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "I’d love to hear from you! ",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\n\n\n\n\nAlonso Astroza\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio."
   },
   {
-    "objectID": "teaching/post-with-code/index.html",
-    "href": "teaching/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/welcome/index.html",
-    "href": "talks/welcome/index.html",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://aastroza.github.io/blog/talks/welcome/."
-  },
-  {
-    "objectID": "talks/post-with-code/index.html",
-    "href": "talks/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://aastroza.github.io/blog/talks/post-with-code/."
-  },
-  {
-    "objectID": "teaching/welcome/index.html",
-    "href": "teaching/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posts/welcome/."
   },
   {
     "objectID": "about.html",
@@ -105,30 +91,72 @@
     "text": "Personal\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
+    "objectID": "teaching/welcome/index.html",
+    "href": "teaching/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://aastroza.github.io/blog/posts/welcome/."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "I’d love to hear from you! ",
-    "section": "",
-    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio."
-  },
-  {
-    "objectID": "posteos/post-with-code/index.html",
-    "href": "posteos/post-with-code/index.html",
+    "objectID": "talks/post-with-code/index.html",
+    "href": "talks/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://aastroza.github.io/blog/posteos/post-with-code/."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/talks/post-with-code/."
   },
   {
-    "objectID": "spanish.html",
-    "href": "spanish.html",
-    "title": "Blog en Español",
+    "objectID": "talks/welcome/index.html",
+    "href": "talks/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/talks/welcome/."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/post-with-code/index.html",
+    "href": "teaching/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\n\n\n\n\nAlonso Astroza\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/posts/post-with-code/."
+  },
+  {
+    "objectID": "posteos/welcome/index.html",
+    "href": "posteos/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posteos/welcome/."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
     "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
@@ -137,6 +165,6 @@
     "href": "projects/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://aastroza.github.io/blog/projects/post-with-code/."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/projects/post-with-code/."
   }
 ]

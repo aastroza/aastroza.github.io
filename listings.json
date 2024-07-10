@@ -3,21 +3,18 @@
     "listing": "/index.html",
     "items": [
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
-    "items": [
-      "/teaching/post-with-code/index.html",
-      "/teaching/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
+      "/posts/welcome/index.html",
       "/projects/post-with-code/index.html",
-      "/projects/podcast/index.html"
+      "/projects/podcast/index.html",
+      "/talks/post-with-code/index.html",
+      "/talks/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/spanish.html",
+    "items": [
+      "/posteos/post-with-code/index.html",
+      "/posteos/welcome/index.html"
     ]
   },
   {
@@ -28,10 +25,24 @@
     ]
   },
   {
-    "listing": "/spanish.html",
+    "listing": "/projects.html",
     "items": [
-      "/posteos/post-with-code/index.html",
-      "/posteos/welcome/index.html"
+      "/projects/post-with-code/index.html",
+      "/projects/podcast/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/post-with-code/index.html",
+      "/teaching/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
     ]
   }
 ]
