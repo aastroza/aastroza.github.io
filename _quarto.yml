@@ -33,7 +33,7 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, styles.css]
+      light: cosmo
       dark: [cosmo, theme-dark.scss]
 execute:
   freeze: auto

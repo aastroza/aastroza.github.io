@@ -125,17 +125,17 @@ resources:
 </div>
 ```
 
-## Latest [Posts](/blog)
+## Latest [Posts](/posts)
 
 ::: {#recent-blog-listing}
 :::
 
-## Latest [Projects](/project)
+## Latest [Projects](/projects)
 
 ::: {#recent-project-listing}
 :::
 
-## Latest [Talks](/talk)
+## Latest [Talks](/talks)
 
 ::: {#recent-talk-listing}
 :::
