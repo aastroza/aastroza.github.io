@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – blog</title>
+<title>Alonso Astroza - Contact – blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -88,11 +89,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link active" href="./contact.html" aria-current="page"> 
 <span class="menu-text">I’d love to hear from you!</span></a>
   </li>  
   <li class="nav-item compact">
@@ -118,37 +119,72 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="profile.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
-<p>About this blog</p>
+<main class="content" id="quarto-document-content">
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
+
+
+<!-- source: https://github.com/spcanelon/silvia/blob/main/contact.qmd -->
+<div class="grid">
+<div id="note" class="g-col-5">
+<section id="id-love-to-hear-from-you" class="level1">
+<h1>I’d love to hear from you! {{&lt; fa envelope &gt;}}</h1>
+<p>You can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.</p>
+<p>I also love hearing if my educational materials have been helpful for you, and how they could be improved.</p>
+<p><a class="link-dark me-1" href="https://aastroza.substack.com" title="Substack" target="_blank" rel="noopener">{{&lt; bi substack &gt;}}</a> <a class="link-dark me-1" href="https://github.com/aastroza" title="github" target="_blank" rel="noopener">{{&lt; fa brands github &gt;}}</a> <a class="link-dark me-1" href="https://linkedin.com/in/aastrozacl" title="LinkedIn" target="_blank" rel="noopener">{{&lt; fa brands linkedin &gt;}}</a> <a class="link-dark me-1" href="https://twitter.com/aastroza" title="Twitter" target="_blank" rel="noopener">{{&lt; fa brands twitter &gt;}}</a></p>
+</section>
+</div>
+<!-- source: https://github.com/mccarthy-m-g/tidytales/blob/main/about/index.qmd#L24-L46 -->
+<div class="g-col-1">
+
+</div>
+<div id="form" class="g-col-6">
+<form action="https://formspree.io/f/mjkbkbkn" method="POST" accept-charset="utf-8">
+<p><label for="full-name">Full Name</label> <input type="text" name="name" id="full-name" class="form-control" placeholder="First and Last" required=""></p>
+<p><label for="email-address">Email Address</label> <input type="email" name="_replyto" id="email-address" class="form-control" placeholder="your@email.here" required=""></p>
+<label for="message">Message</label>
+<textarea rows="6" name="message" id="message" class="form-control" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+<button type="submit" class="btn btn-primary mt-4">
+Send
+</button>
+</form>
+</div>
+<div id="substack" class="g-col-5">
+<section id="si-hablas-español-inscríbete-en-mi-newsletter" class="level1">
+<h1>Si hablas español, inscríbete en mi newsletter {{&lt; bi substack &gt;}}</h1>
+<p>Puedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio.</p>
+</section>
+</div>
+<!-- source: https://github.com/spcanelon/silvia/blob/main/contact.qmd -->
+<div class="g-col-1">
+
+</div>
+<div id="substack-form" class="g-col-6">
+<p><br><br> <iframe src="https://aastroza.substack.com/embed" width="100%" height="170" style="border:2px solid #FAF0E3; background:white;" frameborder="2" scrolling="no" id="substack-embed"></iframe></p>
+<!-- <div id="custom-substack-embed"></div> -->
+<!-- <script> -->
+<!--   window.CustomSubstackWidget = { -->
+<!--     substackUrl: "aastroza.substack.com", -->
+<!--     placeholder: "your@email.here", -->
+<!--     buttonText: "Subscribe", -->
+<!--     theme: "custom", -->
+<!--     colors: { -->
+<!--       primary: "#A23E02", -->
+<!--       input: "#FFFBF2", -->
+<!--       email: "#173552", -->
+<!--       text: "#FFFFFF", -->
+<!--     }, -->
+<!--     // Go to substackapi.com to unlock custom redirect -->
+<!--   }; -->
+<!-- </script> -->
+<!-- <script src="https://substackapi.com/widget.js" async></script> -->
 </div>
 </div>
- <!-- /main -->
+<!-- end grid -->
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -169,6 +205,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
