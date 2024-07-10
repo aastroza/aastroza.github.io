@@ -1,0 +1,16 @@
+---
+title: "Blog en Español"
+description: |
+  Una versión en español de mis publicaciones. En un estilo más simple, menos tecnicismo y más corazón.
+listing:
+  contents: posteos
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+

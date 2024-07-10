@@ -17,6 +17,8 @@ website:
         href: talks.qmd
       - text: Contact
         href: contact.qmd
+      - text: Español
+        href: spanish.qmd  
       - icon: github
         href: https://github.com/aastroza
 format:
