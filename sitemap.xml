@@ -1,23 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://aastroza.github.io/blog/teaching/welcome/index.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aastroza.github.io/blog/talks.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
+  </url>
+  <url>
     <loc>https://aastroza.github.io/blog/contact.html</loc>
-    <lastmod>2024-07-10T05:10:11.883Z</lastmod>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
   </url>
   <url>
     <loc>https://aastroza.github.io/blog/index.html</loc>
-    <lastmod>2024-07-10T05:10:11.883Z</lastmod>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
   </url>
   <url>
-    <loc>https://aastroza.github.io/blog/posts/post-with-code/index.html</loc>
-    <lastmod>2024-07-10T05:10:11.883Z</lastmod>
+    <loc>https://aastroza.github.io/blog/talks/welcome/index.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
   </url>
   <url>
     <loc>https://aastroza.github.io/blog/posts/welcome/index.html</loc>
-    <lastmod>2024-07-10T05:10:11.883Z</lastmod>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aastroza.github.io/blog/projects/welcome/index.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aastroza.github.io/blog/projects/post-with-code/index.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aastroza.github.io/blog/posts/post-with-code/index.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aastroza.github.io/blog/talks/post-with-code/index.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aastroza.github.io/blog/teaching.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
   </url>
   <url>
     <loc>https://aastroza.github.io/blog/about.html</loc>
-    <lastmod>2024-07-10T05:10:11.883Z</lastmod>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aastroza.github.io/blog/projects.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aastroza.github.io/blog/teaching/post-with-code/index.html</loc>
+    <lastmod>2024-07-10T05:28:48.890Z</lastmod>
   </url>
 </urlset>
