@@ -1,0 +1,16 @@
+---
+title: "Chatstract"
+date: "2024-05-12"
+image: image.jpeg
+categories: [llm, ai, structured-generation]
+subtitle: >
+  A tool that extracts structured information from chats.
+description: ''
+
+links:
+- icon: github
+  name: Github Code
+  url: https://github.com/aastroza/chatstract
+---
+
+**Chatstract** is a tool that progressively extracts structured information from multi-turn user chats using pydantic schemas and LLMs. Powered by [Instructor](https://github.com/jxnl/instructor/).
