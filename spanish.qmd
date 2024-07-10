@@ -2,7 +2,8 @@
 title: "Blog en Español"
 description: |
   Una versión más simple y en español de mis publicaciones.<br>
-  Con menos tecnicismos pero con más corazón.
+  Con menos tecnicismos pero con más corazón.<br><br>
+  Regístrate en mi [newsletter](https://aastroza.substack.com/) para recibir un aviso cuando publique algo nuevo.
 listing:
   contents: posteos
   sort: "date desc"
