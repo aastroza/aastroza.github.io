@@ -1,0 +1,22 @@
+---
+title: "AI-Podcast Generator"
+author: "Alonso Astroza"
+date: "2023-04-23"
+categories: [llm, ai]
+---
+
+![](pexels-tdcat-70911.jpg)
+
+AI Podcast Generator is a tool that automatically generates podcast scripts and audio from text files. This tool leverages [Marvin](https://github.com/PrefectHQ/marvin) for text generation and [Play.ht API](https://docs.play.ht/reference/api-getting-started) for text-to-speech conversion. The generated audio clips are then merged using [pydub](https://github.com/jiaaro/pydub) to create the final podcast output.
+
+## Features
+
+- Generate podcast scripts and audio automatically.
+- Customize podcast details, host, guest, topics, and output settings.
+- Supports multiple voices from Play.ht API.
+- Requires minimal setup and configuration.
+
+## Code
+
+<div class="github-card" data-user="lepture" data-repo="github-cards"></div>
+<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
