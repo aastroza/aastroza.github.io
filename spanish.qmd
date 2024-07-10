@@ -1,7 +1,8 @@
 ---
 title: "Blog en Español"
 description: |
-  Una versión en español de mis publicaciones. En un estilo más simple, menos tecnicismo y más corazón.
+  Una versión más simple y en español de mis publicaciones.<br>
+  Con menos tecnicismos pero con más corazón.
 listing:
   contents: posteos
   sort: "date desc"
