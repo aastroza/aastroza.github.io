@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "projects/post-with-code/index.html",
-    "href": "projects/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "projects/podcast/index.html",
+    "href": "projects/podcast/index.html",
+    "title": "AI-Podcast Generator",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "AI Podcast Generator is a tool that automatically generates podcast scripts and audio from text files. This tool leverages Marvin for text generation and Play.ht API for text-to-speech conversion. The generated audio clips are then merged using pydub to create the final podcast output."
+  },
+  {
+    "objectID": "projects/podcast/index.html#features",
+    "href": "projects/podcast/index.html#features",
+    "title": "AI-Podcast Generator",
+    "section": "Features",
+    "text": "Features\n\nGenerate podcast scripts and audio automatically.\nCustomize podcast details, host, guest, topics, and output settings.\nSupports multiple voices from Play.ht API.\nRequires minimal setup and configuration."
+  },
+  {
+    "objectID": "projects/podcast/index.html#code",
+    "href": "projects/podcast/index.html#code",
+    "title": "AI-Podcast Generator",
+    "section": "Code",
+    "text": "Code"
   },
   {
     "objectID": "index.html",
@@ -39,7 +53,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\n\n\n\n\nAlonso Astroza\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/post-with-code/index.html",
@@ -126,10 +140,10 @@
     "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/welcome/index.html",
-    "href": "projects/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "projects/post-with-code/index.html",
+    "href": "projects/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is a post with executable code."
   }
 ]
