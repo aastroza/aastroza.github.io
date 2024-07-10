@@ -1,0 +1,16 @@
+---
+title: "Talks"
+description: |
+  Here are my invited talks and media appearances. Dive in and enjoy—no popcorn needed, but highly recommended!
+listing:
+  contents: talks
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+

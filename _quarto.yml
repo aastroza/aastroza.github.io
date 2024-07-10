@@ -10,7 +10,11 @@ website:
       - text: Blog
         href: index.qmd
       - text: Projects
+        href: projects.qmd
       - text: Teaching
+        href: teaching.qmd
+      - text: Talks
+        href: talks.qmd
       - text: Contact
         href: contact.qmd
       - icon: github

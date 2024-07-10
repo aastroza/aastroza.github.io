@@ -1,0 +1,16 @@
+---
+title: "Projects"
+description: |
+  Here are my projects, mainly software and tools I've created. 
+listing:
+  contents: projects
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+
