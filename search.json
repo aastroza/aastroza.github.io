@@ -2,9 +2,9 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "I’d love to hear from you! {{< fa envelope >}}",
+    "title": "I’d love to hear from you! ",
     "section": "",
-    "text": "I’d love to hear from you! {{&lt; fa envelope &gt;}}\nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved.\n{{&lt; bi substack &gt;}} {{&lt; fa brands github &gt;}} {{&lt; fa brands linkedin &gt;}} {{&lt; fa brands twitter &gt;}}\n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter {{&lt; bi substack &gt;}}\nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio."
+    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved.\n{{&lt; bi substack &gt;}}   \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter {{&lt; bi substack &gt;}}\nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio."
   },
   {
     "objectID": "index.html",
