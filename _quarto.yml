@@ -2,13 +2,22 @@ project:
   type: website
 
 website:
-  title: "Alonso Astroza"
+  title: "Alonso Astroza Tagle"
+  site-url: https://www.alonsoastroza.com
+  repo-url: https://github.com/aastroza/blog
+  repo-actions:
+    - source
+    - edit
+    - issue
+  open-graph: true
   navbar:
+    title: alonso
+    background: light
     right:
       - text: About
         href: about.qmd
       - text: Blog
-        href: index.qmd
+        href: blog.qmd
       - text: Projects
         href: projects.qmd
       - text: Teaching
@@ -23,7 +32,8 @@ website:
         href: https://github.com/aastroza
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, styles.css]
+      dark: [cosmo, theme-dark.scss]
 execute:
   freeze: auto
