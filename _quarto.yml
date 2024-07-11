@@ -35,5 +35,7 @@ format:
     theme:
       light: cosmo
       dark: [cosmo, theme-dark.scss]
+resources:
+  - CNAME
 execute:
   freeze: auto
