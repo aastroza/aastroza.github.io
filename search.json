@@ -88,7 +88,7 @@
     "href": "posteos/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posteos/welcome/."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -165,7 +165,7 @@
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n\nReuseCC BY-SA 4.0CitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posts/welcome/."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\nYou can use this form to sign up to receive an e-mail anytime I post something new on my blog.\n\n\n\n\nReuseCC BY-SA 4.0CitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posts/welcome/."
   },
   {
     "objectID": "contact.html",
@@ -179,7 +179,7 @@
     "href": "posteos/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/posteos/post-with-code/."
+    "text": "This is a post with executable code."
   },
   {
     "objectID": "spanish.html",
