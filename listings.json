@@ -9,8 +9,9 @@
   {
     "listing": "/teaching.html",
     "items": [
-      "/teaching/post-with-code/index.html",
-      "/teaching/welcome/index.html"
+      "/teaching/intro-ml/index.html",
+      "/teaching/github/index.html",
+      "/teaching/powerbi/index.html"
     ]
   },
   {
@@ -26,8 +27,7 @@
   {
     "listing": "/talks.html",
     "items": [
-      "/talks/post-with-code/index.html",
-      "/talks/welcome/index.html"
+      "/talks/post-with-code/index.html"
     ]
   },
   {
@@ -48,9 +48,9 @@
       "/projects/discolab/index.html",
       "/projects/podcast/index.html",
       "/talks/post-with-code/index.html",
-      "/teaching/post-with-code/index.html",
-      "/talks/welcome/index.html",
-      "/teaching/welcome/index.html",
+      "/teaching/intro-ml/index.html",
+      "/teaching/github/index.html",
+      "/teaching/powerbi/index.html",
       "/posteos/post-with-code/index.html",
       "/posteos/welcome/index.html"
     ]
