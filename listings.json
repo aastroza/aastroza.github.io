@@ -14,6 +14,13 @@
     ]
   },
   {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/post-with-code/index.html",
+      "/talks/welcome/index.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": [
       "/projects/ft-hackathon/index.html",
@@ -21,13 +28,6 @@
       "/projects/chatstract/index.html",
       "/projects/discolab/index.html",
       "/projects/podcast/index.html"
-    ]
-  },
-  {
-    "listing": "/talks.html",
-    "items": [
-      "/talks/post-with-code/index.html",
-      "/talks/welcome/index.html"
     ]
   },
   {

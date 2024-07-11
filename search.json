@@ -98,48 +98,6 @@
     "text": "This is a post with executable code.\n\n\n\nReuseCC BY-SA 4.0CitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/posts/post-with-code/."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/post-with-code/index.html",
-    "href": "teaching/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/welcome/index.html",
-    "href": "talks/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/talks/welcome/."
-  },
-  {
-    "objectID": "talks/post-with-code/index.html",
-    "href": "talks/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/talks/post-with-code/."
-  },
-  {
-    "objectID": "teaching/welcome/index.html",
-    "href": "teaching/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Alonso",
@@ -161,6 +119,48 @@
     "text": "Personal\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
   },
   {
+    "objectID": "teaching/welcome/index.html",
+    "href": "teaching/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "talks/post-with-code/index.html",
+    "href": "talks/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/talks/post-with-code/."
+  },
+  {
+    "objectID": "talks/welcome/index.html",
+    "href": "talks/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/talks/welcome/."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/post-with-code/index.html",
+    "href": "teaching/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
@@ -172,7 +172,7 @@
     "href": "contact.html",
     "title": "I’d love to hear from you! ",
     "section": "",
-    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio."
+    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio.\n\n\n\n\n\n\n\n \n\n\n\n\nConsulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice."
   },
   {
     "objectID": "posteos/post-with-code/index.html",
@@ -193,7 +193,7 @@
     "href": "index.html",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
     "section": "",
-    "text": "I’m a Machine Learning Engineer. I create products that transform raw data into business value, empowering organizations to optimize their operations and services.\n    \n    About Me →"
+    "text": "I’m a Machine Learning Engineer. I create products that transform raw data into business value, empowering organizations to optimize their operations and services.\n    \n\n    \n      If you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice. I enjoy building new connections and would be happy to discuss how we can work together. Let's connect!\n    \n    About Me →"
   },
   {
     "objectID": "index.html#latest-posts",
