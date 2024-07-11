@@ -1,6 +1,6 @@
 ---
 title: "Intro to PowerBI"
-date: "2024-06-11"
+date: "2023-10-23"
 image: powerbi.PNG
 categories: [powerbi, workshop, english]
 subtitle: >
