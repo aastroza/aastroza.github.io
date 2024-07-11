@@ -9,3 +9,7 @@ I borrowed a lot of code from these amazing authors:
 - [Ella Kaye](https://github.com/EllaKaye/ellakaye.co.uk)
 - [Michael McCarthy](https://github.com/mccarthy-m-g/tidytales)
 - [Eric Scott](https://github.com/Aariq/website-quarto)
+
+Icons:
+
+https://icons.getbootstrap.com/

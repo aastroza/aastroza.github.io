@@ -1,0 +1,54 @@
+---
+title: "Intro to PowerBI"
+date: "2024-06-11"
+image: powerbi.PNG
+categories: [powerbi, workshop, english]
+subtitle: >
+  A short workshop to provide a basic introduction to PowerBI.
+description: ''
+
+links:
+- icon: database
+  name: Data
+  url: data.zip
+- icon: globe-americas
+  name: Google Slides
+  url: https://docs.google.com/presentation/d/1rrs-uyRW4Ugvn4kq_CJtd_MRMBVHfi5BxzVXfQ6ThVY/edit?usp=sharing
+- icon: globe-americas
+  name: filetype-pptx
+  url: Visualización_de_Datos_PowerBI[2023].pptx
+- icon: filetype-pdf
+  name: Slides .pdf
+  url: Visualización_de_Datos_PowerBI[2023].pdf
+- icon: youtube
+  name: Video Playlist
+  url: https://youtu.be/e6NI7_kkNu4?si=gVMH_qUYdzpPn9qA
+---
+
+A short workshop for undergraduate students at Universidad del Desarrollo. The purpose is to highlight the importance of learning data visualization tools like [PowerBI](https://powerbi.microsoft.com) and to provide a basic introduction to its use.
+
+## First Steps
+
+{{< video https://www.youtube.com/embed/e6NI7_kkNu4 >}}
+
+## Data Load
+
+{{< video https://www.youtube.com/embed/yMcy94APjvs >}}
+
+## Data Model
+
+{{< video https://www.youtube.com/embed/CmNrcFI23l0 >}}
+
+## Data Visualization
+
+{{< video https://www.youtube.com/embed/cBhxh-8HJcA >}}
+
+## Further Steps
+
+### How to import SQLite data to PowerBI
+
+{{< video https://www.youtube.com/embed/n5ELoULhQIo >}}
+
+### Other Courses
+
+If you are a student at UDD and are interested in delving deeper into this tool, I recommend the following [Zigna course](https://zigna.udd.cl/analisis-de-datos-con-power-bi/).
