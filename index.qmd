@@ -60,41 +60,12 @@ resources:
       <span class="nowrap">Astroza Tagle</span>
     </h1>
 
-    <div class="social-icon-links my-3" aria-hidden="true">
-      <a
-        class="link-primary"
-        href="https://github.com/aastroza"
-        title="github"
-        target="_blank"
-        rel="noopener"
-      >
-        <i class="fab fa-github fa-lg fa-fw"></i>
-      </a>
-
-      <a
-        class="link-primary"
-        href="https://twitter.com/aastroza"
-        title="twitter"
-        target="_blank"
-        rel="noopener"
-      >
-        <i class="fab fa-twitter fa-lg fa-fw"></i>
-      </a>
-
-      <a
-        class="link-primary"
-        href="https://linkedin.com/in/aastrozacl"
-        title="keybase"
-        target="_blank"
-        rel="noopener"
-      >
-        <i class="fab fa-linkedin fa-lg fa-fw"></i>
-      </a>
-
-    </div>
-
     <p class="site-into fs-5">
       I’m a <strong>Machine Learning Engineer</strong>. I create products that transform <strong>raw data</strong> into <strong>business value</strong>, empowering organizations to <strong>optimize</strong> their operations and services.
+    </p>
+
+    <p class="site-into fs-5">
+      If you need help solving a problem using AI, I’d love to assist you. I offer various <a class="mt4 action text" href="/consuling">consulting services</a> to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice. I enjoy building new connections and would be happy to <a class="mt4 action text" href="/contact">discuss</a> how we can work together. Let's connect!
     </p>
     <a class="mt4 action text" href="/about">About Me →</a>
   </div>

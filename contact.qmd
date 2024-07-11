@@ -22,8 +22,6 @@ resources:
 
 You can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.
 
-I also love hearing if my educational materials have been helpful for you, and how they could be improved.
-
 <a class="link-dark me-1" href="https://github.com/aastroza" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
 <a class="link-dark me-1" href="https://linkedin.com/in/aastrozacl" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
 <a class="link-dark me-1" href="https://twitter.com/aastroza" title="Twitter" target="_blank" rel="noopener">{{< fa brands twitter >}}</a>
@@ -70,30 +68,12 @@ Puedes usar este formulario para registrarte y recibir una notificación cada ve
 <br><br>
 <iframe src="https://aastroza.substack.com/embed" width="100%" height="220" style="border:2px solid #FAF0E3; background:white;" frameborder="2" scrolling="no" id="substack-embed"></iframe>
 
-<!-- <div id="custom-substack-embed"></div> -->
-
-
-<!-- <script> -->
-<!--   window.CustomSubstackWidget = { -->
-<!--     substackUrl: "aastroza.substack.com", -->
-<!--     placeholder: "your@email.here", -->
-<!--     buttonText: "Subscribe", -->
-<!--     theme: "custom", -->
-<!--     colors: { -->
-<!--       primary: "#A23E02", -->
-<!--       input: "#FFFBF2", -->
-<!--       email: "#173552", -->
-<!--       text: "#FFFFFF", -->
-<!--     }, -->
-
-<!--     // Go to substackapi.com to unlock custom redirect -->
-
-<!--   }; -->
-<!-- </script> -->
-<!-- <script src="https://substackapi.com/widget.js" async></script> -->
-
 :::
 
 
 :::
 <!-- end grid -->
+
+# Consulting
+
+If you need help solving a problem using AI, I’d love to assist you. I offer various [consulting services](/consulting.qmd) to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.
