@@ -1,0 +1,56 @@
+---
+title: "Datarisas"
+date: "2024-06-11"
+image: wordcloud.png
+categories: [llm, ai, chile, dataset]
+subtitle: >
+  Tracking the history of Chilean humor.
+description: ''
+
+links:
+- icon: github
+  name: Github Code
+  url: https://github.com/aastroza/chilean-humor
+- icon: globe-americas
+  name: Project Website
+  url: https://datarisas.cl/
+- icon: twitter
+  name: Twitter Thread
+  url: https://twitter.com/aastroza/status/1800561847902560738
+---
+
+![A screenshot from datarisas.cl](datarisas_presidente.jpg)
+
+[Datarisas](https://www.datarisas.cl) is a project dedicated to analyzing the history of humor in Chile. We have collected and analyzed data from thousands of jokes told on the country's most important stage: the [Viña del Mar International Song Festival](https://en.wikipedia.org/wiki/Vi%C3%B1a_del_Mar_International_Song_Festival) (a music and entertainment festival held annually in the city of Viña del Mar, Chile). 
+
+Our goal is not only to preserve these moments of humor but also to offer a deep and curious look at how comedy has evolved over the decades.
+
+## Data
+
+The site is powered by a database with [**3,509** jokes](https://db.datarisas.cl/humor/jokes) told on the Viña del Mar Festival stage from 1960 to the present, extracted from transcriptions of [128 routines](https://db.datarisas.cl/humor/routines) recorded on YouTube.
+
+The entire process of transcribing and extracting the jokes was **completely automated** using **artificial intelligence**. So far, no human has edited a single comma, but we hope to improve the data as soon as possible. If you're interested in how the process is done, you can [check out the code here](https://github.com/aastroza/chilean-humor).
+
+In the future, we hope to complete all the jokes from all the routines and add data from other popular festivals. If you're interested in collaborating with this cause, [contact me](../../contact.qmd).
+
+## Analysis
+
+Below are some interesting analyses that emerge from the collected data.
+
+The first chart shows the age of each comedian at the time of their performance on the Viña Festival stage. There is a noticeable trend towards younger comedians starting in the 2010s, perhaps due to the influence of *stand-up comedy*?
+
+![](age_line_plot.png)
+
+The second chart shows a cumulative count of how many times a man or a woman has performed comedy on the Viña Festival stage over the years.
+
+![](gender_line_plot.png)
+
+## Credits
+
+Datarisas is a project developed by [Alonso Astroza](https://github.com/aastroza) and [Alfonso Concha](https://github.com/sikolio).
+
+## How to Cite
+
+If you wish to use the data from this project in your own analyses or research, please cite the project as follows:
+
+> Astroza, A. and Concha, A. (2024). Datarisas: Analysis of the history of Chilean humor. https://www.datarisas.cl

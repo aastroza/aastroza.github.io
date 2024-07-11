@@ -32,7 +32,7 @@ listing:
     categories: false
     sort-ui: false
     filter-ui: false
-    fields: [title, image, description, date]
+    fields: [title, image, subtitle, date]
   - id: recent-talk-listing
     contents:
       - "talks/*/*.qmd"
