@@ -2,6 +2,7 @@
 title: "Alonso"
 image: aastroza.jpeg
 about:
+  id: hero-heading
   template: trestles
   links:
     - icon: twitter
@@ -15,6 +16,8 @@ about:
       href: https://github.com/aastroza
 
 ---
+
+:::{#hero-heading}
 
 I'm **Alonso Astroza Tagle**. [This is my resume](https://docs.google.com/document/d/1wxtLNsBQYz-peTrHwgZdpdJh3xIa_v-jNS0JNXj7tUo/edit?usp=sharing).
 
@@ -35,3 +38,11 @@ I'm **Alonso Astroza Tagle**. [This is my resume](https://docs.google.com/docume
 🧑‍🤝‍🧑 I have a [twin brother](https://sastroza.cl/).
 
 ⛰️ I'm from Santiago, Chile, South America.
+
+:::
+
+## Consulting
+
+If you need help solving a problem using AI, I’d love to assist you. I offer various [consulting services](/consulting.qmd) to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.
+
+ I enjoy building new connections and would be happy to [discuss](/contact.qmd) how we can work together. Let's connect!
