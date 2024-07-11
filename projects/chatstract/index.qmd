@@ -15,7 +15,7 @@ links:
 
 **Chatstract** is a tool that progressively extracts structured information from multi-turn user chats using pydantic schemas and LLMs. Powered by [Instructor](https://github.com/jxnl/instructor/).
 
-![Please, please return json!](image.jpeg)
+![](image.jpeg)
 
 ## Basic Example
 

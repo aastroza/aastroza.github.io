@@ -2,7 +2,7 @@
 title: "Mistral AI Fine-Tuning Hackathon"
 date: "2024-06-30"
 image: image.jpg
-categories: [llm, ai, fine-tuning]
+categories: [llm, ai, fine-tuning, chile]
 subtitle: >
   My Mistral FT Hackathon entry.
 description: ''
