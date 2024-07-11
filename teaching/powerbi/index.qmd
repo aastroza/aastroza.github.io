@@ -11,14 +11,11 @@ links:
 - icon: database
   name: Data
   url: data.zip
-- icon: globe-americas
-  name: Google Slides
+- icon: google
+  name: Slides
   url: https://docs.google.com/presentation/d/1rrs-uyRW4Ugvn4kq_CJtd_MRMBVHfi5BxzVXfQ6ThVY/edit?usp=sharing
-- icon: globe-americas
-  name: filetype-pptx
-  url: Visualización_de_Datos_PowerBI[2023].pptx
 - icon: filetype-pdf
-  name: Slides .pdf
+  name: Slides
   url: Visualización_de_Datos_PowerBI[2023].pdf
 - icon: youtube
   name: Video Playlist
