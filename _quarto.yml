@@ -5,10 +5,6 @@ website:
   title: "Alonso Astroza Tagle"
   site-url: https://www.alonsoastroza.com
   repo-url: https://github.com/aastroza/blog
-  repo-actions:
-    - source
-    - edit
-    - issue
   open-graph: true
   navbar:
     title: alonso
