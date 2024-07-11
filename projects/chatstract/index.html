@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -192,8 +226,88 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><strong>Chatstract</strong> is a tool that progressively extracts structured information from multi-turn user chats using pydantic schemas and LLMs. Powered by <a href="https://github.com/jxnl/instructor/">Instructor</a>.</p>
+<p><img src="image.jpeg" class="img-fluid" alt="Please, please return json!"><br>
+</p>
+<section id="basic-example" class="level2">
+<h2 class="anchored" data-anchor-id="basic-example">Basic Example</h2>
+<p>First, create the pydantic model you wish to fill out through a conversational method.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datetime <span class="im">import</span> date</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pydantic <span class="im">import</span> BaseModel, Field</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> typing <span class="im">import</span> Optional</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Task(BaseModel):</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    title: <span class="bu">str</span> <span class="op">=</span> Field(description<span class="op">=</span><span class="st">"A short title of the task."</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    due_date: date <span class="op">=</span> Field(description<span class="op">=</span><span class="st">"The deadline for the task. Current year: 2024"</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    responsable: <span class="bu">str</span> <span class="op">=</span> Field(description<span class="op">=</span><span class="st">"The person assigned to solve the task"</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    location: <span class="bu">str</span> <span class="op">=</span> Field(description<span class="op">=</span><span class="st">"The location where the task will be performed"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    status: Optional[<span class="bu">str</span>] <span class="op">=</span> Field(description<span class="op">=</span><span class="st">"The status of the task"</span>, default<span class="op">=</span><span class="va">None</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Then, use Chatstract to populate the data model with values from sequential messages provided by the user.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> chatstract.core <span class="im">import</span> Chat</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>chat <span class="op">=</span> Chat(data_model <span class="op">=</span> Task)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>messages <span class="op">=</span> [<span class="st">"Jason has to clean his desk"</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">"The deadline is september 7th"</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>            <span class="st">"This task is for the Downtown office"</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>            <span class="st">"I messed up, the task is for Dorothy at the Uptown office"</span>,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>            <span class="st">"The status for this task is 'Done'"</span>]</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> message <span class="kw">in</span> messages:</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    info <span class="op">=</span> chat.chat_ai(message)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"User message: </span><span class="sc">{</span>message<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Data: </span><span class="sc">{</span>chat<span class="sc">.</span>data_values<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">len</span>(info.answer) <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"Missing information: None"</span>)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"Follow-up question: None"</span>)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">===</span><span class="ch">\n</span><span class="st">"</span>)</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> question <span class="kw">in</span> info.answer:</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Missing information: </span><span class="sc">{</span>question<span class="sc">.</span>missing_information_key<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"Follow-up question: </span><span class="sc">{</span>question<span class="sc">.</span>question<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"</span><span class="ch">\n</span><span class="st">===</span><span class="ch">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Below is the output you can expect:</p>
+<pre><code>User message: Jason has to clean his desk
+Data: {'title': 'Clean the desk', 'due_date': None, 'responsable': 'Jason', 'location': None, 'status': None}
+Missing information: due_date
+Follow-up question: What is the due date for the task 'Clean the desk'?
+Missing information: location
+Follow-up question: Where should the task 'Clean the desk' be performed?
+
+===
+
+User message: The deadline is september 7th
+Data: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': None, 'status': None}
+Missing information: location
+Follow-up question: What is the location for the task 'Clean the desk'?
+
+===
+
+User message: This task is for the Downtown office
+Data: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': 'Downtown office', 'status': None}
+Missing information: None
+Follow-up question: None
+
+===
+
+User message: I messed up, the task is for Dorothy at the Uptown office
+Data: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': None}
+Missing information: None
+Follow-up question: None
+
+===
+
+User message: The status for this task is 'Done'
+Data: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': 'Done'}
+Missing information: None
+Follow-up question: None
+
+===</code></pre>
 
 
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-astroza2024" class="csl-entry quarto-appendix-citeas" role="listitem">
 Astroza, Alonso. 2024. <span>“Chatstract.”</span> May 12, 2024. <a href="https://www.alonsoastroza.com/projects/chatstract/">https://www.alonsoastroza.com/projects/chatstract/</a>.
