@@ -21,88 +21,74 @@
     "text": "Acknowledgments\n\nMastering LLMs: A Conference For Developers & Data Scientists by Dan Becker and Hamel Husain. This course provided an excellent introduction to fine-tuning and inspired my participation in the Mistral AI fine-tuning hackathon.\n\nSpecial thanks to Sophia Yang (Mistral AI) for her insights on the Mistral API, and Thomas Capelle (W&B) for his teachings on the impressive Weave toolkit. Much of the code and many ideas in this project were drawn from their invaluable lessons.\n\nInstructor: This tool was a significant help in our project. It allowed us to add structure to the output from the Mistral API, making it much easier to process our data and create a high-quality dataset for fine-tuning.\nWe extend our gratitude to R.I.M. Dunbar, Jacques Launay, and Oliver Curry for their insightful paper “The Complexity of Jokes Is Limited by Cognitive Constraints on Mentalizing”. Their research provided valuable parameters for defining good jokes, which we applied automatically thanks to LLMs. Their work on the relationship between joke complexity, levels of intentionality, and humor appreciation significantly improved our approach to generating and evaluating Chilean humor."
   },
   {
-    "objectID": "projects/chatstract/index.html",
-    "href": "projects/chatstract/index.html",
-    "title": "Chatstract",
+    "objectID": "projects/discolab/index.html",
+    "href": "projects/discolab/index.html",
+    "title": "Discolab",
     "section": "",
-    "text": "Chatstract is a tool that progressively extracts structured information from multi-turn user chats using pydantic schemas and LLMs. Powered by Instructor."
+    "text": "Co-created the AI engine for the Explorador Constitucional a joint project by La Tercera (one of Chile’s largest newspapers) and CRiSSLab. Deployed an OpenAI API-based product in production, which efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day. The first version of the code is here."
   },
   {
-    "objectID": "projects/chatstract/index.html#basic-example",
-    "href": "projects/chatstract/index.html#basic-example",
-    "title": "Chatstract",
-    "section": "Basic Example",
-    "text": "Basic Example\nFirst, create the pydantic model you wish to fill out through a conversational method.\nfrom datetime import date\nfrom pydantic import BaseModel, Field\nfrom typing import Optional\n\nclass Task(BaseModel):\n    title: str = Field(description=\"A short title of the task.\")\n    due_date: date = Field(description=\"The deadline for the task. Current year: 2024\")\n    responsable: str = Field(description=\"The person assigned to solve the task\")\n    location: str = Field(description=\"The location where the task will be performed\")\n    status: Optional[str] = Field(description=\"The status of the task\", default=None)\nThen, use Chatstract to populate the data model with values from sequential messages provided by the user.\nfrom chatstract.core import Chat\n\nchat = Chat(data_model = Task)\n\nmessages = [\"Jason has to clean his desk\",\n            \"The deadline is september 7th\",\n            \"This task is for the Downtown office\",\n            \"I messed up, the task is for Dorothy at the Uptown office\",\n            \"The status for this task is 'Done'\"]\n\nfor message in messages:\n    info = chat.chat_ai(message)\n    print(f\"User message: {message}\")\n    print(f\"Data: {chat.data_values}\")\n    \n    if len(info.answer) == 0:\n        print(\"Missing information: None\")\n        print(\"Follow-up question: None\")\n        print(\"\\n===\\n\")\n        continue\n    \n    for question in info.answer:\n        print(f\"Missing information: {question.missing_information_key}\")\n        print(f\"Follow-up question: {question.question}\")\n\n    print(\"\\n===\\n\")\nBelow is the output you can expect:\nUser message: Jason has to clean his desk\nData: {'title': 'Clean the desk', 'due_date': None, 'responsable': 'Jason', 'location': None, 'status': None}\nMissing information: due_date\nFollow-up question: What is the due date for the task 'Clean the desk'?\nMissing information: location\nFollow-up question: Where should the task 'Clean the desk' be performed?\n\n===\n\nUser message: The deadline is september 7th\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': None, 'status': None}\nMissing information: location\nFollow-up question: What is the location for the task 'Clean the desk'?\n\n===\n\nUser message: This task is for the Downtown office\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': 'Downtown office', 'status': None}\nMissing information: None\nFollow-up question: None\n\n===\n\nUser message: I messed up, the task is for Dorothy at the Uptown office\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': None}\nMissing information: None\nFollow-up question: None\n\n===\n\nUser message: The status for this task is 'Done'\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': 'Done'}\nMissing information: None\nFollow-up question: None\n\n==="
+    "objectID": "projects/discolab/index.html#press",
+    "href": "projects/discolab/index.html#press",
+    "title": "Discolab",
+    "section": "Press",
+    "text": "Press\n\nWhat are the differences between the constitutional texts? (Spanish)\nDiscolab: Artificial Intelligence at the service of Constitutional understanding in Chile (Spanish)"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "",
+    "text": "I’m a Machine Learning Engineer. I build products that help organizations get value from their data using AI.\n    \n    About Me →"
+  },
+  {
+    "objectID": "index.html#latest-posts",
+    "href": "index.html#latest-posts",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Posts",
+    "text": "Latest Posts\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#latest-projects",
+    "href": "index.html#latest-projects",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Projects",
+    "text": "Latest Projects\n\n\n\n\n\n\n\n\n\n\nMistral AI Fine-Tuning Hackathon\n\n\n\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\n\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\n\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#latest-talks",
+    "href": "index.html#latest-talks",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Talks",
+    "text": "Latest Talks\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "spanish.html",
+    "href": "spanish.html",
+    "title": "Blog en Español",
     "section": "",
     "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posteos/welcome/index.html",
-    "href": "posteos/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posteos/welcome/."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "posteos/post-with-code/index.html",
+    "href": "posteos/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/posts/post-with-code/."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/posteos/post-with-code/."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "I’d love to hear from you! ",
     "section": "",
-    "text": "Mistral AI Fine-Tuning Hackathon\n\n\n\n\n\n\nAlonso Astroza\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\n\n\n\n\nAlonso Astroza\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\n\n\n\n\nAlonso Astroza\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio."
   },
   {
-    "objectID": "teaching/post-with-code/index.html",
-    "href": "teaching/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/welcome/index.html",
-    "href": "talks/welcome/index.html",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/talks/welcome/."
-  },
-  {
-    "objectID": "talks/post-with-code/index.html",
-    "href": "talks/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/talks/post-with-code/."
-  },
-  {
-    "objectID": "teaching/welcome/index.html",
-    "href": "teaching/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posts/welcome/."
   },
   {
     "objectID": "about.html",
@@ -126,60 +112,88 @@
     "text": "Personal\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
+    "objectID": "teaching/welcome/index.html",
+    "href": "teaching/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posts/welcome/."
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "I’d love to hear from you! ",
-    "section": "",
-    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio."
-  },
-  {
-    "objectID": "posteos/post-with-code/index.html",
-    "href": "posteos/post-with-code/index.html",
+    "objectID": "talks/post-with-code/index.html",
+    "href": "talks/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/posteos/post-with-code/."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/talks/post-with-code/."
   },
   {
-    "objectID": "spanish.html",
-    "href": "spanish.html",
-    "title": "Blog en Español",
+    "objectID": "talks/welcome/index.html",
+    "href": "talks/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/talks/welcome/."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/post-with-code/index.html",
+    "href": "teaching/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Mistral AI Fine-Tuning Hackathon\n\n\n\n\n\n\nAlonso Astroza\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\n\n\n\n\nAlonso Astroza\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\n\n\n\n\nAlonso Astroza\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\n\n\n\n\nAlonso Astroza\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/posts/post-with-code/."
+  },
+  {
+    "objectID": "posteos/welcome/index.html",
+    "href": "posteos/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posteos/welcome/."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\nHarlow Malloc\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nTristan O’Malley\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
     "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "objectID": "projects/chatstract/index.html",
+    "href": "projects/chatstract/index.html",
+    "title": "Chatstract",
     "section": "",
-    "text": "I’m a Machine Learning Engineer. I build products that help organizations get value from their data using AI.\n    \n    About Me →"
+    "text": "Chatstract is a tool that progressively extracts structured information from multi-turn user chats using pydantic schemas and LLMs. Powered by Instructor."
   },
   {
-    "objectID": "index.html#latest-posts",
-    "href": "index.html#latest-posts",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "Latest Posts",
-    "text": "Latest Posts\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#latest-projects",
-    "href": "index.html#latest-projects",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "Latest Projects",
-    "text": "Latest Projects\n\n\n\n\n\n\n\n\n\n\nMistral AI Fine-Tuning Hackathon\n\n\n\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\n\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\n\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#latest-talks",
-    "href": "index.html#latest-talks",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "Latest Talks",
-    "text": "Latest Talks\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "projects/chatstract/index.html#basic-example",
+    "href": "projects/chatstract/index.html#basic-example",
+    "title": "Chatstract",
+    "section": "Basic Example",
+    "text": "Basic Example\nFirst, create the pydantic model you wish to fill out through a conversational method.\nfrom datetime import date\nfrom pydantic import BaseModel, Field\nfrom typing import Optional\n\nclass Task(BaseModel):\n    title: str = Field(description=\"A short title of the task.\")\n    due_date: date = Field(description=\"The deadline for the task. Current year: 2024\")\n    responsable: str = Field(description=\"The person assigned to solve the task\")\n    location: str = Field(description=\"The location where the task will be performed\")\n    status: Optional[str] = Field(description=\"The status of the task\", default=None)\nThen, use Chatstract to populate the data model with values from sequential messages provided by the user.\nfrom chatstract.core import Chat\n\nchat = Chat(data_model = Task)\n\nmessages = [\"Jason has to clean his desk\",\n            \"The deadline is september 7th\",\n            \"This task is for the Downtown office\",\n            \"I messed up, the task is for Dorothy at the Uptown office\",\n            \"The status for this task is 'Done'\"]\n\nfor message in messages:\n    info = chat.chat_ai(message)\n    print(f\"User message: {message}\")\n    print(f\"Data: {chat.data_values}\")\n    \n    if len(info.answer) == 0:\n        print(\"Missing information: None\")\n        print(\"Follow-up question: None\")\n        print(\"\\n===\\n\")\n        continue\n    \n    for question in info.answer:\n        print(f\"Missing information: {question.missing_information_key}\")\n        print(f\"Follow-up question: {question.question}\")\n\n    print(\"\\n===\\n\")\nBelow is the output you can expect:\nUser message: Jason has to clean his desk\nData: {'title': 'Clean the desk', 'due_date': None, 'responsable': 'Jason', 'location': None, 'status': None}\nMissing information: due_date\nFollow-up question: What is the due date for the task 'Clean the desk'?\nMissing information: location\nFollow-up question: Where should the task 'Clean the desk' be performed?\n\n===\n\nUser message: The deadline is september 7th\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': None, 'status': None}\nMissing information: location\nFollow-up question: What is the location for the task 'Clean the desk'?\n\n===\n\nUser message: This task is for the Downtown office\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': 'Downtown office', 'status': None}\nMissing information: None\nFollow-up question: None\n\n===\n\nUser message: I messed up, the task is for Dorothy at the Uptown office\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': None}\nMissing information: None\nFollow-up question: None\n\n===\n\nUser message: The status for this task is 'Done'\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': 'Done'}\nMissing information: None\nFollow-up question: None\n\n==="
   },
   {
     "objectID": "projects/podcast/index.html",

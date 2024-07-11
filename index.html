@@ -109,7 +109,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-image','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -295,7 +296,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="latest-posts">Latest <a href="./posts">Posts</a></h2>
 <div id="listing-recent-blog-listing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1720051200000" data-listing-file-modified-sort="1720669417701" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1720051200000" data-listing-file-modified-sort="1720670842784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="./posts/post-with-code/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -317,7 +318,7 @@ Jul 4, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1720669417701" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1720670842784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <a href="./posts/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -347,7 +348,7 @@ No matching items
 <h2 class="anchored" data-anchor-id="latest-projects">Latest <a href="./projects">Projects</a></h2>
 <div id="listing-recent-project-listing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="llm,ai,fine-tuning,chile" data-listing-date-sort="1719705600000" data-listing-file-modified-sort="1720669417705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="834">
+<div class="g-col-1" data-index="0" data-categories="llm,ai,fine-tuning,chile" data-listing-date-sort="1719705600000" data-listing-file-modified-sort="1720670842784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="834">
 <a href="./projects/ft-hackathon/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -369,7 +370,7 @@ Jun 30, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="llm,ai,structured-generation" data-listing-date-sort="1715472000000" data-listing-file-modified-sort="1720669417701" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="487">
+<div class="g-col-1" data-index="1" data-categories="llm,ai,structured-generation" data-listing-date-sort="1715472000000" data-listing-file-modified-sort="1720670842784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="487">
 <a href="./projects/chatstract/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -391,11 +392,33 @@ May 12, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="llm,ai" data-listing-date-sort="1682208000000" data-listing-file-modified-sort="1720669417705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="g-col-1" data-index="2" data-categories="llm,ai,rag,chile" data-listing-date-sort="1701388800000" data-listing-file-modified-sort="1720670842784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<a href="./projects/discolab/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/discolab/discolab.PNG" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Discolab
+</h5>
+<div class="card-text listing-description">
+Co-created the AI engine for the <strong>Explorador Constitucional</strong> a joint project by La Tercera (one of Chile’s largest newspapers) and CRiSSLab. Deployed an OpenAI API-based…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 1, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="llm,ai" data-listing-date-sort="1682208000000" data-listing-file-modified-sort="1720670842784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
 <a href="./projects/podcast/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./projects/podcast/pexels-tdcat-70911.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" data-src="./projects/podcast/pexels-tdcat-70911.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -417,13 +440,16 @@ Apr 23, 2023
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="recent-project-listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 </section>
 <section id="latest-talks" class="level2">
 <h2 class="anchored" data-anchor-id="latest-talks">Latest <a href="./talks">Talks</a></h2>
 <div id="listing-recent-talk-listing" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1720051200000" data-listing-file-modified-sort="1720669417709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1720051200000" data-listing-file-modified-sort="1720670842788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="./talks/post-with-code/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -445,7 +471,7 @@ Jul 4, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1720669417709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1719792000000" data-listing-file-modified-sort="1720670842788" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <a href="./talks/welcome/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="talks/welcome/thumbnail.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
