@@ -1,10 +1,10 @@
 ---
 title: "Discolab"
 date: "2023-12-01"
-image: discolab.PNG
+image: discolab.jpg
 categories: [llm, ai, rag, chile]
 subtitle: >
-  Platform to compare Chile's current constitution with its new proposed constitutions using LLMs
+  Platform to compare Chile's current constitution with its new proposed constitutions using LLMs.
 description: ''
 
 links:
@@ -18,7 +18,9 @@ links:
 
 ![](discolab.PNG)
 
-Co-created the AI engine for the [**Explorador Constitucional**](https://www.latercera.com/la-tercera-sabado/noticia/cuales-son-las-diferencias-entre-los-textos-constitucionales/RUC2LB45ZBAEHN3RFKDEGI6ZRE/) a joint project by [La Tercera](https://www.latercera.com/) (one of Chile's largest newspapers) and [CRiSSLab](https://criss-lab.com/). Deployed an OpenAI API-based product in production, which efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day. The first version of the code is [here](https://github.com/aastroza/llm-search-discolab).
+Co-created the AI engine for the [**Explorador Constitucional**](https://www.latercera.com/la-tercera-sabado/noticia/cuales-son-las-diferencias-entre-los-textos-constitucionales/RUC2LB45ZBAEHN3RFKDEGI6ZRE/) a joint project by [La Tercera](https://www.latercera.com/) (one of Chile's largest newspapers) and [CRiSSLab](https://criss-lab.com/).
+
+Deployed an **OpenAI API**-based product in **production**, which efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day. The first version of the code is [here](https://github.com/aastroza/llm-search-discolab).
 
 ## Press
 
