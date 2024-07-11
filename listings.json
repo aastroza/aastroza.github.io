@@ -1,13 +1,31 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/post-with-code/index.html",
+      "/teaching/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
       "/projects/ft-hackathon/index.html",
+      "/projects/datarisas/index.html",
       "/projects/chatstract/index.html",
       "/projects/discolab/index.html",
-      "/projects/podcast/index.html",
+      "/projects/podcast/index.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
       "/talks/post-with-code/index.html",
       "/talks/welcome/index.html"
     ]
@@ -20,33 +38,17 @@
     ]
   },
   {
-    "listing": "/talks.html",
-    "items": [
-      "/talks/post-with-code/index.html",
-      "/talks/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/ft-hackathon/index.html",
-      "/projects/chatstract/index.html",
-      "/projects/discolab/index.html",
-      "/projects/podcast/index.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
-    "items": [
-      "/teaching/post-with-code/index.html",
-      "/teaching/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/projects/ft-hackathon/index.html",
+      "/projects/datarisas/index.html",
+      "/projects/chatstract/index.html",
+      "/projects/discolab/index.html",
+      "/projects/podcast/index.html",
+      "/talks/post-with-code/index.html",
+      "/talks/welcome/index.html"
     ]
   }
 ]

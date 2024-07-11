@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Here are my projects, mainly software and tools I’ve created.">
+<meta name="author" content="Alonso Astroza">
+<meta name="dcterms.date" content="2024-06-11">
 
-<title>Projects – Alonso Astroza Tagle</title>
+<title>Datarisas – Alonso Astroza Tagle</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,79 +70,24 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Projects – Alonso Astroza Tagle">
-<meta property="og:description" content="Here are my projects, mainly software and tools I’ve created.">
+<meta property="og:title" content="Datarisas – Alonso Astroza Tagle">
+<meta property="og:description" content="Tracking the history of Chilean humor.">
+<meta property="og:image" content="https://www.alonsoastroza.com/projects/datarisas/wordcloud.png">
 <meta property="og:site_name" content="Alonso Astroza Tagle">
+<meta property="og:image:height" content="790">
+<meta property="og:image:width" content="1175">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">alonso</span>
     </a>
   </div>
@@ -154,31 +98,31 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./talks.html"> 
+    <a class="nav-link" href="../../talks.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./spanish.html"> 
+    <a class="nav-link" href="../../spanish.html"> 
 <span class="menu-text">Español</span></a>
   </li>  
   <li class="nav-item compact">
@@ -195,174 +139,102 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Projects</h1>
-                  <div>
-        <div class="description">
-          <p>Here are my projects, mainly software and tools I’ve created.</p>
+<header id="title-block-header" class="quarto-title-block default page-columns">
+    <div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
+    <h1 class="title">Datarisas</h1>
+        <p class="subtitle lead"></p><p>Tracking the history of Chilean humor.</p><p></p>
+                        <div class="quarto-categories">
+                <div class="quarto-category">llm</div>
+                <div class="quarto-category">ai</div>
+                <div class="quarto-category">chile</div>
+                <div class="quarto-category">dataset</div>
+                </div>
+                </div>
+    
+        
+    
+    <div class="quarto-title-meta">
+
+        <div>
+        <div class="quarto-title-meta-heading">Author</div>
+        <div class="quarto-title-meta-contents">
+                 <p>Alonso Astroza </p>
+              </div>
+      </div>
+        
+        <div>
+        <div class="quarto-title-meta-heading">Published</div>
+        <div class="quarto-title-meta-contents">
+          <p class="date">June 11, 2024</p>
         </div>
       </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
+      
+        
+      </div>
       
     
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+        <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
+        <a href="https://github.com/aastroza/chilean-humor" class="btn btn-secondary text-capitalize"><i class="bi bi-github me-1"></i> Github Code</a>
+        <a href="https://datarisas.cl/" class="btn btn-secondary text-capitalize"><i class="bi bi-globe-americas me-1"></i> Project Website</a>
+        <a href="https://twitter.com/aastroza/status/1800561847902560738" class="btn btn-secondary text-capitalize"><i class="bi bi-twitter me-1"></i> Twitter Thread</a>
+        </div>
+        
+    </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+<!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
+<!-- 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title"> 
+-->
+<!-- <header id="title-block-header" class="quarto-title-block default page-columns"> -->
+<!-- <div class="quarto-title page-columns page-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);"> -->
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="datarisas_presidente.jpg" class="img-fluid figure-img"></p>
+<figcaption>A screenshot from datarisas.cl</figcaption>
+</figure>
+</div>
+<p><a href="https://www.datarisas.cl">Datarisas</a> is a project dedicated to analyzing the history of humor in Chile. We have collected and analyzed data from thousands of jokes told on the country’s most important stage: the <a href="https://en.wikipedia.org/wiki/Vi%C3%B1a_del_Mar_International_Song_Festival">Viña del Mar International Song Festival</a> (a music and entertainment festival held annually in the city of Viña del Mar, Chile).</p>
+<p>Our goal is not only to preserve these moments of humor but also to offer a deep and curious look at how comedy has evolved over the decades.</p>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>The site is powered by a database with <a href="https://db.datarisas.cl/humor/jokes"><strong>3,509</strong> jokes</a> told on the Viña del Mar Festival stage from 1960 to the present, extracted from transcriptions of <a href="https://db.datarisas.cl/humor/routines">128 routines</a> recorded on YouTube.</p>
+<p>The entire process of transcribing and extracting the jokes was <strong>completely automated</strong> using <strong>artificial intelligence</strong>. So far, no human has edited a single comma, but we hope to improve the data as soon as possible. If you’re interested in how the process is done, you can <a href="https://github.com/aastroza/chilean-humor">check out the code here</a>.</p>
+<p>In the future, we hope to complete all the jokes from all the routines and add data from other popular festivals. If you’re interested in collaborating with this cause, <a href="../../contact.html">contact me</a>.</p>
+</section>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<p>Below are some interesting analyses that emerge from the collected data.</p>
+<p>The first chart shows the age of each comedian at the time of their performance on the Viña Festival stage. There is a noticeable trend towards younger comedians starting in the 2010s, perhaps due to the influence of <em>stand-up comedy</em>?</p>
+<p><img src="age_line_plot.png" class="img-fluid"></p>
+<p>The second chart shows a cumulative count of how many times a man or a woman has performed comedy on the Viña Festival stage over the years.</p>
+<p><img src="gender_line_plot.png" class="img-fluid"></p>
+</section>
+<section id="credits" class="level2">
+<h2 class="anchored" data-anchor-id="credits">Credits</h2>
+<p>Datarisas is a project developed by <a href="https://github.com/aastroza">Alonso Astroza</a> and <a href="https://github.com/sikolio">Alfonso Concha</a>.</p>
+</section>
+<section id="how-to-cite" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-cite">How to Cite</h2>
+<p>If you wish to use the data from this project in your own analyses or research, please cite the project as follows:</p>
+<blockquote class="blockquote">
+<p>Astroza, A. and Concha, A. (2024). Datarisas: Analysis of the history of Chilean humor. https://www.datarisas.cl</p>
+</blockquote>
 
 
+</section>
 
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="llm,ai,fine-tuning,chile" data-listing-date-sort="1719705600000" data-listing-file-modified-sort="1720717023466" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="834">
-<a href="./projects/ft-hackathon/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/ft-hackathon/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mistral AI Fine-Tuning Hackathon
-</h5>
-<div class="card-text listing-description">
-Generative AI is revolutionizing communication worldwide. However, current models are predominantly trained in standard English, neglecting other languages like the unique…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Alonso Astroza
-</div>
-<div class="listing-date">
-Jun 30, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="llm,ai,chile,dataset" data-listing-date-sort="1718064000000" data-listing-file-modified-sort="1720717023462" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
-<a href="./projects/datarisas/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/datarisas/wordcloud.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Datarisas
-</h5>
-<div class="card-text listing-description">
-Datarisas is a project dedicated to analyzing the history of humor in Chile. We have collected and analyzed data from thousands of jokes told on the country’s most important…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Alonso Astroza
-</div>
-<div class="listing-date">
-Jun 11, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="llm,ai,structured-generation" data-listing-date-sort="1715472000000" data-listing-file-modified-sort="1720717023458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="487">
-<a href="./projects/chatstract/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/chatstract/image.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Chatstract
-</h5>
-<div class="card-text listing-description">
-<strong>Chatstract</strong> is a tool that progressively extracts structured information from multi-turn user chats using pydantic schemas and LLMs. Powered by Instructor.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Alonso Astroza
-</div>
-<div class="listing-date">
-May 12, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="llm,ai,rag,chile" data-listing-date-sort="1701388800000" data-listing-file-modified-sort="1720717023466" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
-<a href="./projects/discolab/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/discolab/discolab.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Discolab
-</h5>
-<div class="card-text listing-description">
-Co-created the AI engine for the <strong>Explorador Constitucional</strong> a joint project by La Tercera (one of Chile’s largest newspapers) and CRiSSLab.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Alonso Astroza
-</div>
-<div class="listing-date">
-Dec 1, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="llm,ai" data-listing-date-sort="1682208000000" data-listing-file-modified-sort="1720717023466" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<a href="./projects/podcast/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/podcast/pexels-tdcat-70911.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI-Podcast Generator
-</h5>
-<div class="card-text listing-description">
-AI Podcast Generator is a tool that automatically generates podcast scripts and audio from text files. This tool leverages Marvin for text generation and Play.ht API for…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Alonso Astroza
-</div>
-<div class="listing-date">
-Apr 23, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-astroza2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Astroza, Alonso. 2024. <span>“Datarisas.”</span> June 11, 2024. <a href="https://www.alonsoastroza.com/projects/datarisas/">https://www.alonsoastroza.com/projects/datarisas/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -932,4 +804,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/aastroza/blog/blob/main/projects.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/aastroza/blog/edit/main/projects.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/aastroza/blog/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/aastroza/blog/blob/main/projects/datarisas/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/aastroza/blog/edit/main/projects/datarisas/index.qmd" class="toc-action"><i class="bi empty"></i>Edit this page</a></li><li><a href="https://github.com/aastroza/blog/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
