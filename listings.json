@@ -48,7 +48,11 @@
       "/projects/discolab/index.html",
       "/projects/podcast/index.html",
       "/talks/post-with-code/index.html",
-      "/talks/welcome/index.html"
+      "/teaching/post-with-code/index.html",
+      "/talks/welcome/index.html",
+      "/teaching/welcome/index.html",
+      "/posteos/post-with-code/index.html",
+      "/posteos/welcome/index.html"
     ]
   }
 ]

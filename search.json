@@ -207,7 +207,7 @@
     "href": "index.html",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
     "section": "",
-    "text": "I’m a Machine Learning Engineer. I create products that transform raw data into business value, empowering organizations to optimize their operations and services.\n    \n\n    \n      If you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice. I enjoy building new connections and would be happy to discuss how we can work together. Let's connect!\n    \n    About Me →"
+    "text": "I’m a Machine Learning Engineer. I create products that transform raw data into business value, empowering organizations to optimize their operations and services.\n    \n\n    \n      If you need help solving a problem using data, I’d love to assist you. I offer various consulting services to support your goals, including long-term and short-term consulting, private training, and on-demand advice. I enjoy building new connections and would be happy to discuss how we can work together. Let's connect!\n    \n    About Me →"
   },
   {
     "objectID": "index.html#latest-posts",
@@ -224,11 +224,18 @@
     "text": "Latest Projects\n\n\n\n\n\n\n\n\n\n\nMistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#latest-talks",
-    "href": "index.html#latest-talks",
+    "objectID": "index.html#latest-talks-and-workshops",
+    "href": "index.html#latest-talks-and-workshops",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "Latest Talks",
-    "text": "Latest Talks\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "section": "Latest Talks and Workshops",
+    "text": "Latest Talks and Workshops\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#lo-último-en-español",
+    "href": "index.html#lo-último-en-español",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Lo último en Español",
+    "text": "Lo último en Español\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/chatstract/index.html",
