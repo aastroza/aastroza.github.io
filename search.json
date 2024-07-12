@@ -74,7 +74,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Structured Generation Benchmark\n\n\nMy Mistral FT Hackathon entry. \n\n\n\nLLM\n\n\nstructured-generation\n\n\nbenchmark\n\n\nfunction-calling\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching.html",
@@ -96,139 +96,6 @@
     "title": "License",
     "section": "",
     "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\nFor code, please refer to the license of each respective repository."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\nSign up using this form to receive an email whenever I post new content on my blog.\n\n\n\n\nReuseCC BY-SA 4.0CitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/posts/welcome/."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/intro-ml/index.html",
-    "href": "teaching/intro-ml/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/teaching/intro-ml/."
-  },
-  {
-    "objectID": "teaching/powerbi/index.html",
-    "href": "teaching/powerbi/index.html",
-    "title": "Intro to PowerBI",
-    "section": "",
-    "text": "A short workshop for undergraduate students at Universidad del Desarrollo. The purpose is to highlight the importance of learning data visualization tools like PowerBI and to provide a basic introduction to its use."
-  },
-  {
-    "objectID": "teaching/powerbi/index.html#first-steps",
-    "href": "teaching/powerbi/index.html#first-steps",
-    "title": "Intro to PowerBI",
-    "section": "First Steps",
-    "text": "First Steps"
-  },
-  {
-    "objectID": "teaching/powerbi/index.html#data-load",
-    "href": "teaching/powerbi/index.html#data-load",
-    "title": "Intro to PowerBI",
-    "section": "Data Load",
-    "text": "Data Load"
-  },
-  {
-    "objectID": "teaching/powerbi/index.html#data-model",
-    "href": "teaching/powerbi/index.html#data-model",
-    "title": "Intro to PowerBI",
-    "section": "Data Model",
-    "text": "Data Model"
-  },
-  {
-    "objectID": "teaching/powerbi/index.html#data-visualization",
-    "href": "teaching/powerbi/index.html#data-visualization",
-    "title": "Intro to PowerBI",
-    "section": "Data Visualization",
-    "text": "Data Visualization"
-  },
-  {
-    "objectID": "teaching/powerbi/index.html#further-steps",
-    "href": "teaching/powerbi/index.html#further-steps",
-    "title": "Intro to PowerBI",
-    "section": "Further Steps",
-    "text": "Further Steps\n\nHow to import SQLite data to PowerBI\n\n\n\nOther Courses\nIf you are a student at UDD and are interested in delving deeper into this tool, I recommend the following Zigna course."
-  },
-  {
-    "objectID": "talks/hrday-2024/index.html",
-    "href": "talks/hrday-2024/index.html",
-    "title": "Artificial Intelligence for Natural Brains (Spanish)",
-    "section": "",
-    "text": "HRday is a wonderful (and free!) event that the Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. This year, I was invited again to address a question many of us are asking: Is AI going to take my job?\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Artificial Intelligence for Natural Brains\n(Spanish).” May 15, 2024. https://www.alonsoastroza.com/talks/hrday-2024/."
-  },
-  {
-    "objectID": "talks/clase-chatgpt/index.html",
-    "href": "talks/clase-chatgpt/index.html",
-    "title": "ChatGPT for beginners (Spanish)",
-    "section": "",
-    "text": "During the ChatGPT craze, I decided to teach an introductory class for non-technical people.\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “ChatGPT for Beginners (Spanish).”\nMay 8, 2023. https://www.alonsoastroza.com/talks/clase-chatgpt/."
-  },
-  {
-    "objectID": "talks/hrday-2023/index.html",
-    "href": "talks/hrday-2023/index.html",
-    "title": "AI in Human Resources (Spanish)",
-    "section": "",
-    "text": "HRday is a wonderful (and free!) event that the Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. By 2023, it was on everyone’s lips, and I was invited back to update the talk. Here is the result:\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “AI in Human Resources (Spanish).”\nMay 25, 2023. https://www.alonsoastroza.com/talks/hrday-2023/."
-  },
-  {
-    "objectID": "talks/mono-porfiado/index.html",
-    "href": "talks/mono-porfiado/index.html",
-    "title": "Podcast Mono Porfiado (Spanish)",
-    "section": "",
-    "text": "I appeared in an episode of the podcast Mono Porfiado by Defontana.\n\nIn this episode, we will have Alonso Astroza as a guest, who has been connected to the world of innovation and technology since his youth. He is one of the first Chileans to work with and introduce the concept of Artificial Intelligence in our country.\n\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Podcast Mono Porfiado (Spanish).”\nApril 17, 2024. https://www.alonsoastroza.com/talks/mono-porfiado/."
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Artificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/github/index.html",
-    "href": "teaching/github/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/teaching/github/."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Alonso",
-    "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI’m Alonso Astroza Tagle. This is my resume.\n\n\n🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile.\n\n\n\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Alonso",
-    "section": "",
-    "text": "🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile."
-  },
-  {
-    "objectID": "about.html#personal",
-    "href": "about.html#personal",
-    "title": "Alonso",
-    "section": "",
-    "text": "🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
-  },
-  {
-    "objectID": "about.html#consulting",
-    "href": "about.html#consulting",
-    "title": "Alonso",
-    "section": "Consulting",
-    "text": "Consulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.\nI enjoy building new connections and would be happy to discuss how we can work together. Let’s connect!"
   },
   {
     "objectID": "consulting.html",
@@ -273,11 +140,179 @@
     "text": "GeoVictoria: A leading provider of time and attendance management solutions. We’re developing VictorIA, a conversational AI for HR.\nDefontana: A comprehensive ERP software provider offering solutions for businesses of all sizes, including modules for accounting, HR, POS, and more. I developed an inventory demand prediction tool.\nCoopeuch: A leading Chilean savings and credit cooperative offering financial services like loans, investments, and insurance. I trained the data analytics team on machine learning.\nTRC Recruitme: Connects job seekers with employers. Building an LLM-powered recruitment platform from unstructured data.\nDiscolab: Deployed an OpenAI API-based product that efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day.\nSubconscious.ai: I helped build an AI Copilot for causal market research, using LangChain’s LCEL to transform the query process for LLMs.\n\n\nLet’s harness AI’s power to solve your business problems!\n\nFull Name \nEmail Address \nMessage\n\n\nSend"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Alonso",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI’m Alonso Astroza Tagle. This is my resume.\n\n\n🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile.\n\n\n\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Alonso",
+    "section": "",
+    "text": "🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile."
+  },
+  {
+    "objectID": "about.html#personal",
+    "href": "about.html#personal",
+    "title": "Alonso",
+    "section": "",
+    "text": "🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
+  },
+  {
+    "objectID": "about.html#consulting",
+    "href": "about.html#consulting",
+    "title": "Alonso",
+    "section": "Consulting",
+    "text": "Consulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.\nI enjoy building new connections and would be happy to discuss how we can work together. Let’s connect!"
+  },
+  {
+    "objectID": "teaching/github/index.html",
+    "href": "teaching/github/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/teaching/github/."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Artificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks/mono-porfiado/index.html",
+    "href": "talks/mono-porfiado/index.html",
+    "title": "Podcast Mono Porfiado (Spanish)",
+    "section": "",
+    "text": "I appeared in an episode of the podcast Mono Porfiado by Defontana.\n\nIn this episode, we will have Alonso Astroza as a guest, who has been connected to the world of innovation and technology since his youth. He is one of the first Chileans to work with and introduce the concept of Artificial Intelligence in our country.\n\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Podcast Mono Porfiado (Spanish).”\nApril 17, 2024. https://www.alonsoastroza.com/talks/mono-porfiado/."
+  },
+  {
+    "objectID": "talks/hrday-2023/index.html",
+    "href": "talks/hrday-2023/index.html",
+    "title": "AI in Human Resources (Spanish)",
+    "section": "",
+    "text": "HRday is a wonderful (and free!) event that the Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. By 2023, it was on everyone’s lips, and I was invited back to update the talk. Here is the result:\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “AI in Human Resources (Spanish).”\nMay 25, 2023. https://www.alonsoastroza.com/talks/hrday-2023/."
+  },
+  {
+    "objectID": "talks/clase-chatgpt/index.html",
+    "href": "talks/clase-chatgpt/index.html",
+    "title": "ChatGPT for beginners (Spanish)",
+    "section": "",
+    "text": "During the ChatGPT craze, I decided to teach an introductory class for non-technical people.\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “ChatGPT for Beginners (Spanish).”\nMay 8, 2023. https://www.alonsoastroza.com/talks/clase-chatgpt/."
+  },
+  {
+    "objectID": "talks/hrday-2024/index.html",
+    "href": "talks/hrday-2024/index.html",
+    "title": "Artificial Intelligence for Natural Brains (Spanish)",
+    "section": "",
+    "text": "HRday is a wonderful (and free!) event that the Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. This year, I was invited again to address a question many of us are asking: Is AI going to take my job?\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Artificial Intelligence for Natural Brains\n(Spanish).” May 15, 2024. https://www.alonsoastroza.com/talks/hrday-2024/."
+  },
+  {
+    "objectID": "teaching/powerbi/index.html",
+    "href": "teaching/powerbi/index.html",
+    "title": "Intro to PowerBI",
+    "section": "",
+    "text": "A short workshop for undergraduate students at Universidad del Desarrollo. The purpose is to highlight the importance of learning data visualization tools like PowerBI and to provide a basic introduction to its use."
+  },
+  {
+    "objectID": "teaching/powerbi/index.html#first-steps",
+    "href": "teaching/powerbi/index.html#first-steps",
+    "title": "Intro to PowerBI",
+    "section": "First Steps",
+    "text": "First Steps"
+  },
+  {
+    "objectID": "teaching/powerbi/index.html#data-load",
+    "href": "teaching/powerbi/index.html#data-load",
+    "title": "Intro to PowerBI",
+    "section": "Data Load",
+    "text": "Data Load"
+  },
+  {
+    "objectID": "teaching/powerbi/index.html#data-model",
+    "href": "teaching/powerbi/index.html#data-model",
+    "title": "Intro to PowerBI",
+    "section": "Data Model",
+    "text": "Data Model"
+  },
+  {
+    "objectID": "teaching/powerbi/index.html#data-visualization",
+    "href": "teaching/powerbi/index.html#data-visualization",
+    "title": "Intro to PowerBI",
+    "section": "Data Visualization",
+    "text": "Data Visualization"
+  },
+  {
+    "objectID": "teaching/powerbi/index.html#further-steps",
+    "href": "teaching/powerbi/index.html#further-steps",
+    "title": "Intro to PowerBI",
+    "section": "Further Steps",
+    "text": "Further Steps\n\nHow to import SQLite data to PowerBI\n\n\n\nOther Courses\nIf you are a student at UDD and are interested in delving deeper into this tool, I recommend the following Zigna course."
+  },
+  {
+    "objectID": "teaching/intro-ml/index.html",
+    "href": "teaching/intro-ml/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "This is a post with executable code.\n\n\n\nReuseCC BY-SA 4.0CitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/posts/post-with-code/."
+    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/teaching/intro-ml/."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/structured-generation-benchmark/index.html",
+    "href": "posts/structured-generation-benchmark/index.html",
+    "title": "Structured Generation Benchmark",
+    "section": "",
+    "text": "[!NOTE] This report originates from the Outlines community’s proposal to find a good dataset for evaluating structured generation. If you want to participate, join our Discord.\n\n\n\nThe main goal of this evaluation is to show the power of structured generation in the context of Function Calling, which is the ability of Large Language Models (LLMs) to call functions based on natural language instructions. We focus on the case where the LLM is given a single JSON function document and is expected to make a single function call.\nTo create this evaluation, we use the Outlines library, which changes the problem of neural text generation into transitions between states of a finite-state machine1. Outlines allows for the creation of reliable interfaces by ensuring the structure of the generated text.\nWe want to explore some interesting questions: Can structured generation work better than fine-tuning for Function Calling? Can this approach allow smaller open-source models to perform as well as larger, state-of-the-art models? The results of this evaluation will give us valuable insights into the abilities and potential of structured generation in improving the performance of LLMs across various model sizes and architectures, potentially reshaping our understanding of how to optimize for specific tasks.\n\n\n\nThere is a dataset generated from real-world data that has been released2 for the construction of the Berkeley Function-Calling Leaderboard. It consists of 2,000 question-function-answer pairs across multiple languages, diverse application domains, and complex use cases3. Additionally, it includes the code to reproduce the benchmark, which serves as a sort of framework for evaluation. If you want to learn more about this outstanding initiative, we recommend reading this blog post.\n\n\nIn the Outlines community, we decided to start with the ‘AST Simple’ category, as described by the authors:\n\nSimple Function: The evaluation of a single function includes the simplest but most commonly seen format, where the user provides a single JSON function document. Only one function call will be invoked.\n\nHere is an example from one of the 400 records in the python section of this evaluation category:\nquestion = 'Find the area of a triangle with a base of 10 units and height of 5 units.'\nTo answer the question, the LLM has access to the function defined by this JSON Schema:\n{\n  \"title\": \"calculate_triangle_area\",\n  \"type\": \"object\",\n  \"description\": \"Calculate the area of a triangle given its base and height.\",\n  \"properties\": {\n    \"base\": {\n      \"type\": \"integer\",\n      \"description\": \"The base of the triangle.\"\n    },\n    \"height\": {\n      \"type\": \"integer\",\n      \"description\": \"The height of the triangle.\"\n    },\n    \"unit\": {\n      \"type\": \"string\",\n      \"description\": \"The unit of measure (defaults to 'units' if not specified)\"\n    }\n  },\n  \"required\": [\n    \"base\",\n    \"height\"\n  ]\n}\nThe expected response:\ncalculate_triangle_area(base=10, height=5, unit='units')\nThis is exactly the use case we’ve been facing in our efforts to integrate LLMs to power software.\n\n\n\nWe use the evaluation process for simple functions within the GFCL framework. This process involves comparing the output of a model directly with the expected function document and potential correct answers. Below is a flowchart that details this step-by-step evaluation process.\n\n\n\nEvaluating function calls. Image from GFCL blog post.\n\n\nThen, accuracy is calculated by counting the validated function calls and comparing them with the total number of simple test category cases.\n\n\n\n\n\nWe deployed a Modal function to run open-source models using Transformers + Outlines. Modal is an easy-to-use cloud platform useful to run generative AI models. Soon, we will write in more detail about our experience deploying structured generation there.\nWe created different model handlers to run the Gorilla BFCL evaluation framework [April 6, 2024 version] for the AST simple evaluation category.\nWe evaluated and reported the results comparing them with the Leaderboard Website [April 26, 2024 version].\n\n\n\n\n\n\n\nOur first intuition was to explore the potential of structured generation in enhancing the performance of a 7B model on the Function Calling task. Mistral-7B-Instruct-v0.2 achieved an impressive accuracy of 85.5%, securing the 5th position on the leaderboard. Notably, this result stands as the highest score among all Mistral models in the table, suggesting that structured generation may play a significant role in enabling smaller models to tackle complex tasks effectively.\n\n\n\n\nWe wanted to see if a base 7B model could reach the top of the leaderboard by using the power of structured generation. google/gemma-7b-it was already the best 7B model on the leaderboard before our tests. However, when we combined it with Outlines, it showed a huge jump in performance. It went from the 37th position with an accuracy of 42.18% to an impressive 7th place, achieving an accuracy of 84.25%. This big improvement highlights the potential of structured generation to boost the performance of base models.\n\n\n\n\nWe tried to directly compare how well structured generation works against fine-tuning. We chose deepseek-coder-7b-instruct-v1.5, a model that is used as the base for the fine-tuned Gorilla model. By combining it with Outlines, we saw a remarkable improvement in performance. The model jumped from the 38th position with an accuracy of 38.91% to an amazing 3rd place, achieving an accuracy of 87%. This result is very important because it matches the performance of the fine-tuned Gorilla-OpenFunctions-v2 model, which is based on the same architecture. The success of this test raises important questions about the different ways to improve model performance. It suggests that structured generation may, in some cases, be a good and efficient alternative to fine-tuning.\n\n\n\n\nWe couldn’t resist testing the latest sensation in the world of language models. When combined with structured generation, Meta-Llama-3-8B-Instruct achieved an impressive accuracy of 84.25%, securing the 7th position on the leaderboard.\n\n\n\n\nOur study shows that structured generation greatly improves how LLMs handle function calling tasks. Through testing, we found that structured generation matches traditional fine-tuning in terms of accuracy and efficiency, especially for smaller models. It also leads to more understanding of complex inputs. Looking ahead, we plan to expand our use of the GFCL benchmark’s evaluation categories and explore or develop more diverse datasets."
+  },
+  {
+    "objectID": "posts/structured-generation-benchmark/index.html#goal",
+    "href": "posts/structured-generation-benchmark/index.html#goal",
+    "title": "Structured Generation Benchmark",
+    "section": "",
+    "text": "The main goal of this evaluation is to show the power of structured generation in the context of Function Calling, which is the ability of Large Language Models (LLMs) to call functions based on natural language instructions. We focus on the case where the LLM is given a single JSON function document and is expected to make a single function call.\nTo create this evaluation, we use the Outlines library, which changes the problem of neural text generation into transitions between states of a finite-state machine1. Outlines allows for the creation of reliable interfaces by ensuring the structure of the generated text.\nWe want to explore some interesting questions: Can structured generation work better than fine-tuning for Function Calling? Can this approach allow smaller open-source models to perform as well as larger, state-of-the-art models? The results of this evaluation will give us valuable insights into the abilities and potential of structured generation in improving the performance of LLMs across various model sizes and architectures, potentially reshaping our understanding of how to optimize for specific tasks."
+  },
+  {
+    "objectID": "posts/structured-generation-benchmark/index.html#benchmark",
+    "href": "posts/structured-generation-benchmark/index.html#benchmark",
+    "title": "Structured Generation Benchmark",
+    "section": "",
+    "text": "There is a dataset generated from real-world data that has been released2 for the construction of the Berkeley Function-Calling Leaderboard. It consists of 2,000 question-function-answer pairs across multiple languages, diverse application domains, and complex use cases3. Additionally, it includes the code to reproduce the benchmark, which serves as a sort of framework for evaluation. If you want to learn more about this outstanding initiative, we recommend reading this blog post.\n\n\nIn the Outlines community, we decided to start with the ‘AST Simple’ category, as described by the authors:\n\nSimple Function: The evaluation of a single function includes the simplest but most commonly seen format, where the user provides a single JSON function document. Only one function call will be invoked.\n\nHere is an example from one of the 400 records in the python section of this evaluation category:\nquestion = 'Find the area of a triangle with a base of 10 units and height of 5 units.'\nTo answer the question, the LLM has access to the function defined by this JSON Schema:\n{\n  \"title\": \"calculate_triangle_area\",\n  \"type\": \"object\",\n  \"description\": \"Calculate the area of a triangle given its base and height.\",\n  \"properties\": {\n    \"base\": {\n      \"type\": \"integer\",\n      \"description\": \"The base of the triangle.\"\n    },\n    \"height\": {\n      \"type\": \"integer\",\n      \"description\": \"The height of the triangle.\"\n    },\n    \"unit\": {\n      \"type\": \"string\",\n      \"description\": \"The unit of measure (defaults to 'units' if not specified)\"\n    }\n  },\n  \"required\": [\n    \"base\",\n    \"height\"\n  ]\n}\nThe expected response:\ncalculate_triangle_area(base=10, height=5, unit='units')\nThis is exactly the use case we’ve been facing in our efforts to integrate LLMs to power software.\n\n\n\nWe use the evaluation process for simple functions within the GFCL framework. This process involves comparing the output of a model directly with the expected function document and potential correct answers. Below is a flowchart that details this step-by-step evaluation process.\n\n\n\nEvaluating function calls. Image from GFCL blog post.\n\n\nThen, accuracy is calculated by counting the validated function calls and comparing them with the total number of simple test category cases."
+  },
+  {
+    "objectID": "posts/structured-generation-benchmark/index.html#methodology",
+    "href": "posts/structured-generation-benchmark/index.html#methodology",
+    "title": "Structured Generation Benchmark",
+    "section": "",
+    "text": "We deployed a Modal function to run open-source models using Transformers + Outlines. Modal is an easy-to-use cloud platform useful to run generative AI models. Soon, we will write in more detail about our experience deploying structured generation there.\nWe created different model handlers to run the Gorilla BFCL evaluation framework [April 6, 2024 version] for the AST simple evaluation category.\nWe evaluated and reported the results comparing them with the Leaderboard Website [April 26, 2024 version]."
+  },
+  {
+    "objectID": "posts/structured-generation-benchmark/index.html#results",
+    "href": "posts/structured-generation-benchmark/index.html#results",
+    "title": "Structured Generation Benchmark",
+    "section": "",
+    "text": "Our first intuition was to explore the potential of structured generation in enhancing the performance of a 7B model on the Function Calling task. Mistral-7B-Instruct-v0.2 achieved an impressive accuracy of 85.5%, securing the 5th position on the leaderboard. Notably, this result stands as the highest score among all Mistral models in the table, suggesting that structured generation may play a significant role in enabling smaller models to tackle complex tasks effectively.\n\n\n\n\nWe wanted to see if a base 7B model could reach the top of the leaderboard by using the power of structured generation. google/gemma-7b-it was already the best 7B model on the leaderboard before our tests. However, when we combined it with Outlines, it showed a huge jump in performance. It went from the 37th position with an accuracy of 42.18% to an impressive 7th place, achieving an accuracy of 84.25%. This big improvement highlights the potential of structured generation to boost the performance of base models.\n\n\n\n\nWe tried to directly compare how well structured generation works against fine-tuning. We chose deepseek-coder-7b-instruct-v1.5, a model that is used as the base for the fine-tuned Gorilla model. By combining it with Outlines, we saw a remarkable improvement in performance. The model jumped from the 38th position with an accuracy of 38.91% to an amazing 3rd place, achieving an accuracy of 87%. This result is very important because it matches the performance of the fine-tuned Gorilla-OpenFunctions-v2 model, which is based on the same architecture. The success of this test raises important questions about the different ways to improve model performance. It suggests that structured generation may, in some cases, be a good and efficient alternative to fine-tuning.\n\n\n\n\nWe couldn’t resist testing the latest sensation in the world of language models. When combined with structured generation, Meta-Llama-3-8B-Instruct achieved an impressive accuracy of 84.25%, securing the 7th position on the leaderboard."
+  },
+  {
+    "objectID": "posts/structured-generation-benchmark/index.html#conclusion",
+    "href": "posts/structured-generation-benchmark/index.html#conclusion",
+    "title": "Structured Generation Benchmark",
+    "section": "",
+    "text": "Our study shows that structured generation greatly improves how LLMs handle function calling tasks. Through testing, we found that structured generation matches traditional fine-tuning in terms of accuracy and efficiency, especially for smaller models. It also leads to more understanding of complex inputs. Looking ahead, we plan to expand our use of the GFCL benchmark’s evaluation categories and explore or develop more diverse datasets."
+  },
+  {
+    "objectID": "posts/structured-generation-benchmark/index.html#footnotes",
+    "href": "posts/structured-generation-benchmark/index.html#footnotes",
+    "title": "Structured Generation Benchmark",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWillard, B. T., & Louf, R. (2023). Efficient Guided Generation for Large Language Models.↩︎\nYan, F., Mao, H., Ji, C. C.-J., Zhang, T., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2024). Berkeley Function Calling Leaderboard.↩︎\nPatil, S. G., Zhang, T., Wang, X., & Gonzalez, J. E. (2023). Gorilla: Large Language Model Connected with Massive APIs. arXiv preprint arXiv:2305.15334.↩︎"
   },
   {
     "objectID": "contact.html",
@@ -312,7 +347,7 @@
     "href": "index.html#latest-posts",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
     "section": "Latest Posts",
-    "text": "Latest Posts\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Latest Posts\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#latest-projects",

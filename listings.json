@@ -2,8 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/structured-generation-benchmark/index.html"
     ]
   },
   {
@@ -12,6 +11,15 @@
       "/teaching/intro-ml/index.html",
       "/teaching/github/index.html",
       "/teaching/powerbi/index.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/hrday-2024/index.html",
+      "/talks/mono-porfiado/index.html",
+      "/talks/hrday-2023/index.html",
+      "/talks/clase-chatgpt/index.html"
     ]
   },
   {
@@ -25,15 +33,6 @@
     ]
   },
   {
-    "listing": "/talks.html",
-    "items": [
-      "/talks/hrday-2024/index.html",
-      "/talks/mono-porfiado/index.html",
-      "/talks/hrday-2023/index.html",
-      "/talks/clase-chatgpt/index.html"
-    ]
-  },
-  {
     "listing": "/spanish.html",
     "items": [
       "/posteos/post-with-code/index.html",
@@ -43,8 +42,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
+      "/posts/structured-generation-benchmark/index.html",
       "/projects/ft-hackathon/index.html",
       "/projects/datarisas/index.html",
       "/projects/chatstract/index.html",

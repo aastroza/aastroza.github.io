@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alonso Astroza">
-<meta name="dcterms.date" content="2024-05-15">
+<meta name="dcterms.date" content="2024-07-04">
 
-<title>Artificial Intelligence for Natural Brains (Spanish) – Alonso Astroza Tagle</title>
+<title>Structured Generation Benchmark – Alonso Astroza Tagle</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -74,15 +108,12 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Artificial Intelligence for Natural Brains (Spanish) – Alonso Astroza Tagle">
-<meta property="og:description" content="My talk for HRday 2024.">
-<meta property="og:image" content="https://www.alonsoastroza.com/talks/hrday-2024/anuncio-crop.png">
+<meta property="og:title" content="Structured Generation Benchmark – Alonso Astroza Tagle">
+<meta property="og:description" content="My Mistral FT Hackathon entry.">
 <meta property="og:site_name" content="Alonso Astroza Tagle">
-<meta property="og:image:height" content="769">
-<meta property="og:image:width" content="1077">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -143,12 +174,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns">
     <div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
-    <h1 class="title">Artificial Intelligence for Natural Brains (Spanish)</h1>
-        <p class="subtitle lead"></p><p>My talk for HRday 2024.</p><p></p>
+    <h1 class="title">Structured Generation Benchmark</h1>
+        <p class="subtitle lead"></p><p>My Mistral FT Hackathon entry.</p><p></p>
                         <div class="quarto-categories">
-                <div class="quarto-category">human-resources</div>
-                <div class="quarto-category">ai</div>
-                <div class="quarto-category">spanish</div>
+                <div class="quarto-category">LLM</div>
+                <div class="quarto-category">structured-generation</div>
+                <div class="quarto-category">benchmark</div>
+                <div class="quarto-category">function-calling</div>
                 </div>
                 </div>
     
@@ -166,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
         <div>
         <div class="quarto-title-meta-heading">Published</div>
         <div class="quarto-title-meta-contents">
-          <p class="date">May 15, 2024</p>
+          <p class="date">July 4, 2024</p>
         </div>
       </div>
       
@@ -175,14 +207,38 @@ ul.task-list li input[type="checkbox"] {
       
     
         <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
-        <a href="https://youtu.be/ZZf15GSl0dc?si=XJtm_b2jHzTi2I74" class="btn btn-secondary text-capitalize"><i class="bi bi-youtube me-1"></i> Video</a>
-        <a href="https://docs.google.com/presentation/d/1yY5hlYwiyIE8fzQxRBt8ERPU9VAgZ_4B/edit?usp=sharing&amp;ouid=117898761764034952123&amp;rtpof=true&amp;sd=true" class="btn btn-secondary text-capitalize"><i class="bi bi-google me-1"></i> Slides</a>
+        <a href="https://github.com/aastroza/structured-generation-benchmark" class="btn btn-secondary text-capitalize"><i class="bi bi-github me-1"></i> Github Code</a>
         </div>
         
     </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#outlines-function-calling-evaluation" id="toc-outlines-function-calling-evaluation" class="nav-link active" data-scroll-target="#outlines-function-calling-evaluation">Outlines Function Calling Evaluation</a>
+  <ul class="collapse">
+  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal</a></li>
+  <li><a href="#benchmark" id="toc-benchmark" class="nav-link" data-scroll-target="#benchmark">Benchmark</a>
+  <ul class="collapse">
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#metric" id="toc-metric" class="nav-link" data-scroll-target="#metric">Metric</a></li>
+  </ul></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
+  <ul class="collapse">
+  <li><a href="#mistral-7b-instruct-v0.2-5th-85.5" id="toc-mistral-7b-instruct-v0.2-5th-85.5" class="nav-link" data-scroll-target="#mistral-7b-instruct-v0.2-5th-85.5">Mistral-7B-Instruct-v0.2 (5th, 85.5%)</a></li>
+  <li><a href="#gemma-7b-it-from-37th-42.18-to-7th-84.25" id="toc-gemma-7b-it-from-37th-42.18-to-7th-84.25" class="nav-link" data-scroll-target="#gemma-7b-it-from-37th-42.18-to-7th-84.25">Gemma-7b-it (from 37th, 42.18% to 7th, 84.25%)</a></li>
+  <li><a href="#deepseek-v1.5-from-38th-38.91-to-3rd-87" id="toc-deepseek-v1.5-from-38th-38.91-to-3rd-87" class="nav-link" data-scroll-target="#deepseek-v1.5-from-38th-38.91-to-3rd-87">Deepseek-v1.5 (from 38th, 38.91% to 3rd, 87%)</a></li>
+  <li><a href="#meta-llama-3-8b-instruct-from-34th-58.73-to-7th-84.25" id="toc-meta-llama-3-8b-instruct-from-34th-58.73-to-7th-84.25" class="nav-link" data-scroll-target="#meta-llama-3-8b-instruct-from-34th-58.73-to-7th-84.25">Meta-Llama-3-8B-Instruct (from 34th, 58.73% to 7th, 84.25%)</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -196,14 +252,118 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><strong>HRday</strong> is a wonderful (and free!) event that the <a href="https://redderrhh.com/">Red de Recursos Humanos</a> has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled <em>“AI in Human Resources.”</em> That’s right, I talked about the topic before it became trendy. This year, I was invited again to address a question many of us are asking: Is AI going to take my job?</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/ZZf15GSl0dc?si=XJtm_b2jHzTi2I74" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="outlines-function-calling-evaluation" class="level1">
+<h1>Outlines Function Calling Evaluation</h1>
+<blockquote class="blockquote">
+<p>[!NOTE] This report originates from the <a href="https://github.com/outlines-dev/outlines">Outlines</a> community’s proposal to find a good dataset for evaluating structured generation. If you want to participate, join our <a href="https://discord.gg/ZxBxyWmW5n">Discord</a>.</p>
+</blockquote>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal</h2>
+<p>The main goal of this evaluation is to show the power of structured generation in the context of Function Calling, which is the ability of Large Language Models (LLMs) to call functions based on natural language instructions. We focus on the case where the LLM is given a single JSON function document and is expected to make a single function call.</p>
+<p>To create this evaluation, we use the <a href="https://github.com/outlines-dev/outlines">Outlines</a> library, which changes the problem of neural text generation into transitions between states of a finite-state machine<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Outlines allows for the creation of reliable interfaces by ensuring the structure of the generated text.</p>
+<p>We want to explore some interesting questions: Can structured generation work better than fine-tuning for Function Calling? Can this approach allow smaller open-source models to perform as well as larger, state-of-the-art models? The results of this evaluation will give us valuable insights into the abilities and potential of structured generation in improving the performance of LLMs across various model sizes and architectures, potentially reshaping our understanding of how to optimize for specific tasks.</p>
+</section>
+<section id="benchmark" class="level2">
+<h2 class="anchored" data-anchor-id="benchmark">Benchmark</h2>
+<p>There is a dataset generated from real-world data that has been released<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> for the construction of the <a href="https://gorilla.cs.berkeley.edu/leaderboard.html#leaderboard"><strong>Berkeley Function-Calling Leaderboard</strong></a>. It consists of 2,000 question-function-answer pairs across multiple languages, diverse application domains, and complex use cases<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. Additionally, it includes the <a href="https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard">code to reproduce the benchmark</a>, which serves as a sort of framework for evaluation. If you want to learn more about this outstanding initiative, we recommend reading <a href="https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html">this blog post</a>.</p>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<p>In the Outlines community, we decided to start with the ‘AST Simple’ category, as described by the authors:</p>
+<blockquote class="blockquote">
+<p>Simple Function: The evaluation of a single function includes the simplest but most commonly seen format, where the user provides a single JSON function document. Only one function call will be invoked.</p>
+</blockquote>
+<p>Here is an example from one of the 400 records in the python section of this evaluation category:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>question <span class="op">=</span> <span class="st">'Find the area of a triangle with a base of 10 units and height of 5 units.'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>To answer the question, the LLM has access to the function defined by this JSON Schema:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"title"</span><span class="fu">:</span> <span class="st">"calculate_triangle_area"</span><span class="fu">,</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"object"</span><span class="fu">,</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"Calculate the area of a triangle given its base and height."</span><span class="fu">,</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"properties"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"base"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"integer"</span><span class="fu">,</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"The base of the triangle."</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">},</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"height"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"integer"</span><span class="fu">,</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"The height of the triangle."</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">},</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"unit"</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"string"</span><span class="fu">,</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>      <span class="dt">"description"</span><span class="fu">:</span> <span class="st">"The unit of measure (defaults to 'units' if not specified)"</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">},</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"required"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"base"</span><span class="ot">,</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"height"</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The expected response:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>calculate_triangle_area(base<span class="op">=</span><span class="dv">10</span>, height<span class="op">=</span><span class="dv">5</span>, unit<span class="op">=</span><span class="st">'units'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This is exactly the use case we’ve been facing in our efforts to integrate LLMs to power software.</p>
+</section>
+<section id="metric" class="level3">
+<h3 class="anchored" data-anchor-id="metric">Metric</h3>
+<p>We use the evaluation process for simple functions within the GFCL framework. This process involves comparing the output of a model directly with the expected function document and potential correct answers. Below is a flowchart that details this step-by-step evaluation process.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="metric_flowchart.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Evaluating function calls. Image from <a href="https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html">GFCL blog post</a>.</figcaption>
+</figure>
+</div>
+<p>Then, accuracy is calculated by counting the validated function calls and comparing them with the total number of simple test category cases.</p>
+</section>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<ul>
+<li>We deployed a <a href="modal/transformers_outlines.py"><strong>Modal</strong> function</a> to run open-source models using <a href="https://github.com/huggingface/transformers">Transformers</a> + <a href="https://github.com/outlines-dev/outlines">Outlines</a>. <a href="https://modal.com/">Modal</a> is an easy-to-use cloud platform useful to run generative AI models. Soon, we will write in more detail about <a href="https://github.com/aastroza/modal-outlines-examples">our experience deploying structured generation there</a>.</li>
+<li>We created different <a href="evals/bfcl/scripts">model handlers</a> to run the <a href="https://github.com/ShishirPatil/gorilla/tree/c6221060a9d50d0c7e7705f1ac95b9e5c4a95252">Gorilla BFCL evaluation framework</a> [April 6, 2024 version] for the <code>AST simple</code> evaluation category.</li>
+<li>We <a href="evals/bfcl/score">evaluated</a> and reported the <a href="evals/bfcl/result">results</a> comparing them with the <a href="https://github.com/ShishirPatil/gorilla/blob/46e959b73be6a40c233e36c71c268ce3a9eabe36/data.csv">Leaderboard Website</a> [April 26, 2024 version].</li>
+</ul>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<section id="mistral-7b-instruct-v0.2-5th-85.5" class="level3">
+<h3 class="anchored" data-anchor-id="mistral-7b-instruct-v0.2-5th-85.5">Mistral-7B-Instruct-v0.2 (5th, 85.5%)</h3>
+<p><img src="figures/Mistral_simple_function_ast_bar_plot.png" class="img-fluid"></p>
+<p>Our first intuition was to explore the potential of structured generation in enhancing the performance of a 7B model on the Function Calling task. <code>Mistral-7B-Instruct-v0.2</code> achieved an impressive accuracy of 85.5%, securing the 5th position on the leaderboard. Notably, this result stands as the highest score among all Mistral models in the table, suggesting that structured generation may play a significant role in enabling smaller models to tackle complex tasks effectively.</p>
+</section>
+<section id="gemma-7b-it-from-37th-42.18-to-7th-84.25" class="level3">
+<h3 class="anchored" data-anchor-id="gemma-7b-it-from-37th-42.18-to-7th-84.25">Gemma-7b-it (from 37th, 42.18% to 7th, 84.25%)</h3>
+<p><img src="figures/Gemma_simple_function_ast_bar_plot.png" class="img-fluid"></p>
+<p>We wanted to see if a base 7B model could reach the top of the leaderboard by using the power of structured generation. <code>google/gemma-7b-it</code> was already the best 7B model on the leaderboard before our tests. However, when we combined it with Outlines, it showed a huge jump in performance. It went from the 37th position with an accuracy of 42.18% to an impressive 7th place, achieving an accuracy of 84.25%. This big improvement highlights the potential of structured generation to boost the performance of base models.</p>
+</section>
+<section id="deepseek-v1.5-from-38th-38.91-to-3rd-87" class="level3">
+<h3 class="anchored" data-anchor-id="deepseek-v1.5-from-38th-38.91-to-3rd-87">Deepseek-v1.5 (from 38th, 38.91% to 3rd, 87%)</h3>
+<p><img src="../evals/bfcl/figures/Deepseek_simple_function_ast_bar_plot.png" class="img-fluid"></p>
+<p>We tried to directly compare how well structured generation works against fine-tuning. We chose <code>deepseek-coder-7b-instruct-v1.5</code>, a model that is used as the base for the fine-tuned Gorilla model. By combining it with Outlines, we saw a remarkable improvement in performance. The model jumped from the 38th position with an accuracy of 38.91% to an amazing 3rd place, achieving an accuracy of 87%. This result is very important because it matches the performance of the fine-tuned <code>Gorilla-OpenFunctions-v2</code> model, which is based on the same architecture. The success of this test raises important questions about the different ways to improve model performance. It suggests that structured generation may, in some cases, be a good and efficient alternative to fine-tuning.</p>
+</section>
+<section id="meta-llama-3-8b-instruct-from-34th-58.73-to-7th-84.25" class="level3">
+<h3 class="anchored" data-anchor-id="meta-llama-3-8b-instruct-from-34th-58.73-to-7th-84.25">Meta-Llama-3-8B-Instruct (from 34th, 58.73% to 7th, 84.25%)</h3>
+<p><img src="../evals/bfcl/figures/Meta_simple_function_ast_bar_plot.png" class="img-fluid"></p>
+<p>We couldn’t resist testing the latest sensation in the world of language models. When combined with structured generation, <code>Meta-Llama-3-8B-Instruct</code> achieved an impressive accuracy of 84.25%, securing the 7th position on the leaderboard.</p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Our study shows that structured generation greatly improves how LLMs handle function calling tasks. Through testing, we found that structured generation matches traditional fine-tuning in terms of accuracy and efficiency, especially for smaller models. It also leads to more understanding of complex inputs. Looking ahead, we plan to expand our use of the GFCL benchmark’s evaluation categories and explore or develop more diverse datasets.</p>
 
 
+</section>
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-astroza2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Astroza, Alonso. 2024. <span>“Artificial Intelligence for Natural Brains
-(Spanish).”</span> May 15, 2024. <a href="https://www.alonsoastroza.com/talks/hrday-2024/">https://www.alonsoastroza.com/talks/hrday-2024/</a>.
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://huggingface.co/papers/2307.09702">Willard, B. T., &amp; Louf, R. (2023). Efficient Guided Generation for Large Language Models</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html">Yan, F., Mao, H., Ji, C. C.-J., Zhang, T., Patil, S. G., Stoica, I., &amp; Gonzalez, J. E. (2024). Berkeley Function Calling Leaderboard.</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://arxiv.org/abs/2305.15334">Patil, S. G., Zhang, T., Wang, X., &amp; Gonzalez, J. E. (2023). Gorilla: Large Language Model Connected with Massive APIs. arXiv preprint arXiv:2305.15334.</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-astroza2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Astroza, Alonso. 2024. <span>“Structured Generation Benchmark.”</span>
+July 4, 2024. <a href="https://www.alonsoastroza.com/posts/structured-generation-benchmark/">https://www.alonsoastroza.com/posts/structured-generation-benchmark/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
