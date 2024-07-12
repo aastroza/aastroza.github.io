@@ -16,6 +16,6 @@ links:
   url: https://docs.google.com/presentation/d/1bgGks7Ycw8jBlNH4k4crnBzuQTDSRZe789YxlEVUGkM/edit#slide=id.gc6fa3c898_0_0
 ---
 
-During the **ChatGPT** craze, I decided to teach an introductory class for non-technical people.
+During the **ChatGPT** craze, I decided to teach an introductory workshop for non-technical people.
 
 {{< video https://www.youtube.com/embed/P_xVzgwEp_A?si=TQcU3QqVlp6T0kau >}}

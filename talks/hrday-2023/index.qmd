@@ -13,6 +13,6 @@ links:
   url: https://youtu.be/KIjkllGnO60?si=G9-ODxO7hHtF4nsx
 ---
 
-**HRday** is a wonderful (and free!) event that the [Red de Recursos Humanos](https://redderrhh.com/) has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled *"AI in Human Resources."* That's right, I talked about the topic before it became trendy. By 2023, it was on everyone's lips, and I was invited back to update the talk. Here is the result:
+**HRday** is a wonderful (and free!) event that [Red de Recursos Humanos](https://redderrhh.com/) has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled *"AI in Human Resources."* That's right, I talked about the topic before it became trendy. By 2023, it was on everyone's lips, and I was invited back to update the talk. Here is the result:
 
 {{< video https://www.youtube.com/embed/KIjkllGnO60?si=G9-ODxO7hHtF4nsx >}}
