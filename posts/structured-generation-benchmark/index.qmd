@@ -4,7 +4,7 @@ author: "Alonso Astroza"
 date: "2024-07-04"
 categories: [LLM, structured-generation, benchmark, function-calling]
 subtitle: >
-  My Mistral FT Hackathon entry.
+  Evaluating the ability of the LLM to call functions.
 description: ''
 
 links:
@@ -13,11 +13,15 @@ links:
   url: https://github.com/aastroza/structured-generation-benchmark
 ---
 
-# Outlines Function Calling Evaluation
-
 ::: {.callout-note}
 This report originates from the [Outlines](https://github.com/outlines-dev/outlines) community's proposal to find a good dataset for evaluating structured generation. If you want to participate, join our [Discord](https://discord.gg/ZxBxyWmW5n).
 :::
+
+To use Large Language Models (LLMs) effectively and reliably, it's essential to include structured generation techniques. Being able to get outputs like regular expressions, JSON, or a Pydantic data model is key for making useful software.
+
+But what's the real effect of using libraries like [Outlines](https://github.com/outlines-dev/outlines) or [Instructor](https://github.com/jxnl/instructor/) to achieve that goal?
+
+This post try to answer this question.
 
 ## Goal
 
