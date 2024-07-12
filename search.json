@@ -81,7 +81,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Post With Code\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Intro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posteos/welcome/index.html",
@@ -168,13 +168,6 @@
     "text": "Consulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.\nI enjoy building new connections and would be happy to discuss how we can work together. Let’s connect!"
   },
   {
-    "objectID": "teaching/github/index.html",
-    "href": "teaching/github/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\nCitationFor attribution, please cite this work as:\nO’Malley, Tristan. 2024. “Welcome To My Blog.” July 1,\n2024. https://www.alonsoastroza.com/teaching/github/."
-  },
-  {
     "objectID": "talks.html",
     "href": "talks.html",
     "title": "Talks",
@@ -193,21 +186,21 @@
     "href": "talks/hrday-2023/index.html",
     "title": "AI in Human Resources (Spanish)",
     "section": "",
-    "text": "HRday is a wonderful (and free!) event that the Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. By 2023, it was on everyone’s lips, and I was invited back to update the talk. Here is the result:\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “AI in Human Resources (Spanish).”\nMay 25, 2023. https://www.alonsoastroza.com/talks/hrday-2023/."
+    "text": "HRday is a wonderful (and free!) event that Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. By 2023, it was on everyone’s lips, and I was invited back to update the talk. Here is the result:\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “AI in Human Resources (Spanish).”\nMay 25, 2023. https://www.alonsoastroza.com/talks/hrday-2023/."
   },
   {
     "objectID": "talks/clase-chatgpt/index.html",
     "href": "talks/clase-chatgpt/index.html",
     "title": "ChatGPT for beginners (Spanish)",
     "section": "",
-    "text": "During the ChatGPT craze, I decided to teach an introductory class for non-technical people.\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “ChatGPT for Beginners (Spanish).”\nMay 8, 2023. https://www.alonsoastroza.com/talks/clase-chatgpt/."
+    "text": "During the ChatGPT craze, I decided to teach an introductory workshop for non-technical people.\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “ChatGPT for Beginners (Spanish).”\nMay 8, 2023. https://www.alonsoastroza.com/talks/clase-chatgpt/."
   },
   {
     "objectID": "talks/hrday-2024/index.html",
     "href": "talks/hrday-2024/index.html",
     "title": "Artificial Intelligence for Natural Brains (Spanish)",
     "section": "",
-    "text": "HRday is a wonderful (and free!) event that the Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. This year, I was invited again to address a question many of us are asking: Is AI going to take my job?\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Artificial Intelligence for Natural Brains\n(Spanish).” May 15, 2024. https://www.alonsoastroza.com/talks/hrday-2024/."
+    "text": "HRday is a wonderful (and free!) event that Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. This year, I was invited again to address a question many of us are asking: Is AI going to take my job?\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Artificial Intelligence for Natural Brains\n(Spanish).” May 15, 2024. https://www.alonsoastroza.com/talks/hrday-2024/."
   },
   {
     "objectID": "teaching/powerbi/index.html",
@@ -250,13 +243,6 @@
     "title": "Intro to PowerBI",
     "section": "Further Steps",
     "text": "Further Steps\n\nHow to import SQLite data to PowerBI\n\n\n\nOther Courses\nIf you are a student at UDD and are interested in delving deeper into this tool, I recommend the following Zigna course."
-  },
-  {
-    "objectID": "teaching/intro-ml/index.html",
-    "href": "teaching/intro-ml/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n\n\nCitationFor attribution, please cite this work as:\nMalloc, Harlow. 2024. “Post With Code.” July 4, 2024. https://www.alonsoastroza.com/teaching/intro-ml/."
   },
   {
     "objectID": "projects.html",
@@ -368,7 +354,7 @@
     "href": "index.html#latest-workshops",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
     "section": "Latest Workshops",
-    "text": "Latest Workshops\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Latest Workshops\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#lo-último-en-español",
