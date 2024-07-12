@@ -37,6 +37,16 @@ listing:
     contents:
       - "talks/*/*.qmd"
       - "talks/*/*.md"
+    sort: "date desc"
+    type: grid
+    max-items: 9
+    page-size: 3
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, image, subtitle, date]
+  - id: recent-teaching-listing
+    contents:
       - "teaching/*/*.qmd"
       - "teaching/*/*.md"
     sort: "date desc"
@@ -97,9 +107,14 @@ resources:
 ::: {#recent-project-listing}
 :::
 
-## Latest [Talks](/talks) and [Workshops](/teaching)
+## Latest [Talks](/talks)
 
 ::: {#recent-talk-listing}
+:::
+
+## Latest [Workshops](/teaching)
+
+::: {#recent-teaching-listing}
 :::
 
 ## Lo último en [Español](/posteos)

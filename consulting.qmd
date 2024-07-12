@@ -25,7 +25,7 @@ I can help optimize your AI strategy and narrative by:
 - Implementing fine-tuning techniques
 - Developing effective prompt engineering strategies
 - Creating dev tools and infrastructure to iterate quickly on LLMs
--Selecting LLM vendors
+- Selecting LLM vendors
 - Building domain-specific evaluation systems
 - Designing and implementing custom evaluation metrics
 - Optimizing the hands-on model
