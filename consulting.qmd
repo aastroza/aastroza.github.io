@@ -1,6 +1,6 @@
-# AI Consulting: Solving Problems You Care About
+# AI Consulting: Transforming Data into Business Value
 
-I specialize in creating products that transform **raw data** into **business value**, empowering organizations to **optimize**</strong>** their operations and services. If you're looking to leverage AI to solve complex problems and drive meaningful results, my skills and experience can help you achieve your goals.
+I specialize in creating products that transform **raw data** into **business value**, empowering organizations to **optimize** their operations and services. If you're looking to leverage AI to solve complex problems and drive meaningful results, my skills and experience can help you achieve your goals.
 
 I offer tailored consulting services to address your unique challenges at any stage of your project lifecycle. I'm passionate about building new connections and would be thrilled to explore opportunities to work together. [Let's start a conversation](/contact.qmd) and see how we can create value for your organization.
 
@@ -8,7 +8,7 @@ I offer tailored consulting services to address your unique challenges at any st
 
 Our journey begins by clearly defining your business challenge. Next, we identify the stakeholders impacted by this challenge and envision what a successful solution looks like for them. Only then do we consider how AI and data analytics can be applied to achieve your objectives.
 
-This methodical approach ensures we tackle your problem with purpose. By understanding your specific needs and desired outcomes, we can work backwards to determine the necessary data, analyses, and tools required to develop an effective solution. This framework allows us to harness AI and raw data to create optimized solutions that deliver tangible business value for you and your stakeholders.
+This methodical approach ensures we tackle your problem with purpose. By understanding your specific needs and desired outcomes, we can work backwards to determine the necessary data, analyses, and tools required to develop an effective solution. This framework allows us to harness AI to create optimized solutions that deliver tangible business value for you and your stakeholders.
 
 ## How I Can Help
 
@@ -39,27 +39,19 @@ I can help you develop data-driven solutions that create business value through:
 - Creating development tools and infrastructure
 - Producing content and writing to communicate best practices and methodologies
 
-
 ## Consulting Services
 
-- *Focus:* Developing or evaluating your AI strategy and narrative.
-
-- *Scope:* Short or long term advisory services.
-
-- *Rates:* Negotiable by project and typically billed hourly.
+- Developing or evaluating your AI strategy and narrative.
+- Short or long term advisory services.
+- Negotiable rates by project and typically billed hourly.
 
 ## Private Training
 
-- *Focus:*
-Developing you or your team's LLM and AI programming skills.
+- Developing you or your team's LLM and AI programming skills.
+- Single or series of workshops or meetings.
+- Negotiable rates by training and typically billed per-session for smaller scope or hourly for larger scope.
 
-- *Scope:*
-Single or series of workshops or meetings.
-
-- *Rates:*
-Negotiable by training and typically billed per-session for smaller scope or hourly for larger scope.
-
-## Current & Past Clients
+## Clients
 
 - [GeoVictoria:](https://www.geovictoria.com) A leading provider of time and attendance management solutions. We are working on VictorIA, a conversational AI for HR.
 - [Defontana:](https://www.defontana.com) A comprehensive ERP software provider offering solutions for businesses of all sizes, including modules for accounting, HR, POS, and more. I developed a tool to predict inventory demand.
