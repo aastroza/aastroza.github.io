@@ -27,7 +27,10 @@
   {
     "listing": "/talks.html",
     "items": [
-      "/talks/post-with-code/index.html"
+      "/talks/hrday-2024/index.html",
+      "/talks/mono-porfiado/index.html",
+      "/talks/hrday-2023/index.html",
+      "/talks/clase-chatgpt/index.html"
     ]
   },
   {
@@ -47,10 +50,13 @@
       "/projects/chatstract/index.html",
       "/projects/discolab/index.html",
       "/projects/podcast/index.html",
-      "/talks/post-with-code/index.html",
       "/teaching/intro-ml/index.html",
       "/teaching/github/index.html",
+      "/talks/hrday-2024/index.html",
+      "/talks/mono-porfiado/index.html",
       "/teaching/powerbi/index.html",
+      "/talks/hrday-2023/index.html",
+      "/talks/clase-chatgpt/index.html",
       "/posteos/post-with-code/index.html",
       "/posteos/welcome/index.html"
     ]
