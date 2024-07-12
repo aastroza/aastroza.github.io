@@ -1,0 +1,21 @@
+---
+title: "Podcast Mono Porfiado (Spanish)"
+date: "2024-04-17"
+image: mono.jpeg
+categories: [podcast, ai, spanish]
+subtitle: >
+  I appeared as the main guest on a podcast about entrepreneurship and technology.
+description: ''
+
+links:
+- icon: youtube
+  name: Video
+  url: https://youtu.be/YLFiCav98LA?si=Dx8-GhiInTlnfDYt
+---
+
+I appeared in an episode of the podcast *Mono Porfiado* by [Defontana](https://www.defontana.com/).
+
+> In this episode, we will have Alonso Astroza as a guest, who has been connected to the world of innovation and technology since his youth. He is one of the first Chileans to work with and introduce the concept of Artificial Intelligence in our country.
+
+
+{{< video https://www.youtube.com/embed/YLFiCav98LA?si=Dx8-GhiInTlnfDYt >}}

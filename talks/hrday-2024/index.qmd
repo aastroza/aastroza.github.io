@@ -1,0 +1,21 @@
+---
+title: "Artificial Intelligence for Natural Brains (Spanish)"
+date: "2024-05-15"
+image: anuncio.jpg
+categories: [human-resources, ai, spanish]
+subtitle: >
+  My talk for HRday 2024.
+description: ''
+
+links:
+- icon: youtube
+  name: Video
+  url: https://youtu.be/ZZf15GSl0dc?si=XJtm_b2jHzTi2I74
+- icon: google
+  name: Slides
+  url: https://docs.google.com/presentation/d/1yY5hlYwiyIE8fzQxRBt8ERPU9VAgZ_4B/edit?usp=sharing&ouid=117898761764034952123&rtpof=true&sd=true
+---
+
+**HRday** is a wonderful (and free!) event that the [Red de Recursos Humanos](https://redderrhh.com/) has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled *"AI in Human Resources."* That's right, I talked about the topic before it became trendy. This year, I was invited again to address a question many of us are asking: Is AI going to take my job?
+
+{{< video https://www.youtube.com/embed/ZZf15GSl0dc?si=XJtm_b2jHzTi2I74 >}}

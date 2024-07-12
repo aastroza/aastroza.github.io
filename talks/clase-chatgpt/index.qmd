@@ -1,0 +1,21 @@
+---
+title: "ChatGPT for beginners (Spanish)"
+date: "2023-05-08"
+image: clase.png
+categories: [chatgpt, ai, spanish]
+subtitle: >
+  A quick class to make the most of ChatGPT.
+description: ''
+
+links:
+- icon: youtube
+  name: Video
+  url: https://youtu.be/P_xVzgwEp_A?si=Igi0o20T8kCfHtnD
+- icon: google
+  name: Slides
+  url: https://docs.google.com/presentation/d/1bgGks7Ycw8jBlNH4k4crnBzuQTDSRZe789YxlEVUGkM/edit#slide=id.gc6fa3c898_0_0
+---
+
+During the **ChatGPT** craze, I decided to teach an introductory class for non-technical people.
+
+{{< video https://www.youtube.com/embed/P_xVzgwEp_A?si=TQcU3QqVlp6T0kau >}}
