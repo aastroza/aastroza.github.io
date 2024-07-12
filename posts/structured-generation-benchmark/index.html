@@ -109,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <meta property="og:title" content="Structured Generation Benchmark – Alonso Astroza Tagle">
-<meta property="og:description" content="My Mistral FT Hackathon entry.">
+<meta property="og:description" content="Evaluating the ability of the LLM to call functions.">
 <meta property="og:site_name" content="Alonso Astroza Tagle">
 </head>
 
@@ -175,7 +175,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns">
     <div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
     <h1 class="title">Structured Generation Benchmark</h1>
-        <p class="subtitle lead"></p><p>My Mistral FT Hackathon entry.</p><p></p>
+        <p class="subtitle lead"></p><p>Evaluating the ability of the LLM to call functions.</p><p></p>
                         <div class="quarto-categories">
                 <div class="quarto-category">LLM</div>
                 <div class="quarto-category">structured-generation</div>
@@ -218,9 +218,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#outlines-function-calling-evaluation" id="toc-outlines-function-calling-evaluation" class="nav-link active" data-scroll-target="#outlines-function-calling-evaluation">Outlines Function Calling Evaluation</a>
-  <ul class="collapse">
-  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal</a></li>
+  <li><a href="#goal" id="toc-goal" class="nav-link active" data-scroll-target="#goal">Goal</a></li>
   <li><a href="#benchmark" id="toc-benchmark" class="nav-link" data-scroll-target="#benchmark">Benchmark</a>
   <ul class="collapse">
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
@@ -235,7 +233,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#meta-llama-3-8b-instruct-from-34th-58.73-to-7th-84.25" id="toc-meta-llama-3-8b-instruct-from-34th-58.73-to-7th-84.25" class="nav-link" data-scroll-target="#meta-llama-3-8b-instruct-from-34th-58.73-to-7th-84.25">Meta-Llama-3-8B-Instruct (from 34th, 58.73% to 7th, 84.25%)</a></li>
   </ul></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -252,8 +249,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="outlines-function-calling-evaluation" class="level1">
-<h1>Outlines Function Calling Evaluation</h1>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -267,6 +262,9 @@ Note
 <p>This report originates from the <a href="https://github.com/outlines-dev/outlines">Outlines</a> community’s proposal to find a good dataset for evaluating structured generation. If you want to participate, join our <a href="https://discord.gg/ZxBxyWmW5n">Discord</a>.</p>
 </div>
 </div>
+<p>To use Large Language Models (LLMs) effectively and reliably, it’s essential to include structured generation techniques. Being able to get outputs like regular expressions, JSON, or a Pydantic data model is key for making useful software.</p>
+<p>But what’s the real effect of using libraries like <a href="https://github.com/outlines-dev/outlines">Outlines</a> or <a href="https://github.com/jxnl/instructor/">Instructor</a> to achieve that goal?</p>
+<p>This post try to answer this question.</p>
 <section id="goal" class="level2">
 <h2 class="anchored" data-anchor-id="goal">Goal</h2>
 <p>The main goal of this evaluation is to show the power of structured generation in the context of Function Calling, which is the ability of Large Language Models (LLMs) to call functions based on natural language instructions. We focus on the case where the LLM is given a single JSON function document and is expected to make a single function call.</p>
@@ -360,7 +358,6 @@ Note
 <p>Our study shows that structured generation greatly improves how LLMs handle function calling tasks. Through testing, we found that structured generation matches traditional fine-tuning in terms of accuracy and efficiency, especially for smaller models. It also leads to more understanding of complex inputs. Looking ahead, we plan to expand our use of the GFCL benchmark’s evaluation categories and explore or develop more diverse datasets.</p>
 
 
-</section>
 </section>
 
 
