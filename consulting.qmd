@@ -1,0 +1,74 @@
+# AI Consulting: Solving Problems You Care About
+
+If you have a problem that you want to use AI to solve, I have the skills and experience to help you. I offer several consulting services to help you tackle the challenges you care about at any point in your project lifecycle. I value building new connections and would love to discuss opportunities to work with you. Let's get to know each other.
+
+## A Recipe for Success
+
+When we want to use AI to solve a problem you care about, our first step is to define your problem. Our second step is to determine the people affected by your problem, and what a meaningful solution looks like to them. Only then do we think about how AI can help.
+
+This recipe allows us to approach your problem with intent—once we know what the problem you care about is and what a meaningful solution looks like to the people affected by it, we can work backward to figure out the data, analyses, and tools needed to solve your problem. By framing your problem this way we can use AI to develop better solutions for you and your audience.
+
+## How I Can Help
+
+I am available for consulting work and private training to help you solve the problems you care about at any point in your AI project lifecycle.
+
+### Your AI Strategy
+
+Your AI strategy describes all of the ways you develop, implement, and utilize large language models (LLMs) in your projects. A good AI strategy makes these powerful tools accessible and usable to the people who need them.
+
+I can help you make LLMs more accessible and usable for solving problems you care about by:
+
+- Identifying performance issues (cost, quality, speed)
+- Optimizing Retrieval-Augmented Generation (RAG)
+- Implementing fine-tuning techniques
+- Developing effective prompt engineering strategies
+- Creating dev tools and infrastructure to help you iterate quickly on LLMs
+- Evaluating and selecting appropriate LLM vendors
+
+### Your AI Story
+
+Your AI story describes how you build and share knowledge using language models. A good AI story helps you and your audience understand and trust the implications of your models, then develops informed solutions for the problems you care about.
+
+I can help you develop solutions for the problems you care about through:
+
+- Building domain-specific evaluation systems
+- Designing and implementing custom evaluation metrics
+- Hands-on model optimization
+- Creating development tools and infrastructure
+- Producing content and writing to communicate best practices and methodologies
+
+
+## Consulting Services
+
+I offer two tiers of services to support your goals:
+
+### Tier 1: Strategy
+
+Focus:
+Developing or evaluating your AI strategy and story.
+
+Scope:
+Short or long term advisory services.
+
+### Tier 2: Comprehensive
+
+Focus:
+Everything in Tier 1, plus hands-on implementation and team development.
+
+Scope:
+Short or long term, with deeper involvement in your projects.
+
+Rates for both tiers are negotiable by project and typically billed on a monthly retainer basis.
+
+## Private Training
+
+Focus:
+Developing you or your team's LLM and AI programming skills.
+
+Scope:
+Single or series of workshops or meetings.
+
+Rates:
+Negotiable by training and typically billed per-session for smaller scope or hourly for larger scope.
+
+Let's work together to harness the power of LLMs and solve the problems you care about!
