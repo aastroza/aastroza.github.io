@@ -79,7 +79,7 @@ resources:
     </p>
 
     <p class="site-into fs-5">
-      If you need help solving a problem using <strong>data</strong>, I’d love to assist you. I offer various <a class="mt4 action text" href="/consuling">consulting services</a> to support your goals, including long-term and short-term consulting, private training, and on-demand advice. I enjoy building new connections and would be happy to <a class="mt4 action text" href="/contact">discuss</a> how we can work together. Let's connect!
+      If you need help solving a problem using <strong>data</strong>, I’d love to <a class="mt4 action text" href="/consuling">assist</a> you. I enjoy building new connections and would be happy to <a class="mt4 action text" href="/contact">discuss</a> how we can work together. Let's connect!
     </p>
     <a class="mt4 action text" href="/about">About Me →</a>
   </div>
