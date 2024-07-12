@@ -1,68 +1,62 @@
 # AI Consulting: Transforming Data into Business Value
 
-I specialize in creating products that transform **raw data** into **business value**, empowering organizations to **optimize** their operations and services. If you're looking to leverage AI to solve complex problems and drive meaningful results, my skills and experience can help you achieve your goals.
+I specialize in creating products that turn **raw data** into **business value**, empowering organizations to **optimize** their operations and services. If you want to leverage AI to solve complex problems and drive meaningful results, my skills and experience can help you achieve your goals.
 
-I offer tailored consulting services to address your unique challenges at any stage of your project lifecycle. I'm passionate about building new connections and would be thrilled to explore opportunities to work together. [Let's start a conversation](/contact.qmd) and see how we can create value for your organization.
+I offer consulting services for your project. I'm passionate about making connections and would love to work together. [Contact me](/contact.qmd) to create value for your organization.
 
 ## A Data-Driven Approach to Success
 
-Our journey begins by clearly defining your business challenge. Next, we identify the stakeholders impacted by this challenge and envision what a successful solution looks like for them. Only then do we consider how AI and data analytics can be applied to achieve your objectives.
+We start by defining your business challenge. Then, we identify the impacted stakeholders and envision a successful solution for them. After that, we consider how AI and data analytics can achieve your objectives.
 
-This methodical approach ensures we tackle your problem with purpose. By understanding your specific needs and desired outcomes, we can work backwards to determine the necessary data, analyses, and tools required to develop an effective solution. This framework allows us to harness AI to create optimized solutions that deliver tangible business value for you and your stakeholders.
+This method ensures we tackle your problem with purpose. We can determine the necessary data, analyses, and tools for a solution by understanding your needs and desired outcomes. This framework allows us to harness AI to create optimized solutions that deliver business value for you and your stakeholders.
 
-## How I Can Help
+## How I Can Help?
 
-I offer consulting services and private training to help you transform raw data into business value at any stage of your AI project lifecycle.
+I offer consulting and private training to help you transform raw data into business value at any stage of your AI project.
 
-### Your AI Strategy
+### AI Strategy and Narrative
 
-Your AI strategy describes all of the ways you develop, implement, and utilize large language models (LLMs) in your projects. An effective strategy makes these powerful tools accessible and actionable for the people who need them most.
+Your AI strategy and narrative cover developing, implementing, and using large language models (LLMs) in projects, and building and sharing knowledge using AI. An effective approach makes these tools accessible for those who need them, while helping stakeholders understand and trust the implications.
 
-I can help you make LLMs more accessible and usable for solving problems you care about by:
+I can help optimize your AI strategy and narrative by:
 
-- Identifying performance issues (cost, quality, speed)
+- Identifying and addressing performance issues (cost, quality, speed)
 - Optimizing Retrieval-Augmented Generation (RAG)
 - Implementing fine-tuning techniques
 - Developing effective prompt engineering strategies
-- Creating dev tools and infrastructure to help you iterate quickly on LLMs
-- Evaluating and selecting appropriate LLM vendors
-
-### Your AI Narrative
-
-Your data-driven narrative describes how you build and share knowledge using AI. A compelling narrative helps you and your stakeholders understand and trust the implications of your models, leading to informed solutions that optimize your operations and services.
-
-I can help you develop data-driven solutions that create business value through:
-
+- Creating dev tools and infrastructure to iterate quickly on LLMs
+-Selecting LLM vendors
 - Building domain-specific evaluation systems
 - Designing and implementing custom evaluation metrics
-- Hands-on model optimization
-- Creating development tools and infrastructure
-- Producing content and writing to communicate best practices and methodologies
+- Optimizing the hands-on model
+- Producing content to communicate best practices and methodologies
+
+By focusing on these areas, we can make LLMs more accessible and usable for solving problems and developing data-driven solutions that create tangible business value for your organization.
 
 ## Consulting Services
 
 - Developing or evaluating your AI strategy and narrative.
-- Short or long term advisory services.
-- Negotiable rates by project and typically billed hourly.
+- Short or long-term advisory services.
+- Rates are negotiable by project and billed hourly.
 
 ## Private Training
 
-- Developing you or your team's LLM and AI programming skills.
+- Developing your LLM and AI programming skills.
 - Single or series of workshops or meetings.
-- Negotiable rates by training and typically billed per-session for smaller scope or hourly for larger scope.
+- Rates for training are negotiable and billed per session for small scope or hourly for large scope.
 
 ## Clients
 
-- [GeoVictoria:](https://www.geovictoria.com) A leading provider of time and attendance management solutions. We are working on VictorIA, a conversational AI for HR.
-- [Defontana:](https://www.defontana.com) A comprehensive ERP software provider offering solutions for businesses of all sizes, including modules for accounting, HR, POS, and more. I developed a tool to predict inventory demand.
-- [Coopeuch:](https://www.coopeuch.cl/) A leading Chilean savings and credit cooperative offering a range of financial services including loans, investments, and insurance. I trained the data analytics team on machine learning.
-- [TRC Recruitme:](https://trcrecruitme.com/) A platform dedicated to connecting job seekers with employers. We are building an LLM-powered recruitment platform from unstructured data.
-- [Discolab:](https://www.discolab.cl) Deployed an OpenAI API-based product in production, which efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day.
-- [Subconscious.ai:](https://www.subconscious.ai/)  I helped build an AI Copilot for causal market research, leveraging LangChain's [LCEL](https://python.langchain.com/docs/expression_language/) to transform the query process for LLMs.
+- [GeoVictoria:](https://www.geovictoria.com) A leading provider of time and attendance management solutions. We’re developing VictorIA, a conversational AI for HR.
+- [Defontana:](https://www.defontana.com) A comprehensive ERP software provider offering solutions for businesses of all sizes, including modules for accounting, HR, POS, and more. I developed an inventory demand prediction tool.
+- [Coopeuch:](https://www.coopeuch.cl/) A leading Chilean savings and credit cooperative offering financial services like loans, investments, and insurance. I trained the data analytics team on machine learning.
+- [TRC Recruitme:](https://trcrecruitme.com/) Connects job seekers with employers. Building an LLM-powered recruitment platform from unstructured data.
+- [Discolab:](https://www.discolab.cl) Deployed an OpenAI API-based product that efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day.
+- [Subconscious.ai:](https://www.subconscious.ai/)  I helped build an AI Copilot for causal market research,  using LangChain's [LCEL](https://python.langchain.com/docs/expression_language/) to transform the query process for LLMs.
 
 ---
 
-Let's work together to harness the power of AI and solve the problems you care about!
+Let's harness AI's power to solve your business problems!
 
 <form action="https://formspree.io/f/mjkbkbkn" method="POST" accept-charset="utf-8">
 
