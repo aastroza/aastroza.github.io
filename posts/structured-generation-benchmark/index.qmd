@@ -2,7 +2,7 @@
 title: "Structured Generation Benchmark"
 author: "Alonso Astroza"
 date: "2024-07-04"
-categories: [LLM, structured-generation, benchmark, function-calling]
+categories: [LLM, structured-generation, benchmark, function-calling, evals]
 subtitle: >
   Evaluating the ability of the LLM to call functions.
 description: ''
