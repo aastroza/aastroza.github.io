@@ -74,7 +74,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Structured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities. \n\n\n\nLLM\n\n\nstructured-generation\n\n\nbenchmark\n\n\nfunction-calling\n\n\nevals\n\n\n\n\n\n\n\n\n\nApr 30, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
+    "text": "Sign up using this form to receive an email whenever I post new content on my blog.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities. \n\n\n\nLLM\n\n\nstructured-generation\n\n\nbenchmark\n\n\nfunction-calling\n\n\nevals\n\n\n\n\n\n\n\n\n\nApr 30, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching.html",
@@ -130,7 +130,7 @@
     "href": "posts/structured-generation-benchmark/index.html#conclusion",
     "title": "Structured Generation Benchmark",
     "section": "Conclusion",
-    "text": "Conclusion\nOur study shows that structured generation significantly improves how LLMs handle function calling tasks. We found through testing that it matches traditional fine-tuning in terms of accuracy and efficiency, especially for smaller models. It also leads to better understanding of complex inputs. Looking ahead, we plan to expand our use of the GFCL benchmark’s evaluation categories and explore more diverse datasets."
+    "text": "Conclusion\nOur study shows that structured generation significantly improves how LLMs handle function calling tasks. We found through testing that it matches traditional fine-tuning in terms of accuracy and efficiency, especially for smaller models. It also leads to better understanding of complex inputs. Looking ahead, we plan to expand our use of the GFCL benchmark’s evaluation categories and explore more diverse datasets.\n\nSign up using this form to receive an email whenever I post new content on my blog."
   },
   {
     "objectID": "posts/structured-generation-benchmark/index.html#footnotes",
