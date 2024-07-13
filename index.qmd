@@ -117,7 +117,7 @@ resources:
 ::: {#recent-teaching-listing}
 :::
 
-## Lo último en [Español](/posteos)
+## Lo último en [Español](/spanish)
 
 ::: {#recent-spanish-listing}
 :::
