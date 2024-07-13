@@ -8,6 +8,8 @@
   {
     "listing": "/teaching.html",
     "items": [
+      "/teaching/intro-ml/index.html",
+      "/teaching/github/index.html",
       "/teaching/powerbi/index.html"
     ]
   },
@@ -49,6 +51,8 @@
       "/talks/mono-porfiado/index.html",
       "/talks/hrday-2023/index.html",
       "/talks/clase-chatgpt/index.html",
+      "/teaching/intro-ml/index.html",
+      "/teaching/github/index.html",
       "/teaching/powerbi/index.html",
       "/posteos/podcats-hormigas/index.html"
     ]

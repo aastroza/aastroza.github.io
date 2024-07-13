@@ -81,7 +81,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Intro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Introduction to Machine Learning for Professionals\n\n\nWhat we talk about when we talk about ML\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science\n\n\nMy personal approach to doing reproducible and collaborative data science.\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact.html",
@@ -145,6 +145,20 @@
     "title": "Projects",
     "section": "",
     "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/intro-ml/index.html",
+    "href": "teaching/intro-ml/index.html",
+    "title": "Introduction to Machine Learning for Professionals",
+    "section": "",
+    "text": "This brief course is designed to provide a solid understanding of the fundamental principles of Machine Learning (ML) without requiring prior (or future) programming experience.\nOur approach focuses on providing you with the key concepts that will enable you to actively and confidently participate in discussions related to Machine Learning projects in your organization. This will help you fully integrate into the dialogue and decision-making process."
+  },
+  {
+    "objectID": "teaching/intro-ml/index.html#sessions",
+    "href": "teaching/intro-ml/index.html#sessions",
+    "title": "Introduction to Machine Learning for Professionals",
+    "section": "Sessions",
+    "text": "Sessions\nI taught this course to 110 professionals at Telefonica Hispam during four sessions in April 2024."
   },
   {
     "objectID": "teaching/powerbi/index.html",
@@ -222,6 +236,20 @@
     "title": "Talks",
     "section": "",
     "text": "Artificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/github/index.html",
+    "href": "teaching/github/index.html",
+    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
+    "section": "",
+    "text": "This workshop focused on transforming the way students approach data science, shifting from solitary projects in Jupyter Notebook to a more collaborative and practical approach, ready for integration into real software environments."
+  },
+  {
+    "objectID": "teaching/github/index.html#sessions",
+    "href": "teaching/github/index.html#sessions",
+    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
+    "section": "Sessions",
+    "text": "Sessions\nI taught the course on the following occasions:\n\nJanuary 17, 2024, during the CICS UDD Summer School.\nMay 31, 2024, in a workshop session at the CRiSS Lab."
   },
   {
     "objectID": "about.html",
@@ -347,7 +375,7 @@
     "href": "index.html#latest-workshops",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
     "section": "Latest Workshops",
-    "text": "Latest Workshops\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Latest Workshops\n\n\n\n\n\n\n\n\n\n\nIntroduction to Machine Learning for Professionals\n\n\nWhat we talk about when we talk about ML\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science\n\n\nMy personal approach to doing reproducible and collaborative data science.\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#lo-último-en-español",
