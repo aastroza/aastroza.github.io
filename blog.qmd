@@ -18,4 +18,4 @@ resources:
   - assets/listing-default.css 
 ---
 
-
+Sign up using this form to receive an email whenever I post new content on my blog. <script async data-uid="6c3d8d010d" src="https://alonso-astroza.ck.page/6c3d8d010d/index.js"></script>

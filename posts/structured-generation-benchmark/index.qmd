@@ -136,3 +136,6 @@ We tested the latest sensation in the world of language models. Meta-Llama-3-8B-
 ## Conclusion
 
 Our study shows that structured generation significantly improves how LLMs handle function calling tasks. We found through testing that it matches traditional fine-tuning in terms of accuracy and efficiency, especially for smaller models. It also leads to better understanding of complex inputs. Looking ahead, we plan to expand our use of the GFCL benchmark's evaluation categories and explore more diverse datasets.
+
+---
+Sign up using this form to receive an email whenever I post new content on my blog. <script async data-uid="6c3d8d010d" src="https://alonso-astroza.ck.page/6c3d8d010d/index.js"></script>
