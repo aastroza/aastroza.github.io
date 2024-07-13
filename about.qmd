@@ -45,4 +45,8 @@ I'm **Alonso Astroza Tagle**. [This is my resume](https://docs.google.com/docume
 
 If you need help solving a problem using AI, I’d love to assist you. I offer various [consulting services](/consulting.qmd) to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.
 
- I enjoy building new connections and would be happy to [discuss](/contact.qmd) how we can work together. Let's connect!
+I enjoy building new connections and would be happy to [discuss](/contact.qmd) how we can work together. Let's connect!
+
+## Suscribe
+
+Sign up using this form to receive an email whenever I post new content. <script async data-uid="6c3d8d010d" src="https://alonso-astroza.ck.page/6c3d8d010d/index.js"></script>

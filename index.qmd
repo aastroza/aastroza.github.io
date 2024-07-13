@@ -96,7 +96,6 @@ resources:
 </div>
 ```
 
-
 ## Latest [Posts](/blog)
 
 ::: {#recent-blog-listing}
