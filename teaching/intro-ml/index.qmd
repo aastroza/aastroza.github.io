@@ -1,0 +1,25 @@
+---
+title: "Introduction to Machine Learning for Professionals"
+date: "2024-04-15"
+image: BigShoes-Torso.png
+categories: [machine learning, workshop, spanish]
+subtitle: >
+  What we talk about when we talk about ML
+description: ''
+
+links:
+- icon: book
+  name: Course Website
+  url: https://idsudd.github.io/intro-ml/
+- icon: github
+  name: Code
+  url: https://github.com/idsudd/intro-ml
+---
+
+This brief course is designed to provide a solid understanding of the fundamental principles of Machine Learning (ML) without requiring prior (or future) programming experience.
+
+Our approach focuses on providing you with the key concepts that will enable you to actively and confidently participate in discussions related to Machine Learning projects in your organization. This will help you fully integrate into the dialogue and decision-making process.
+
+## Sessions
+
+I taught this course to 110 professionals at [Telefonica Hispam](https://www.telefonicahispam.com/) during four sessions in April 2024.

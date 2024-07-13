@@ -1,0 +1,26 @@
+---
+title: "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science"
+date: "2024-01-17"
+image: introduccion.png
+categories: [github, workshop, data science, spanish]
+subtitle: >
+  My personal approach to doing reproducible and collaborative data science.
+description: ''
+
+links:
+- icon: book
+  name: Course Website
+  url: https://idsudd.github.io/github-workshop
+- icon: github
+  name: Code
+  url: https://github.com/idsudd/github-workshop
+---
+
+This workshop focused on transforming the way students approach data science, shifting from solitary projects in Jupyter Notebook to a more collaborative and practical approach, ready for integration into real software environments.
+
+## Sessions
+
+I taught the course on the following occasions:
+
+- January 17, 2024, during the [CICS UDD Summer School](https://gobierno.udd.cl/noticias/2024/01/cics-realiza-escuela-de-verano-con-foco-en-ciencia-de-datos-e-interdisciplinariedad/).
+- May 31, 2024, in a workshop session at the [CRiSS Lab](https://criss-lab.com/).
