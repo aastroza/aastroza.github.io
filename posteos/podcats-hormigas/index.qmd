@@ -1,0 +1,23 @@
+---
+title: "¿Pueden las hormigas ser comediantes?"
+date: "2023-05-08"
+categories: [podcast, ia]
+subtitle: >
+  Un ejemplo de un podcast totalmente generado por IA.
+description: ''
+
+links:
+- icon: github
+  name: Github Code
+  url: https://github.com/aastroza/ai-podcast-generator
+---
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1499422054&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/aastroza" title="Alonso Astroza Tagle" target="_blank" style="color: #cccccc; text-decoration: none;">Alonso Astroza Tagle</a> · <a href="https://soundcloud.com/aastroza/can-ants-be-standup-comedians" title="Can ants be standup comedians? (Spanish)" target="_blank" style="color: #cccccc; text-decoration: none;">Can ants be standup comedians? (Spanish)</a></div>
+
+Supongo que bastaron unos segundos para que te dieras cuenta que el audio está generado por IA. De hecho todo el podcast fue generado de esa forma, incluido el guion y las voces.
+
+Para generar ese audio de 5 minutos solo le entregué un archivo de entrada como este:
+
+![](hormigas.png)
+
+¿Cómo lo hice? Con una batería de herramientas de IA, dejé todo el código disponible en la [página del proyecto](/projects/podcast/index.qmd). 
