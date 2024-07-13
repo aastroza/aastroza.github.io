@@ -1,6 +1,7 @@
 ---
 title: "¿Pueden las hormigas ser comediantes?"
 date: "2023-05-08"
+image: comedian.PNG
 categories: [podcast, ia]
 subtitle: >
   Un ejemplo de un podcast totalmente generado por IA.

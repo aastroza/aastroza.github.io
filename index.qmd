@@ -68,7 +68,7 @@ listing:
     categories: false
     sort-ui: false
     filter-ui: false
-    fields: [title, image, description, date]
+    fields: [title, image, subtitle, date]
 
 header-includes: >
   <link rel="stylesheet" href="assets/index.css">
