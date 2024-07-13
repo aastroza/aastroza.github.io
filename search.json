@@ -74,7 +74,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Structured Generation Benchmark\n\n\nEvaluating the ability of the LLM to call functions. \n\n\n\nLLM\n\n\nstructured-generation\n\n\nbenchmark\n\n\nfunction-calling\n\n\nevals\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
+    "text": "Structured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities. \n\n\n\nLLM\n\n\nstructured-generation\n\n\nbenchmark\n\n\nfunction-calling\n\n\nevals\n\n\n\n\n\n\n\n\n\nApr 30, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching.html",
@@ -84,123 +84,67 @@
     "text": "Intro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posteos/welcome/index.html",
-    "href": "posteos/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "I’d love to hear from you! ",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio.\n\n\n\n\n\n\n\n \n\n\n\n\nConsulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice."
   },
   {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
+    "objectID": "posts/structured-generation-benchmark/index.html",
+    "href": "posts/structured-generation-benchmark/index.html",
+    "title": "Structured Generation Benchmark",
     "section": "",
-    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\nFor code, please refer to the license of each respective repository."
+    "text": "Note\n\n\n\nThis report originates from the Outlines community’s proposal to find a good dataset for evaluating structured generation. If you want to participate, join our Discord.\nTo use Large Language Models (LLMs) effectively and reliably, it’s essential to include structured generation techniques. Being able to get outputs like regular expressions, JSON, or a Pydantic data model is key for making useful software.\nBut what’s the real effect of using libraries like Outlines or Instructor to achieve that goal?\nThis post answers this question."
   },
   {
-    "objectID": "consulting.html",
-    "href": "consulting.html",
-    "title": "AI Consulting: Transforming Data into Business Value",
-    "section": "",
-    "text": "I specialize in creating products that turn raw data into business value, empowering organizations to optimize their operations and services. If you want to leverage AI to solve complex problems and drive meaningful results, my skills and experience can help you achieve your goals.\nI offer consulting services for your project. I’m passionate about making connections and would love to work together. Contact me to create value for your organization.\n\n\nWe start by defining your business challenge. Then, we identify the impacted stakeholders and envision a successful solution for them. After that, we consider how AI and data analytics can achieve your objectives.\nThis method ensures we tackle your problem with purpose. We can determine the necessary data, analyses, and tools for a solution by understanding your needs and desired outcomes. This framework allows us to harness AI to create optimized solutions that deliver business value for you and your stakeholders.\n\n\n\nI offer consulting and private training to help you transform raw data into business value at any stage of your AI project.\n\n\nYour AI strategy and narrative cover developing, implementing, and using large language models (LLMs) in projects, and building and sharing knowledge using AI. An effective approach makes these tools accessible for those who need them, while helping stakeholders understand and trust the implications.\nI can help optimize your AI strategy and narrative by:\n\nIdentifying and addressing performance issues (cost, quality, speed)\nOptimizing Retrieval-Augmented Generation (RAG)\nImplementing fine-tuning techniques\nDeveloping effective prompt engineering strategies\nCreating dev tools and infrastructure to iterate quickly on LLMs\nSelecting LLM vendors\nBuilding domain-specific evaluation systems\nDesigning and implementing custom evaluation metrics\nOptimizing the hands-on model\nProducing content to communicate best practices and methodologies\n\nBy focusing on these areas, we can make LLMs more accessible and usable for solving problems and developing data-driven solutions that create tangible business value for your organization.\n\n\n\n\n\nDeveloping or evaluating your AI strategy and narrative.\nShort or long-term advisory services.\nRates are negotiable by project and billed hourly.\n\n\n\n\n\nDeveloping your LLM and AI programming skills.\nSingle or series of workshops or meetings.\nRates for training are negotiable and billed per session for small scope or hourly for large scope.\n\n\n\n\n\nGeoVictoria: A leading provider of time and attendance management solutions. We’re developing VictorIA, a conversational AI for HR.\nDefontana: A comprehensive ERP software provider offering solutions for businesses of all sizes, including modules for accounting, HR, POS, and more. I developed an inventory demand prediction tool.\nCoopeuch: A leading Chilean savings and credit cooperative offering financial services like loans, investments, and insurance. I trained the data analytics team on machine learning.\nTRC Recruitme: Connects job seekers with employers. Building an LLM-powered recruitment platform from unstructured data.\nDiscolab: Deployed an OpenAI API-based product that efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day.\nSubconscious.ai: I helped build an AI Copilot for causal market research, using LangChain’s LCEL to transform the query process for LLMs.\n\n\nLet’s harness AI’s power to solve your business problems!\n\nFull Name \nEmail Address \nMessage\n\n\nSend"
+    "objectID": "posts/structured-generation-benchmark/index.html#goal",
+    "href": "posts/structured-generation-benchmark/index.html#goal",
+    "title": "Structured Generation Benchmark",
+    "section": "Goal",
+    "text": "Goal\nThe main goal of this evaluation is to demonstrate the power of structured generation in the context of Function Calling, which is the ability of Large Language Models (LLMs) to call functions based on natural language instructions. We focus on the case where the LLM is given a single JSON document and is expected to make a single call.\nTo create this evaluation, we use the Outlines library, which transforms the problem of neural text generation into transitions between states of a finite-state machine1. Outlines allows for the creation of reliable interfaces by ensuring the structure of the generated text.\nWe want to explore some interesting questions: Can structured generation work better than fine-tuning for Function Calling? Can this approach allow smaller open-source models to perform as well as larger, state-of-the-art ones? The results of this evaluation will give us valuable insights into the abilities and potential of structured generation in improving the performance of LLMs across various sizes and architectures. This could potentially reshape our understanding of how to optimize for specific tasks."
   },
   {
-    "objectID": "consulting.html#a-data-driven-approach-to-success",
-    "href": "consulting.html#a-data-driven-approach-to-success",
-    "title": "AI Consulting: Transforming Data into Business Value",
-    "section": "",
-    "text": "We start by defining your business challenge. Then, we identify the impacted stakeholders and envision a successful solution for them. After that, we consider how AI and data analytics can achieve your objectives.\nThis method ensures we tackle your problem with purpose. We can determine the necessary data, analyses, and tools for a solution by understanding your needs and desired outcomes. This framework allows us to harness AI to create optimized solutions that deliver business value for you and your stakeholders."
+    "objectID": "posts/structured-generation-benchmark/index.html#benchmark",
+    "href": "posts/structured-generation-benchmark/index.html#benchmark",
+    "title": "Structured Generation Benchmark",
+    "section": "Benchmark",
+    "text": "Benchmark\nA dataset generated from real-world data has been released2 for the construction of the Berkeley Function-Calling Leaderboard. It consists of 2,000 question-function-answer pairs across multiple languages, diverse application domains, and complex use cases3. Additionally, it includes the code to reproduce the benchmark, which serves as a sort of framework for evaluation. If you want to learn more about this outstanding initiative, we recommend reading this blog post.\n\nData\nIn the Outlines community, we decided to start with the ‘AST Simple’ category, as described by the authors:\n\nSimple Function: The evaluation of a single function includes the simplest but most commonly seen format. The user provides a JSON function document and only one call will be invoked.\n\nHere is an example from one of the 400 records in the Python section of this evaluation category:\nquestion = 'Find the area of a triangle with a base of 10 units and height of 5 units.'\nThe LLM has access to the function defined by this JSON Schema to answer the question:\n\n{\n  \"title\": \"calculate_triangle_area\",\n  \"type\": \"object\",\n  \"description\": \"Calculate the area of a triangle given its base and height.\",\n  \"properties\": {\n    \"base\": {\n      \"type\": \"integer\",\n      \"description\": \"The base of the triangle.\"\n    },\n    \"height\": {\n      \"type\": \"integer\",\n      \"description\": \"The height of the triangle.\"\n    },\n    \"unit\": {\n      \"type\": \"string\",\n      \"description\": \"The unit of measure (defaults to 'units' if not specified)\"\n    }\n  },\n  \"required\": [\n    \"base\",\n    \"height\"\n  ]\n}\nThe expected response:\ncalculate_triangle_area(base=10, height=5, unit='units')\nThis is exactly the use case we’ve been facing in our efforts to integrate LLMs to power software.\n\n\nMetric\nWe use the evaluation process for simple functions within the GFCL framework. This process involves comparing the output of a model directly with the expected function document and potential correct answers. Below is a flowchart that details the step-by-step evaluation process.\n\n\n\nEvaluating function calls. Image from GFCL blog post.\n\n\nAccuracy is calculated by counting the validated function calls and comparing them with the total number of simple test category cases."
   },
   {
-    "objectID": "consulting.html#how-i-can-help",
-    "href": "consulting.html#how-i-can-help",
-    "title": "AI Consulting: Transforming Data into Business Value",
-    "section": "",
-    "text": "I offer consulting and private training to help you transform raw data into business value at any stage of your AI project.\n\n\nYour AI strategy and narrative cover developing, implementing, and using large language models (LLMs) in projects, and building and sharing knowledge using AI. An effective approach makes these tools accessible for those who need them, while helping stakeholders understand and trust the implications.\nI can help optimize your AI strategy and narrative by:\n\nIdentifying and addressing performance issues (cost, quality, speed)\nOptimizing Retrieval-Augmented Generation (RAG)\nImplementing fine-tuning techniques\nDeveloping effective prompt engineering strategies\nCreating dev tools and infrastructure to iterate quickly on LLMs\nSelecting LLM vendors\nBuilding domain-specific evaluation systems\nDesigning and implementing custom evaluation metrics\nOptimizing the hands-on model\nProducing content to communicate best practices and methodologies\n\nBy focusing on these areas, we can make LLMs more accessible and usable for solving problems and developing data-driven solutions that create tangible business value for your organization."
+    "objectID": "posts/structured-generation-benchmark/index.html#methodology",
+    "href": "posts/structured-generation-benchmark/index.html#methodology",
+    "title": "Structured Generation Benchmark",
+    "section": "Methodology",
+    "text": "Methodology\n\nWe deployed a Modal function to run open-source models using Transformers + Outlines. Modal is an easy-to-use cloud platform to run generative AI models. Soon, we will write in more detail about our experience deploying structured generation there.\nWe created different model handlers to run the Gorilla BFCL evaluation framework (April 6, 2024 version) for the AST simple evaluation category.\nWe evaluated and reported the results comparing them with the Leaderboard Website [April 26, 2024 version]."
   },
   {
-    "objectID": "consulting.html#consulting-services",
-    "href": "consulting.html#consulting-services",
-    "title": "AI Consulting: Transforming Data into Business Value",
-    "section": "",
-    "text": "Developing or evaluating your AI strategy and narrative.\nShort or long-term advisory services.\nRates are negotiable by project and billed hourly."
+    "objectID": "posts/structured-generation-benchmark/index.html#results",
+    "href": "posts/structured-generation-benchmark/index.html#results",
+    "title": "Structured Generation Benchmark",
+    "section": "Results",
+    "text": "Results\n\nMistral-7B-Instruct-v0.2 (5th, 85.5%)\n\nOur first intuition was to explore the potential of structured generation in enhancing the performance of a 7B model on the Function Calling task. Mistral-7B-Instruct-v0.2 achieved an impressive accuracy of 85.5%, securing the 5th position on the leaderboard. This result stands as the highest score among all Mistral models in the table, suggesting that it may play a significant role in enabling smaller models to tackle complex tasks effectively.\n\n\nGemma-7b-it (from 37th, 42.18% to 7th, 84.25%)\n\nWe wanted to see if a base 7B model could reach the top of the leaderboard by using the power of structured generation. google/gemma-7b-it was already the best 7B model on the leaderboard before our tests. However, when we combined it with Outlines, it showed a huge jump in performance. It went from the 37th position with an accuracy of 42.18% to 7th place, achieving an accuracy of 84.25%. This big improvement highlights the potential of structured generation to boost the performance of base models.\n\n\nDeepseek-v1.5 (from 38th, 38.91% to 3rd, 87%)\n\nWe directly compared how well structured generation works against fine-tuning. We chose deepseek-coder-7b-instruct-v1.5, a model that is used as the base for the fine-tuned Gorilla model. By combining it with Outlines, we saw a remarkable improvement in performance. The model jumped from the 38th position with an accuracy of 38.91% to the 3rd place, achieving 87%. This result is very important because it matches the performance of the fine-tuned Gorilla-OpenFunctions-v2 model, which is based on the same architecture. The success of this test raises important questions about the different ways to improve model performance. It suggests that structured generation may, in some cases, be a good and efficient alternative to fine-tuning.\n\n\nMeta-Llama-3-8B-Instruct (from 34th, 58.73% to 7th, 84.25%)\n\nWe tested the latest sensation in the world of language models. Meta-Llama-3-8B-Instruct achieved an impressive accuracy of 84.25%, securing the 7th position on the leaderboard."
   },
   {
-    "objectID": "consulting.html#private-training",
-    "href": "consulting.html#private-training",
-    "title": "AI Consulting: Transforming Data into Business Value",
-    "section": "",
-    "text": "Developing your LLM and AI programming skills.\nSingle or series of workshops or meetings.\nRates for training are negotiable and billed per session for small scope or hourly for large scope."
+    "objectID": "posts/structured-generation-benchmark/index.html#conclusion",
+    "href": "posts/structured-generation-benchmark/index.html#conclusion",
+    "title": "Structured Generation Benchmark",
+    "section": "Conclusion",
+    "text": "Conclusion\nOur study shows that structured generation significantly improves how LLMs handle function calling tasks. We found through testing that it matches traditional fine-tuning in terms of accuracy and efficiency, especially for smaller models. It also leads to better understanding of complex inputs. Looking ahead, we plan to expand our use of the GFCL benchmark’s evaluation categories and explore more diverse datasets."
   },
   {
-    "objectID": "consulting.html#clients",
-    "href": "consulting.html#clients",
-    "title": "AI Consulting: Transforming Data into Business Value",
-    "section": "",
-    "text": "GeoVictoria: A leading provider of time and attendance management solutions. We’re developing VictorIA, a conversational AI for HR.\nDefontana: A comprehensive ERP software provider offering solutions for businesses of all sizes, including modules for accounting, HR, POS, and more. I developed an inventory demand prediction tool.\nCoopeuch: A leading Chilean savings and credit cooperative offering financial services like loans, investments, and insurance. I trained the data analytics team on machine learning.\nTRC Recruitme: Connects job seekers with employers. Building an LLM-powered recruitment platform from unstructured data.\nDiscolab: Deployed an OpenAI API-based product that efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day.\nSubconscious.ai: I helped build an AI Copilot for causal market research, using LangChain’s LCEL to transform the query process for LLMs.\n\n\nLet’s harness AI’s power to solve your business problems!\n\nFull Name \nEmail Address \nMessage\n\n\nSend"
+    "objectID": "posts/structured-generation-benchmark/index.html#footnotes",
+    "href": "posts/structured-generation-benchmark/index.html#footnotes",
+    "title": "Structured Generation Benchmark",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWillard, B. T., & Louf, R. (2023). Efficient Guided Generation for Large Language Models.↩︎\nYan, F., Mao, H., Ji, C. C.-J., Zhang, T., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2024). Berkeley Function Calling Leaderboard.↩︎\nPatil, S. G., Zhang, T., Wang, X., & Gonzalez, J. E. (2023). Gorilla: Large Language Model Connected with Massive APIs. arXiv preprint arXiv:2305.15334.↩︎"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Alonso",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI’m Alonso Astroza Tagle. This is my resume.\n\n\n🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile.\n\n\n\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Alonso",
-    "section": "",
-    "text": "🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile."
-  },
-  {
-    "objectID": "about.html#personal",
-    "href": "about.html#personal",
-    "title": "Alonso",
-    "section": "",
-    "text": "🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
-  },
-  {
-    "objectID": "about.html#consulting",
-    "href": "about.html#consulting",
-    "title": "Alonso",
-    "section": "Consulting",
-    "text": "Consulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.\nI enjoy building new connections and would be happy to discuss how we can work together. Let’s connect!"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Artificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks/mono-porfiado/index.html",
-    "href": "talks/mono-porfiado/index.html",
-    "title": "Podcast Mono Porfiado (Spanish)",
-    "section": "",
-    "text": "I appeared in an episode of the podcast Mono Porfiado by Defontana.\n\nIn this episode, we will have Alonso Astroza as a guest, who has been connected to the world of innovation and technology since his youth. He is one of the first Chileans to work with and introduce the concept of Artificial Intelligence in our country.\n\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Podcast Mono Porfiado (Spanish).”\nApril 17, 2024. https://www.alonsoastroza.com/talks/mono-porfiado/."
-  },
-  {
-    "objectID": "talks/hrday-2023/index.html",
-    "href": "talks/hrday-2023/index.html",
-    "title": "AI in Human Resources (Spanish)",
-    "section": "",
-    "text": "HRday is a wonderful (and free!) event that Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. By 2023, it was on everyone’s lips, and I was invited back to update the talk. Here is the result:\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “AI in Human Resources (Spanish).”\nMay 25, 2023. https://www.alonsoastroza.com/talks/hrday-2023/."
-  },
-  {
-    "objectID": "talks/clase-chatgpt/index.html",
-    "href": "talks/clase-chatgpt/index.html",
-    "title": "ChatGPT for beginners (Spanish)",
-    "section": "",
-    "text": "During the ChatGPT craze, I decided to teach an introductory workshop for non-technical people.\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “ChatGPT for Beginners (Spanish).”\nMay 8, 2023. https://www.alonsoastroza.com/talks/clase-chatgpt/."
-  },
-  {
-    "objectID": "talks/hrday-2024/index.html",
-    "href": "talks/hrday-2024/index.html",
-    "title": "Artificial Intelligence for Natural Brains (Spanish)",
-    "section": "",
-    "text": "HRday is a wonderful (and free!) event that Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. This year, I was invited again to address a question many of us are asking: Is AI going to take my job?\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Artificial Intelligence for Natural Brains\n(Spanish).” May 15, 2024. https://www.alonsoastroza.com/talks/hrday-2024/."
+    "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/powerbi/index.html",
@@ -245,81 +189,130 @@
     "text": "Further Steps\n\nHow to import SQLite data to PowerBI\n\n\n\nOther Courses\nIf you are a student at UDD and are interested in delving deeper into this tool, I recommend the following Zigna course."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "talks/hrday-2024/index.html",
+    "href": "talks/hrday-2024/index.html",
+    "title": "Artificial Intelligence for Natural Brains (Spanish)",
     "section": "",
-    "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "HRday is a wonderful (and free!) event that Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. This year, I was invited again to address a question many of us are asking: Is AI going to take my job?\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Artificial Intelligence for Natural Brains\n(Spanish).” May 15, 2024. https://www.alonsoastroza.com/talks/hrday-2024/."
   },
   {
-    "objectID": "posts/structured-generation-benchmark/index.html",
-    "href": "posts/structured-generation-benchmark/index.html",
-    "title": "Structured Generation Benchmark",
+    "objectID": "talks/clase-chatgpt/index.html",
+    "href": "talks/clase-chatgpt/index.html",
+    "title": "ChatGPT for beginners (Spanish)",
     "section": "",
-    "text": "Note\n\n\n\nThis report originates from the Outlines community’s proposal to find a good dataset for evaluating structured generation. If you want to participate, join our Discord.\nTo use Large Language Models (LLMs) effectively and reliably, it’s essential to include structured generation techniques. Being able to get outputs like regular expressions, JSON, or a Pydantic data model is key for making useful software.\nBut what’s the real effect of using libraries like Outlines or Instructor to achieve that goal?\nThis post try to answer this question."
+    "text": "During the ChatGPT craze, I decided to teach an introductory workshop for non-technical people.\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “ChatGPT for Beginners (Spanish).”\nMay 8, 2023. https://www.alonsoastroza.com/talks/clase-chatgpt/."
   },
   {
-    "objectID": "posts/structured-generation-benchmark/index.html#goal",
-    "href": "posts/structured-generation-benchmark/index.html#goal",
-    "title": "Structured Generation Benchmark",
-    "section": "Goal",
-    "text": "Goal\nThe main goal of this evaluation is to show the power of structured generation in the context of Function Calling, which is the ability of Large Language Models (LLMs) to call functions based on natural language instructions. We focus on the case where the LLM is given a single JSON function document and is expected to make a single function call.\nTo create this evaluation, we use the Outlines library, which changes the problem of neural text generation into transitions between states of a finite-state machine1. Outlines allows for the creation of reliable interfaces by ensuring the structure of the generated text.\nWe want to explore some interesting questions: Can structured generation work better than fine-tuning for Function Calling? Can this approach allow smaller open-source models to perform as well as larger, state-of-the-art models? The results of this evaluation will give us valuable insights into the abilities and potential of structured generation in improving the performance of LLMs across various model sizes and architectures, potentially reshaping our understanding of how to optimize for specific tasks."
-  },
-  {
-    "objectID": "posts/structured-generation-benchmark/index.html#benchmark",
-    "href": "posts/structured-generation-benchmark/index.html#benchmark",
-    "title": "Structured Generation Benchmark",
-    "section": "Benchmark",
-    "text": "Benchmark\nThere is a dataset generated from real-world data that has been released2 for the construction of the Berkeley Function-Calling Leaderboard. It consists of 2,000 question-function-answer pairs across multiple languages, diverse application domains, and complex use cases3. Additionally, it includes the code to reproduce the benchmark, which serves as a sort of framework for evaluation. If you want to learn more about this outstanding initiative, we recommend reading this blog post.\n\nData\nIn the Outlines community, we decided to start with the ‘AST Simple’ category, as described by the authors:\n\nSimple Function: The evaluation of a single function includes the simplest but most commonly seen format, where the user provides a single JSON function document. Only one function call will be invoked.\n\nHere is an example from one of the 400 records in the python section of this evaluation category:\nquestion = 'Find the area of a triangle with a base of 10 units and height of 5 units.'\nTo answer the question, the LLM has access to the function defined by this JSON Schema:\n{\n  \"title\": \"calculate_triangle_area\",\n  \"type\": \"object\",\n  \"description\": \"Calculate the area of a triangle given its base and height.\",\n  \"properties\": {\n    \"base\": {\n      \"type\": \"integer\",\n      \"description\": \"The base of the triangle.\"\n    },\n    \"height\": {\n      \"type\": \"integer\",\n      \"description\": \"The height of the triangle.\"\n    },\n    \"unit\": {\n      \"type\": \"string\",\n      \"description\": \"The unit of measure (defaults to 'units' if not specified)\"\n    }\n  },\n  \"required\": [\n    \"base\",\n    \"height\"\n  ]\n}\nThe expected response:\ncalculate_triangle_area(base=10, height=5, unit='units')\nThis is exactly the use case we’ve been facing in our efforts to integrate LLMs to power software.\n\n\nMetric\nWe use the evaluation process for simple functions within the GFCL framework. This process involves comparing the output of a model directly with the expected function document and potential correct answers. Below is a flowchart that details this step-by-step evaluation process.\n\n\n\nEvaluating function calls. Image from GFCL blog post.\n\n\nThen, accuracy is calculated by counting the validated function calls and comparing them with the total number of simple test category cases."
-  },
-  {
-    "objectID": "posts/structured-generation-benchmark/index.html#methodology",
-    "href": "posts/structured-generation-benchmark/index.html#methodology",
-    "title": "Structured Generation Benchmark",
-    "section": "Methodology",
-    "text": "Methodology\n\nWe deployed a Modal function to run open-source models using Transformers + Outlines. Modal is an easy-to-use cloud platform useful to run generative AI models. Soon, we will write in more detail about our experience deploying structured generation there.\nWe created different model handlers to run the Gorilla BFCL evaluation framework [April 6, 2024 version] for the AST simple evaluation category.\nWe evaluated and reported the results comparing them with the Leaderboard Website [April 26, 2024 version]."
-  },
-  {
-    "objectID": "posts/structured-generation-benchmark/index.html#results",
-    "href": "posts/structured-generation-benchmark/index.html#results",
-    "title": "Structured Generation Benchmark",
-    "section": "Results",
-    "text": "Results\n\nMistral-7B-Instruct-v0.2 (5th, 85.5%)\n\nOur first intuition was to explore the potential of structured generation in enhancing the performance of a 7B model on the Function Calling task. Mistral-7B-Instruct-v0.2 achieved an impressive accuracy of 85.5%, securing the 5th position on the leaderboard. Notably, this result stands as the highest score among all Mistral models in the table, suggesting that structured generation may play a significant role in enabling smaller models to tackle complex tasks effectively.\n\n\nGemma-7b-it (from 37th, 42.18% to 7th, 84.25%)\n\nWe wanted to see if a base 7B model could reach the top of the leaderboard by using the power of structured generation. google/gemma-7b-it was already the best 7B model on the leaderboard before our tests. However, when we combined it with Outlines, it showed a huge jump in performance. It went from the 37th position with an accuracy of 42.18% to an impressive 7th place, achieving an accuracy of 84.25%. This big improvement highlights the potential of structured generation to boost the performance of base models.\n\n\nDeepseek-v1.5 (from 38th, 38.91% to 3rd, 87%)\n\nWe tried to directly compare how well structured generation works against fine-tuning. We chose deepseek-coder-7b-instruct-v1.5, a model that is used as the base for the fine-tuned Gorilla model. By combining it with Outlines, we saw a remarkable improvement in performance. The model jumped from the 38th position with an accuracy of 38.91% to an amazing 3rd place, achieving an accuracy of 87%. This result is very important because it matches the performance of the fine-tuned Gorilla-OpenFunctions-v2 model, which is based on the same architecture. The success of this test raises important questions about the different ways to improve model performance. It suggests that structured generation may, in some cases, be a good and efficient alternative to fine-tuning.\n\n\nMeta-Llama-3-8B-Instruct (from 34th, 58.73% to 7th, 84.25%)\n\nWe couldn’t resist testing the latest sensation in the world of language models. When combined with structured generation, Meta-Llama-3-8B-Instruct achieved an impressive accuracy of 84.25%, securing the 7th position on the leaderboard."
-  },
-  {
-    "objectID": "posts/structured-generation-benchmark/index.html#conclusion",
-    "href": "posts/structured-generation-benchmark/index.html#conclusion",
-    "title": "Structured Generation Benchmark",
-    "section": "Conclusion",
-    "text": "Conclusion\nOur study shows that structured generation greatly improves how LLMs handle function calling tasks. Through testing, we found that structured generation matches traditional fine-tuning in terms of accuracy and efficiency, especially for smaller models. It also leads to more understanding of complex inputs. Looking ahead, we plan to expand our use of the GFCL benchmark’s evaluation categories and explore or develop more diverse datasets."
-  },
-  {
-    "objectID": "posts/structured-generation-benchmark/index.html#footnotes",
-    "href": "posts/structured-generation-benchmark/index.html#footnotes",
-    "title": "Structured Generation Benchmark",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nWillard, B. T., & Louf, R. (2023). Efficient Guided Generation for Large Language Models.↩︎\nYan, F., Mao, H., Ji, C. C.-J., Zhang, T., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2024). Berkeley Function Calling Leaderboard.↩︎\nPatil, S. G., Zhang, T., Wang, X., & Gonzalez, J. E. (2023). Gorilla: Large Language Model Connected with Massive APIs. arXiv preprint arXiv:2305.15334.↩︎"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "I’d love to hear from you! ",
+    "objectID": "talks/hrday-2023/index.html",
+    "href": "talks/hrday-2023/index.html",
+    "title": "AI in Human Resources (Spanish)",
     "section": "",
-    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio.\n\n\n\n\n\n\n\n \n\n\n\n\nConsulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice."
+    "text": "HRday is a wonderful (and free!) event that Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. By 2023, it was on everyone’s lips, and I was invited back to update the talk. Here is the result:\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “AI in Human Resources (Spanish).”\nMay 25, 2023. https://www.alonsoastroza.com/talks/hrday-2023/."
   },
   {
-    "objectID": "posteos/post-with-code/index.html",
-    "href": "posteos/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "talks/mono-porfiado/index.html",
+    "href": "talks/mono-porfiado/index.html",
+    "title": "Podcast Mono Porfiado (Spanish)",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "I appeared in an episode of the podcast Mono Porfiado by Defontana.\n\nIn this episode, we will have Alonso Astroza as a guest, who has been connected to the world of innovation and technology since his youth. He is one of the first Chileans to work with and introduce the concept of Artificial Intelligence in our country.\n\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Podcast Mono Porfiado (Spanish).”\nApril 17, 2024. https://www.alonsoastroza.com/talks/mono-porfiado/."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Artificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Alonso",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI’m Alonso Astroza Tagle. This is my resume.\n\n\n🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile.\n\n\n\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Alonso",
+    "section": "",
+    "text": "🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile."
+  },
+  {
+    "objectID": "about.html#personal",
+    "href": "about.html#personal",
+    "title": "Alonso",
+    "section": "",
+    "text": "🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
+  },
+  {
+    "objectID": "about.html#consulting",
+    "href": "about.html#consulting",
+    "title": "Alonso",
+    "section": "Consulting",
+    "text": "Consulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.\nI enjoy building new connections and would be happy to discuss how we can work together. Let’s connect!"
+  },
+  {
+    "objectID": "consulting.html",
+    "href": "consulting.html",
+    "title": "AI Consulting: Transforming Data into Business Value",
+    "section": "",
+    "text": "I specialize in creating products that turn raw data into business value, empowering organizations to optimize their operations and services. If you want to leverage AI to solve complex problems and drive meaningful results, my skills and experience can help you achieve your goals.\nI offer consulting services for your project. I’m passionate about making connections and would love to work together. Contact me to create value for your organization.\n\n\nWe start by defining your business challenge. Then, we identify the impacted stakeholders and envision a successful solution for them. After that, we consider how AI and data analytics can achieve your objectives.\nThis method ensures we tackle your problem with purpose. We can determine the necessary data, analyses, and tools for a solution by understanding your needs and desired outcomes. This framework allows us to harness AI to create optimized solutions that deliver business value for you and your stakeholders.\n\n\n\nI offer consulting and private training to help you transform raw data into business value at any stage of your AI project.\n\n\nYour AI strategy and narrative cover developing, implementing, and using large language models (LLMs) in projects, and building and sharing knowledge using AI. An effective approach makes these tools accessible for those who need them, while helping stakeholders understand and trust the implications.\nI can help optimize your AI strategy and narrative by:\n\nIdentifying and addressing performance issues (cost, quality, speed)\nOptimizing Retrieval-Augmented Generation (RAG)\nImplementing fine-tuning techniques\nDeveloping effective prompt engineering strategies\nCreating dev tools and infrastructure to iterate quickly on LLMs\nSelecting LLM vendors\nBuilding domain-specific evaluation systems\nDesigning and implementing custom evaluation metrics\nOptimizing the hands-on model\nProducing content to communicate best practices and methodologies\n\nBy focusing on these areas, we can make LLMs more accessible and usable for solving problems and developing data-driven solutions that create tangible business value for your organization.\n\n\n\n\n\nDeveloping or evaluating your AI strategy and narrative.\nShort or long-term advisory services.\nRates are negotiable by project and billed hourly.\n\n\n\n\n\nDeveloping your LLM and AI programming skills.\nSingle or series of workshops or meetings.\nRates for training are negotiable and billed per session for small scope or hourly for large scope.\n\n\n\n\n\nGeoVictoria: A leading provider of time and attendance management solutions. We’re developing VictorIA, a conversational AI for HR.\nDefontana: A comprehensive ERP software provider offering solutions for businesses of all sizes, including modules for accounting, HR, POS, and more. I developed an inventory demand prediction tool.\nCoopeuch: A leading Chilean savings and credit cooperative offering financial services like loans, investments, and insurance. I trained the data analytics team on machine learning.\nTRC Recruitme: Connects job seekers with employers. Building an LLM-powered recruitment platform from unstructured data.\nDiscolab: Deployed an OpenAI API-based product that efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day.\nSubconscious.ai: I helped build an AI Copilot for causal market research, using LangChain’s LCEL to transform the query process for LLMs.\n\n\nLet’s harness AI’s power to solve your business problems!\n\nFull Name \nEmail Address \nMessage\n\n\nSend"
+  },
+  {
+    "objectID": "consulting.html#a-data-driven-approach-to-success",
+    "href": "consulting.html#a-data-driven-approach-to-success",
+    "title": "AI Consulting: Transforming Data into Business Value",
+    "section": "",
+    "text": "We start by defining your business challenge. Then, we identify the impacted stakeholders and envision a successful solution for them. After that, we consider how AI and data analytics can achieve your objectives.\nThis method ensures we tackle your problem with purpose. We can determine the necessary data, analyses, and tools for a solution by understanding your needs and desired outcomes. This framework allows us to harness AI to create optimized solutions that deliver business value for you and your stakeholders."
+  },
+  {
+    "objectID": "consulting.html#how-i-can-help",
+    "href": "consulting.html#how-i-can-help",
+    "title": "AI Consulting: Transforming Data into Business Value",
+    "section": "",
+    "text": "I offer consulting and private training to help you transform raw data into business value at any stage of your AI project.\n\n\nYour AI strategy and narrative cover developing, implementing, and using large language models (LLMs) in projects, and building and sharing knowledge using AI. An effective approach makes these tools accessible for those who need them, while helping stakeholders understand and trust the implications.\nI can help optimize your AI strategy and narrative by:\n\nIdentifying and addressing performance issues (cost, quality, speed)\nOptimizing Retrieval-Augmented Generation (RAG)\nImplementing fine-tuning techniques\nDeveloping effective prompt engineering strategies\nCreating dev tools and infrastructure to iterate quickly on LLMs\nSelecting LLM vendors\nBuilding domain-specific evaluation systems\nDesigning and implementing custom evaluation metrics\nOptimizing the hands-on model\nProducing content to communicate best practices and methodologies\n\nBy focusing on these areas, we can make LLMs more accessible and usable for solving problems and developing data-driven solutions that create tangible business value for your organization."
+  },
+  {
+    "objectID": "consulting.html#consulting-services",
+    "href": "consulting.html#consulting-services",
+    "title": "AI Consulting: Transforming Data into Business Value",
+    "section": "",
+    "text": "Developing or evaluating your AI strategy and narrative.\nShort or long-term advisory services.\nRates are negotiable by project and billed hourly."
+  },
+  {
+    "objectID": "consulting.html#private-training",
+    "href": "consulting.html#private-training",
+    "title": "AI Consulting: Transforming Data into Business Value",
+    "section": "",
+    "text": "Developing your LLM and AI programming skills.\nSingle or series of workshops or meetings.\nRates for training are negotiable and billed per session for small scope or hourly for large scope."
+  },
+  {
+    "objectID": "consulting.html#clients",
+    "href": "consulting.html#clients",
+    "title": "AI Consulting: Transforming Data into Business Value",
+    "section": "",
+    "text": "GeoVictoria: A leading provider of time and attendance management solutions. We’re developing VictorIA, a conversational AI for HR.\nDefontana: A comprehensive ERP software provider offering solutions for businesses of all sizes, including modules for accounting, HR, POS, and more. I developed an inventory demand prediction tool.\nCoopeuch: A leading Chilean savings and credit cooperative offering financial services like loans, investments, and insurance. I trained the data analytics team on machine learning.\nTRC Recruitme: Connects job seekers with employers. Building an LLM-powered recruitment platform from unstructured data.\nDiscolab: Deployed an OpenAI API-based product that efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day.\nSubconscious.ai: I helped build an AI Copilot for causal market research, using LangChain’s LCEL to transform the query process for LLMs.\n\n\nLet’s harness AI’s power to solve your business problems!\n\nFull Name \nEmail Address \nMessage\n\n\nSend"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\nFor code, please refer to the license of each respective repository."
+  },
+  {
+    "objectID": "posteos/podcats-hormigas/index.html",
+    "href": "posteos/podcats-hormigas/index.html",
+    "title": "¿Pueden las hormigas ser comediantes?",
+    "section": "",
+    "text": "Alonso Astroza Tagle · Can ants be standup comedians? (Spanish)\n\nSupongo que bastaron unos segundos para que te dieras cuenta que el audio está generado por IA. De hecho todo el podcast fue generado de esa forma, incluido el guion y las voces.\nPara generar ese audio de 5 minutos solo le entregué un archivo de entrada como este:\n\n¿Cómo lo hice? Con una batería de herramientas de IA, dejé todo el código disponible en la página del proyecto."
   },
   {
     "objectID": "spanish.html",
     "href": "spanish.html",
     "title": "Blog en Español",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 4, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 1, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA. \n\n\n\npodcast\n\n\nia\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -333,7 +326,7 @@
     "href": "index.html#latest-posts",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
     "section": "Latest Posts",
-    "text": "Latest Posts\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\nEvaluating the ability of the LLM to call functions.\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Latest Posts\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities.\n\n\n\nApr 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#latest-projects",
@@ -361,7 +354,7 @@
     "href": "index.html#lo-último-en-español",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
     "section": "Lo último en Español",
-    "text": "Lo último en Español\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nJul 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lo último en Español\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\n\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/chatstract/index.html",
@@ -390,5 +383,12 @@
     "title": "AI-Podcast Generator",
     "section": "Features",
     "text": "Features\n\nGenerate podcast scripts and audio automatically.\nCustomize podcast details, host, guest, topics, and output settings.\nSupports multiple voices from Play.ht API.\nRequires minimal setup and configuration."
+  },
+  {
+    "objectID": "projects/podcast/index.html#examples",
+    "href": "projects/podcast/index.html#examples",
+    "title": "AI-Podcast Generator",
+    "section": "Examples",
+    "text": "Examples\nSoundcloud Playlist 📻\n\nArtificial Intelligence for Natural Brains\nThis Audio was generated based on this YAML text file.\n# Podcast Interview Configuration\npodcast:\n  info:\n    title: Artificial Intelligence for Natural Brains\n    description: A podcast where we talk about the future of AI and how it will affect our lives\n  host:\n    name: Brandon Bert\n    voice: en-US-BrandonNeural #A value from data/voices.json\n  guest:\n    name: Monica Gradient\n    voice: en-US-MonicaNeural #A value from data/voices.json\n  topics:\n    main: Artificial Intelligence\n    sub:\n      - ChatGPT\n      - Generative AI\n      - AGI\n      - AI Ethics\n  output:\n    duration: 5 #Episode length in minutes\n    language: english\n    audio: True #Set to False if you want to generate only the text script\n    folder: examples/ai/\n\n\nCats and Egyptians Gods (Spanish)\nThis Audio was generated based on this YAML text file.\n# Podcast Interview Configuration\npodcast:\n  info:\n    title: Todos los gatitos se van al cielo\n    description: Un programa donde conversamos sobre gatitos y las divinidades egipcias\n  host:\n    name: Alfonso Astorga\n    voice: es-AR-TomasNeural #A value from data/voices.json\n  guest:\n    name: Alicia Cats\n    voice: es-MX-BeatrizNeural #A value from data/voices.json\n  topics:\n    main: Gatos y Dioses Egipcios\n    sub:\n      - Los Gatos en el Antiguo Egipto\n      - Historias acerca de Gatos y Dioses Egipcios\n      - ¿Por qué los gatos eran considerados divinos?\n  output:\n    duration: 5 #Episode length in minutes\n    language: spanish\n    audio: True #Set to False if you want to generate only the text script\n    folder: examples/cats/\n\n\nCan ants be standup comedians? (Spanish)\nThis Audio was generated based on this YAML text file.\n# Podcast Interview Configuration\npodcast:\n  info:\n    title: Los que reímos al último\n    description: Un programa donde conversamos sobre la comedia, el humor y los que les gusta terminar el día con una sonrisa\n  host:\n    name: Alfonso Astorga\n    voice: es-US-AlonsoNeural #A value from data/voices.json\n  guest:\n    name: Penelope Antenas\n    voice: es-CO-SalomeNeural #A value from data/voices.json\n  topics:\n    main: Las hormigas y la comedia\n    sub:\n      - ¿Pueden hablar las hormigas?\n      - ¿Pueden las hormigas hacer comedia?\n      - ¿Sobre que se ríen las hormigas?\n      - Cuentanos un chiste clásico que hagan las hormigas.\n      - Nombre un comediante hormiga famoso.\n  output:\n    duration: 5 #Episode length in minutes\n    language: spanish\n    audio: True #Set to False if you want to generate only the text script\n    folder: examples/ants/"
   }
 ]

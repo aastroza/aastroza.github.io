@@ -12,15 +12,6 @@
     ]
   },
   {
-    "listing": "/talks.html",
-    "items": [
-      "/talks/hrday-2024/index.html",
-      "/talks/mono-porfiado/index.html",
-      "/talks/hrday-2023/index.html",
-      "/talks/clase-chatgpt/index.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/projects/ft-hackathon/index.html",
@@ -31,10 +22,18 @@
     ]
   },
   {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/hrday-2024/index.html",
+      "/talks/mono-porfiado/index.html",
+      "/talks/hrday-2023/index.html",
+      "/talks/clase-chatgpt/index.html"
+    ]
+  },
+  {
     "listing": "/spanish.html",
     "items": [
-      "/posteos/post-with-code/index.html",
-      "/posteos/welcome/index.html"
+      "/posteos/podcats-hormigas/index.html"
     ]
   },
   {
@@ -51,8 +50,7 @@
       "/talks/hrday-2023/index.html",
       "/talks/clase-chatgpt/index.html",
       "/teaching/powerbi/index.html",
-      "/posteos/post-with-code/index.html",
-      "/posteos/welcome/index.html"
+      "/posteos/podcats-hormigas/index.html"
     ]
   }
 ]
