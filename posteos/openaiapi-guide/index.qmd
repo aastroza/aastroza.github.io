@@ -1,7 +1,7 @@
 ---
 title: "Todo lo que siempre quisiste saber sobre la API de OpenAI"
 date: "2024-08-08"
-image: openai-white-lockup.png
+image: openai-lockup.png
 categories: [llm, ia, python, openai]
 subtitle: >
   Contado en simple y en español.
