@@ -1,0 +1,20 @@
+---
+title: "Todo lo que siempre quisiste saber sobre la API de OpenAI"
+date: "2024-08-08"
+image: openai-white-lockup.png
+categories: [llm, ia, python, openai]
+subtitle: >
+  Contado en simple y en español.
+description: ''
+
+links:
+- icon: github
+  name: Github Code
+  url: https://github.com/aastroza/recetas-openai
+- icon: twitter
+  name: Twitter Thread
+  url: https://twitter.com/aastroza/status/1800561847902560738
+---
+
+
+Supongo que bastaron unos segundos para que te dieras cuenta que el audio está generado por IA. De hecho todo el podcast fue generado de esa forma, incluido el guion y las voces.
