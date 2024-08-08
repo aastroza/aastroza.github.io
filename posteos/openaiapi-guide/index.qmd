@@ -17,4 +17,44 @@ links:
 ---
 
 
-Supongo que bastaron unos segundos para que te dieras cuenta que el audio está generado por IA. De hecho todo el podcast fue generado de esa forma, incluido el guion y las voces.
+## ¿Quién es OpenAI?
+
+## ¿Qué es una API?
+
+## ¿Cómo uso una API?
+
+## ¿Cuánto cuesta usar la API de OpenAI?
+
+## ¿Qué es una API KEY?
+
+## ¿Qué es un prompt?
+
+## ¿Cómo hago mi primera consulta?
+
+## ¿Qué cosas puedo hacer usando la API de OpenAI?
+
+## ¿Cómo puedo generar texto?
+
+## ¿Cómo puedo generar imágenes?
+
+## ¿Cómo puedo transcribir imágenes a texto?
+
+## ¿Cómo puedo generar audio?
+
+## ¿Cómo puedo transcribir audio a texto?
+
+## ¿Cómo puedo usar la API sin saber programar?
+
+## ¿Cuál es la forma más barata de usar la API de OpenAI?
+
+## ¿Cuál es la forma más rápida de obtener resultados con la API de OpenAI?
+
+## ¿Por qué obtengo dos resultados distintos para la misma consulta?
+
+## ¿Cómo puedo evitar obtener resultados distintos para la misma consulta?
+
+## ¿Existe alguna forma de que las respuestas sigan una secuencia estructurada?
+
+## ¡Muéstrame lo más entretenido que puedas hacer usando la API de OpenAI!
+
+## ¿Dónde puedo seguir aprendiendo?
