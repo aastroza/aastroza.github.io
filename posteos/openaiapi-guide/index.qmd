@@ -19,6 +19,10 @@ links:
 
 ## ¿Quién es OpenAI?
 
+![El logo de OpenAI](openai-lockup.png)
+
+## ¿Qué es un LLM?
+
 ## ¿Qué es una API?
 
 ## ¿Cómo uso una API?
