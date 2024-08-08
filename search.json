@@ -1,96 +1,5 @@
 [
   {
-    "objectID": "projects/ft-hackathon/index.html",
-    "href": "projects/ft-hackathon/index.html",
-    "title": "Mistral AI Fine-Tuning Hackathon",
-    "section": "",
-    "text": "Felipe Avello in the Viña del Mar Festival. SA Producciones, CC BY-SA 4.0, via Wikimedia Commons\nGenerative AI is revolutionizing communication worldwide. However, current models are predominantly trained in standard English, neglecting other languages like the unique Spanish dialect spoken in Chile. This dialect is considered highly disruptive globally due to its rapid evolution in spoken and written language, creation of new words, and flexible rules of pronunciation. Adapting AI models to this Chilean dialect poses a challenge, requiring a curated database reflecting the language’s evolution for accuracy.\nChile boasts a rich tradition in humor, showcased annually at the Viña del Mar Festival since 1960. Leveraging the Mistral API, we created a database with more than 4,800 jokes from the festival and used a high quality subset to fine-tune a model for generating jokes based on keywords. An additional step involved mapping the mentalization levels in joke structure for quality control.\nWe compared Mistral 7B (non-finetuned) with our Mistral 7B finetuned model, using Mistral Large as a judge. The score improved from 43.12% to 49.09%."
-  },
-  {
-    "objectID": "projects/ft-hackathon/index.html#motivation",
-    "href": "projects/ft-hackathon/index.html#motivation",
-    "title": "Mistral AI Fine-Tuning Hackathon",
-    "section": "Motivation",
-    "text": "Motivation\nGenerative AI is revolutionizing global communication, with the potential to mediate all our interactions in the near future. However, current models predominantly excel in standard English, leaving less-represented languages and dialects at a significant disadvantage. This disparity is particularly evident in the case of Chilean Spanish, a dialect so unique that it challenges the very notion of what constitutes Spanish.\nThe Spanish spoken in Chile stands out as one of the most linguistically disruptive variants worldwide. Its distinctiveness is unmistakable to both native speakers and language experts, although it is difficult to quantify. The Chilean dialect is characterized by:\n\nRapid evolution of spoken and written language\nFrequent invention and adoption of new words\nFlexible and often unconventional pronunciation\nConstant modification and reinterpretation of linguistic rules\n\nThese factors combine to create a language environment where “speaking Chilean” diverges significantly from standard Spanish, posing unique challenges for LLMs.\nThe legendary filmmaker Raúl Ruiz eloquently captures the complexity of Chilean Spanish:\n\n“What I like about Chile is that special way Chileans have of speaking. Chileans are sometimes capable of speaking without using either verb or subject, or they use verbs and the subject displaced, which makes them talk for hours and you don’t know what about. Every Chilean speaks exclusively in quotation marks. It’s someone who puts rhetoric before reality. Chile manufactures a very curious form of artificial language in which intonation is almost as important as the words that are uttered. More than the accent, it’s the strange syntax. One starts a sentence and ends with ellipsis, starts another and another, and what happens is that people are speaking with three parallel discourses.”\n\n\n\n\n“Tres tristes tigres”, a masterpiece by Raúl Ruiz\n\n\nAdapting models to this Chilean dialect requires more than simple translation. It demands a deep understanding of the cultural context, linguistic nuances, and the ever-evolving nature of the language. To achieve this, we need to curate a reliable written record that captures the essence of Chilean Spanish, reflecting its evolution while ensuring quality and representativeness.\nAn unexpected but rich source for this linguistic data lies in Chile’s vibrant comedy scene. The Viña del Mar Festival, showcases the country’s top comedians and offers a treasure trove of uniquely Chilean expressions, wordplay, and cultural references. Held annually since 1960, the festival presents Chilean humor, known for its eccentricity – from talking puppets to trampoline-jumping comedians. This humor often features dialogues that are incomprehensible to non-Chilean Spanish speakers, making it an ideal dataset for training LLMs in the intricacies of Chilean Spanish.\nDeveloping a model specialized in Chilean Spanish is not just about preserving linguistic diversity. It’s about ensuring that as AI-mediated communication becomes ubiquitous, Chilean voices are not left behind. This project aims to bridge the gap between global advancements and local linguistic realities. The goal is to create a LLM that can authentically understand and interact with Chilean Spanish speakers, reflecting their unique expressions and cultural context."
-  },
-  {
-    "objectID": "projects/ft-hackathon/index.html#acknowledgments",
-    "href": "projects/ft-hackathon/index.html#acknowledgments",
-    "title": "Mistral AI Fine-Tuning Hackathon",
-    "section": "Acknowledgments",
-    "text": "Acknowledgments\n\nMastering LLMs: A Conference For Developers & Data Scientists by Dan Becker and Hamel Husain. This course provided an excellent introduction to fine-tuning and inspired my participation in the Mistral AI fine-tuning hackathon.\n\nSpecial thanks to Sophia Yang (Mistral AI) for her insights on the Mistral API, and Thomas Capelle (W&B) for his teachings on the impressive Weave toolkit. Much of the code and many ideas in this project were drawn from their invaluable lessons.\n\nInstructor: This tool was a significant help in our project. It allowed us to add structure to the output from the Mistral API, making it much easier to process our data and create a high-quality dataset for fine-tuning.\nWe extend our gratitude to R.I.M. Dunbar, Jacques Launay, and Oliver Curry for their insightful paper “The Complexity of Jokes Is Limited by Cognitive Constraints on Mentalizing”. Their research provided valuable parameters for defining good jokes, which we applied automatically thanks to LLMs. Their work on the relationship between joke complexity, levels of intentionality, and humor appreciation significantly improved our approach to generating and evaluating Chilean humor."
-  },
-  {
-    "objectID": "projects/discolab/index.html",
-    "href": "projects/discolab/index.html",
-    "title": "Discolab",
-    "section": "",
-    "text": "Co-created the AI engine for the Explorador Constitucional a joint project by La Tercera (one of Chile’s largest newspapers) and CRiSSLab.\nDeployed an OpenAI API-based product in production, which efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day."
-  },
-  {
-    "objectID": "projects/discolab/index.html#press",
-    "href": "projects/discolab/index.html#press",
-    "title": "Discolab",
-    "section": "Press",
-    "text": "Press\n\nWhat are the differences between the constitutional texts? (Spanish)\nDiscolab: Artificial Intelligence at the service of Constitutional understanding in Chile (Spanish)"
-  },
-  {
-    "objectID": "projects/datarisas/index.html",
-    "href": "projects/datarisas/index.html",
-    "title": "Datarisas",
-    "section": "",
-    "text": "A screenshot from datarisas.cl\nDatarisas is a project dedicated to analyzing the history of humor in Chile. We have collected and analyzed data from thousands of jokes told on the country’s most important stage: the Viña del Mar International Song Festival (a music and entertainment festival held annually in the city of Viña del Mar, Chile).\nOur goal is not only to preserve these moments of humor but also to offer a deep and curious look at how comedy has evolved over the decades."
-  },
-  {
-    "objectID": "projects/datarisas/index.html#data",
-    "href": "projects/datarisas/index.html#data",
-    "title": "Datarisas",
-    "section": "Data",
-    "text": "Data\nThe site is powered by a database with 3,509 jokes told on the Viña del Mar Festival stage from 1960 to the present, extracted from transcriptions of 128 routines recorded on YouTube.\nThe entire process of transcribing and extracting the jokes was completely automated using artificial intelligence. So far, no human has edited a single comma, but we hope to improve the data as soon as possible. If you’re interested in how the process is done, you can check out the code here.\nIn the future, we hope to complete all the jokes from all the routines and add data from other popular festivals. If you’re interested in collaborating with this cause, contact me."
-  },
-  {
-    "objectID": "projects/datarisas/index.html#analysis",
-    "href": "projects/datarisas/index.html#analysis",
-    "title": "Datarisas",
-    "section": "Analysis",
-    "text": "Analysis\nBelow are some interesting analyses that emerge from the collected data.\nThe first chart shows the age of each comedian at the time of their performance on the Viña Festival stage. There is a noticeable trend towards younger comedians starting in the 2010s, perhaps due to the influence of stand-up comedy?\n\nThe second chart shows a cumulative count of how many times a man or a woman has performed comedy on the Viña Festival stage over the years."
-  },
-  {
-    "objectID": "projects/datarisas/index.html#credits",
-    "href": "projects/datarisas/index.html#credits",
-    "title": "Datarisas",
-    "section": "Credits",
-    "text": "Credits\nDatarisas is a project developed by Alonso Astroza and Alfonso Concha."
-  },
-  {
-    "objectID": "projects/datarisas/index.html#how-to-cite",
-    "href": "projects/datarisas/index.html#how-to-cite",
-    "title": "Datarisas",
-    "section": "How to Cite",
-    "text": "How to Cite\nIf you wish to use the data from this project in your own analyses or research, please cite the project as follows:\n\nAstroza, A. and Concha, A. (2024). Datarisas: Analysis of the history of Chilean humor. https://www.datarisas.cl"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Sign up using this form to receive an email whenever I post new content on my blog.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities. \n\n\n\nLLM\n\n\nstructured-generation\n\n\nbenchmark\n\n\nfunction-calling\n\n\nevals\n\n\n\n\n\n\n\n\n\nApr 30, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Introduction to Machine Learning for Professionals\n\n\nWhat we talk about when we talk about ML\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science\n\n\nMy personal approach to doing reproducible and collaborative data science.\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "I’d love to hear from you! ",
-    "section": "",
-    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio.\n\n\n\n\n\n\n\n \n\n\n\n\nConsulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice."
-  },
-  {
     "objectID": "posts/structured-generation-benchmark/index.html",
     "href": "posts/structured-generation-benchmark/index.html",
     "title": "Structured Generation Benchmark",
@@ -140,11 +49,214 @@
     "text": "Footnotes\n\n\nWillard, B. T., & Louf, R. (2023). Efficient Guided Generation for Large Language Models.↩︎\nYan, F., Mao, H., Ji, C. C.-J., Zhang, T., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2024). Berkeley Function Calling Leaderboard.↩︎\nPatil, S. G., Zhang, T., Wang, X., & Gonzalez, J. E. (2023). Gorilla: Large Language Model Connected with Massive APIs. arXiv preprint arXiv:2305.15334.↩︎"
   },
   {
+    "objectID": "talks/hrday-2023/index.html",
+    "href": "talks/hrday-2023/index.html",
+    "title": "AI in Human Resources (Spanish)",
+    "section": "",
+    "text": "HRday is a wonderful (and free!) event that Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. By 2023, it was on everyone’s lips, and I was invited back to update the talk. Here is the result:\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “AI in Human Resources (Spanish).”\nMay 25, 2023. https://www.alonsoastroza.com/talks/hrday-2023/."
+  },
+  {
+    "objectID": "talks/clase-chatgpt/index.html",
+    "href": "talks/clase-chatgpt/index.html",
+    "title": "ChatGPT for beginners (Spanish)",
+    "section": "",
+    "text": "During the ChatGPT craze, I decided to teach an introductory workshop for non-technical people.\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “ChatGPT for Beginners (Spanish).”\nMay 8, 2023. https://www.alonsoastroza.com/talks/clase-chatgpt/."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "",
+    "text": "I’m a Machine Learning Engineer. I create products that transform raw data into business value, empowering organizations to optimize their operations and services.\n    \n\n    \n      If you need help solving a problem using data, I’d love to assist you. I enjoy building new connections and would be happy to discuss how we can work together. Let's connect!\n    \n    About Me →"
+  },
+  {
+    "objectID": "index.html#latest-posts",
+    "href": "index.html#latest-posts",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Posts",
+    "text": "Latest Posts\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities.\n\n\n\nApr 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#latest-projects",
+    "href": "index.html#latest-projects",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Projects",
+    "text": "Latest Projects\n\n\n\n\n\n\n\n\n\n\nMistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#latest-talks",
+    "href": "index.html#latest-talks",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Talks",
+    "text": "Latest Talks\n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#latest-workshops",
+    "href": "index.html#latest-workshops",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Latest Workshops",
+    "text": "Latest Workshops\n\n\n\n\n\n\n\n\n\n\nIntroduction to Machine Learning for Professionals\n\n\nWhat we talk about when we talk about ML\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science\n\n\nMy personal approach to doing reproducible and collaborative data science.\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#lo-último-en-español",
+    "href": "index.html#lo-último-en-español",
+    "title": "\n      Alonso\n      Astroza Tagle\n    ",
+    "section": "Lo último en Español",
+    "text": "Lo último en Español\n\n\n\n\n\n\n\n\n\n\nTodo lo que siempre quisiste saber sobre la API de OpenAI\n\n\nContado en simple y en español.\n\n\n\nAug 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/ft-hackathon/index.html",
+    "href": "projects/ft-hackathon/index.html",
+    "title": "Mistral AI Fine-Tuning Hackathon",
+    "section": "",
+    "text": "Felipe Avello in the Viña del Mar Festival. SA Producciones, CC BY-SA 4.0, via Wikimedia Commons\nGenerative AI is revolutionizing communication worldwide. However, current models are predominantly trained in standard English, neglecting other languages like the unique Spanish dialect spoken in Chile. This dialect is considered highly disruptive globally due to its rapid evolution in spoken and written language, creation of new words, and flexible rules of pronunciation. Adapting AI models to this Chilean dialect poses a challenge, requiring a curated database reflecting the language’s evolution for accuracy.\nChile boasts a rich tradition in humor, showcased annually at the Viña del Mar Festival since 1960. Leveraging the Mistral API, we created a database with more than 4,800 jokes from the festival and used a high quality subset to fine-tune a model for generating jokes based on keywords. An additional step involved mapping the mentalization levels in joke structure for quality control.\nWe compared Mistral 7B (non-finetuned) with our Mistral 7B finetuned model, using Mistral Large as a judge. The score improved from 43.12% to 49.09%."
+  },
+  {
+    "objectID": "projects/ft-hackathon/index.html#motivation",
+    "href": "projects/ft-hackathon/index.html#motivation",
+    "title": "Mistral AI Fine-Tuning Hackathon",
+    "section": "Motivation",
+    "text": "Motivation\nGenerative AI is revolutionizing global communication, with the potential to mediate all our interactions in the near future. However, current models predominantly excel in standard English, leaving less-represented languages and dialects at a significant disadvantage. This disparity is particularly evident in the case of Chilean Spanish, a dialect so unique that it challenges the very notion of what constitutes Spanish.\nThe Spanish spoken in Chile stands out as one of the most linguistically disruptive variants worldwide. Its distinctiveness is unmistakable to both native speakers and language experts, although it is difficult to quantify. The Chilean dialect is characterized by:\n\nRapid evolution of spoken and written language\nFrequent invention and adoption of new words\nFlexible and often unconventional pronunciation\nConstant modification and reinterpretation of linguistic rules\n\nThese factors combine to create a language environment where “speaking Chilean” diverges significantly from standard Spanish, posing unique challenges for LLMs.\nThe legendary filmmaker Raúl Ruiz eloquently captures the complexity of Chilean Spanish:\n\n“What I like about Chile is that special way Chileans have of speaking. Chileans are sometimes capable of speaking without using either verb or subject, or they use verbs and the subject displaced, which makes them talk for hours and you don’t know what about. Every Chilean speaks exclusively in quotation marks. It’s someone who puts rhetoric before reality. Chile manufactures a very curious form of artificial language in which intonation is almost as important as the words that are uttered. More than the accent, it’s the strange syntax. One starts a sentence and ends with ellipsis, starts another and another, and what happens is that people are speaking with three parallel discourses.”\n\n\n\n\n“Tres tristes tigres”, a masterpiece by Raúl Ruiz\n\n\nAdapting models to this Chilean dialect requires more than simple translation. It demands a deep understanding of the cultural context, linguistic nuances, and the ever-evolving nature of the language. To achieve this, we need to curate a reliable written record that captures the essence of Chilean Spanish, reflecting its evolution while ensuring quality and representativeness.\nAn unexpected but rich source for this linguistic data lies in Chile’s vibrant comedy scene. The Viña del Mar Festival, showcases the country’s top comedians and offers a treasure trove of uniquely Chilean expressions, wordplay, and cultural references. Held annually since 1960, the festival presents Chilean humor, known for its eccentricity – from talking puppets to trampoline-jumping comedians. This humor often features dialogues that are incomprehensible to non-Chilean Spanish speakers, making it an ideal dataset for training LLMs in the intricacies of Chilean Spanish.\nDeveloping a model specialized in Chilean Spanish is not just about preserving linguistic diversity. It’s about ensuring that as AI-mediated communication becomes ubiquitous, Chilean voices are not left behind. This project aims to bridge the gap between global advancements and local linguistic realities. The goal is to create a LLM that can authentically understand and interact with Chilean Spanish speakers, reflecting their unique expressions and cultural context."
+  },
+  {
+    "objectID": "projects/ft-hackathon/index.html#acknowledgments",
+    "href": "projects/ft-hackathon/index.html#acknowledgments",
+    "title": "Mistral AI Fine-Tuning Hackathon",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n\nMastering LLMs: A Conference For Developers & Data Scientists by Dan Becker and Hamel Husain. This course provided an excellent introduction to fine-tuning and inspired my participation in the Mistral AI fine-tuning hackathon.\n\nSpecial thanks to Sophia Yang (Mistral AI) for her insights on the Mistral API, and Thomas Capelle (W&B) for his teachings on the impressive Weave toolkit. Much of the code and many ideas in this project were drawn from their invaluable lessons.\n\nInstructor: This tool was a significant help in our project. It allowed us to add structure to the output from the Mistral API, making it much easier to process our data and create a high-quality dataset for fine-tuning.\nWe extend our gratitude to R.I.M. Dunbar, Jacques Launay, and Oliver Curry for their insightful paper “The Complexity of Jokes Is Limited by Cognitive Constraints on Mentalizing”. Their research provided valuable parameters for defining good jokes, which we applied automatically thanks to LLMs. Their work on the relationship between joke complexity, levels of intentionality, and humor appreciation significantly improved our approach to generating and evaluating Chilean humor."
+  },
+  {
+    "objectID": "projects/datarisas/index.html",
+    "href": "projects/datarisas/index.html",
+    "title": "Datarisas",
+    "section": "",
+    "text": "A screenshot from datarisas.cl\nDatarisas is a project dedicated to analyzing the history of humor in Chile. We have collected and analyzed data from thousands of jokes told on the country’s most important stage: the Viña del Mar International Song Festival (a music and entertainment festival held annually in the city of Viña del Mar, Chile).\nOur goal is not only to preserve these moments of humor but also to offer a deep and curious look at how comedy has evolved over the decades."
+  },
+  {
+    "objectID": "projects/datarisas/index.html#data",
+    "href": "projects/datarisas/index.html#data",
+    "title": "Datarisas",
+    "section": "Data",
+    "text": "Data\nThe site is powered by a database with 3,509 jokes told on the Viña del Mar Festival stage from 1960 to the present, extracted from transcriptions of 128 routines recorded on YouTube.\nThe entire process of transcribing and extracting the jokes was completely automated using artificial intelligence. So far, no human has edited a single comma, but we hope to improve the data as soon as possible. If you’re interested in how the process is done, you can check out the code here.\nIn the future, we hope to complete all the jokes from all the routines and add data from other popular festivals. If you’re interested in collaborating with this cause, contact me."
+  },
+  {
+    "objectID": "projects/datarisas/index.html#analysis",
+    "href": "projects/datarisas/index.html#analysis",
+    "title": "Datarisas",
+    "section": "Analysis",
+    "text": "Analysis\nBelow are some interesting analyses that emerge from the collected data.\nThe first chart shows the age of each comedian at the time of their performance on the Viña Festival stage. There is a noticeable trend towards younger comedians starting in the 2010s, perhaps due to the influence of stand-up comedy?\n\nThe second chart shows a cumulative count of how many times a man or a woman has performed comedy on the Viña Festival stage over the years."
+  },
+  {
+    "objectID": "projects/datarisas/index.html#credits",
+    "href": "projects/datarisas/index.html#credits",
+    "title": "Datarisas",
+    "section": "Credits",
+    "text": "Credits\nDatarisas is a project developed by Alonso Astroza and Alfonso Concha."
+  },
+  {
+    "objectID": "projects/datarisas/index.html#how-to-cite",
+    "href": "projects/datarisas/index.html#how-to-cite",
+    "title": "Datarisas",
+    "section": "How to Cite",
+    "text": "How to Cite\nIf you wish to use the data from this project in your own analyses or research, please cite the project as follows:\n\nAstroza, A. and Concha, A. (2024). Datarisas: Analysis of the history of Chilean humor. https://www.datarisas.cl"
+  },
+  {
+    "objectID": "projects/discolab/index.html",
+    "href": "projects/discolab/index.html",
+    "title": "Discolab",
+    "section": "",
+    "text": "Co-created the AI engine for the Explorador Constitucional a joint project by La Tercera (one of Chile’s largest newspapers) and CRiSSLab.\nDeployed an OpenAI API-based product in production, which efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day."
+  },
+  {
+    "objectID": "projects/discolab/index.html#press",
+    "href": "projects/discolab/index.html#press",
+    "title": "Discolab",
+    "section": "Press",
+    "text": "Press\n\nWhat are the differences between the constitutional texts? (Spanish)\nDiscolab: Artificial Intelligence at the service of Constitutional understanding in Chile (Spanish)"
+  },
+  {
+    "objectID": "posteos/podcats-hormigas/index.html",
+    "href": "posteos/podcats-hormigas/index.html",
+    "title": "¿Pueden las hormigas ser comediantes?",
+    "section": "",
+    "text": "Alonso Astroza Tagle · Can ants be standup comedians? (Spanish)\n\nSupongo que bastaron unos segundos para que te dieras cuenta que el audio está generado por IA. De hecho todo el podcast fue generado de esa forma, incluido el guion y las voces.\nPara generar ese audio de 5 minutos solo le entregué un archivo de entrada como este:\n\n¿Cómo lo hice? Con una batería de herramientas de IA, dejé todo el código disponible en la página del proyecto."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "I’d love to hear from you! ",
+    "section": "",
+    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio.\n\n\n\n\n\n\n\n \n\n\n\n\nConsulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
     "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/github/index.html",
+    "href": "teaching/github/index.html",
+    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
+    "section": "",
+    "text": "This workshop focused on transforming the way students approach data science, shifting from solitary projects in Jupyter Notebook to a more collaborative and practical approach, ready for integration into real software environments."
+  },
+  {
+    "objectID": "teaching/github/index.html#sessions",
+    "href": "teaching/github/index.html#sessions",
+    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
+    "section": "Sessions",
+    "text": "Sessions\nI taught the course on the following occasions:\n\nJanuary 17, 2024, during the CICS UDD Summer School.\nMay 31, 2024, in a workshop session at the CRiSS Lab."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Artificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Alonso",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI’m Alonso Astroza Tagle. This is my resume.\n\n\n🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile.\n\n\n\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Alonso",
+    "section": "",
+    "text": "🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile."
+  },
+  {
+    "objectID": "about.html#personal",
+    "href": "about.html#personal",
+    "title": "Alonso",
+    "section": "",
+    "text": "🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
+  },
+  {
+    "objectID": "about.html#consulting",
+    "href": "about.html#consulting",
+    "title": "Alonso",
+    "section": "Consulting",
+    "text": "Consulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.\nI enjoy building new connections and would be happy to discuss how we can work together. Let’s connect!"
+  },
+  {
+    "objectID": "about.html#suscribe",
+    "href": "about.html#suscribe",
+    "title": "Alonso",
+    "section": "Suscribe",
+    "text": "Suscribe\nSign up using this form to receive an email whenever I post new content."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Introduction to Machine Learning for Professionals\n\n\nWhat we talk about when we talk about ML\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science\n\n\nMy personal approach to doing reproducible and collaborative data science.\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/intro-ml/index.html",
@@ -203,6 +315,69 @@
     "text": "Further Steps\n\nHow to import SQLite data to PowerBI\n\n\n\nOther Courses\nIf you are a student at UDD and are interested in delving deeper into this tool, I recommend the following Zigna course."
   },
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Sign up using this form to receive an email whenever I post new content on my blog.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities. \n\n\n\nLLM\n\n\nstructured-generation\n\n\nbenchmark\n\n\nfunction-calling\n\n\nevals\n\n\n\n\n\n\n\n\n\nApr 30, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\nFor code, please refer to the license of each respective repository."
+  },
+  {
+    "objectID": "posteos/openaiapi-guide/index.html",
+    "href": "posteos/openaiapi-guide/index.html",
+    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
+    "section": "",
+    "text": "Supongo que bastaron unos segundos para que te dieras cuenta que el audio está generado por IA. De hecho todo el podcast fue generado de esa forma, incluido el guion y las voces."
+  },
+  {
+    "objectID": "projects/podcast/index.html",
+    "href": "projects/podcast/index.html",
+    "title": "AI-Podcast Generator",
+    "section": "",
+    "text": "AI Podcast Generator is a tool that automatically generates podcast scripts and audio from text files. This tool leverages Marvin for text generation and Play.ht API for text-to-speech conversion. The generated audio clips are then merged using pydub to create the final podcast output."
+  },
+  {
+    "objectID": "projects/podcast/index.html#features",
+    "href": "projects/podcast/index.html#features",
+    "title": "AI-Podcast Generator",
+    "section": "Features",
+    "text": "Features\n\nGenerate podcast scripts and audio automatically.\nCustomize podcast details, host, guest, topics, and output settings.\nSupports multiple voices from Play.ht API.\nRequires minimal setup and configuration."
+  },
+  {
+    "objectID": "projects/podcast/index.html#examples",
+    "href": "projects/podcast/index.html#examples",
+    "title": "AI-Podcast Generator",
+    "section": "Examples",
+    "text": "Examples\nSoundcloud Playlist 📻\n\nArtificial Intelligence for Natural Brains\nThis Audio was generated based on this YAML text file.\n# Podcast Interview Configuration\npodcast:\n  info:\n    title: Artificial Intelligence for Natural Brains\n    description: A podcast where we talk about the future of AI and how it will affect our lives\n  host:\n    name: Brandon Bert\n    voice: en-US-BrandonNeural #A value from data/voices.json\n  guest:\n    name: Monica Gradient\n    voice: en-US-MonicaNeural #A value from data/voices.json\n  topics:\n    main: Artificial Intelligence\n    sub:\n      - ChatGPT\n      - Generative AI\n      - AGI\n      - AI Ethics\n  output:\n    duration: 5 #Episode length in minutes\n    language: english\n    audio: True #Set to False if you want to generate only the text script\n    folder: examples/ai/\n\n\nCats and Egyptians Gods (Spanish)\nThis Audio was generated based on this YAML text file.\n# Podcast Interview Configuration\npodcast:\n  info:\n    title: Todos los gatitos se van al cielo\n    description: Un programa donde conversamos sobre gatitos y las divinidades egipcias\n  host:\n    name: Alfonso Astorga\n    voice: es-AR-TomasNeural #A value from data/voices.json\n  guest:\n    name: Alicia Cats\n    voice: es-MX-BeatrizNeural #A value from data/voices.json\n  topics:\n    main: Gatos y Dioses Egipcios\n    sub:\n      - Los Gatos en el Antiguo Egipto\n      - Historias acerca de Gatos y Dioses Egipcios\n      - ¿Por qué los gatos eran considerados divinos?\n  output:\n    duration: 5 #Episode length in minutes\n    language: spanish\n    audio: True #Set to False if you want to generate only the text script\n    folder: examples/cats/\n\n\nCan ants be standup comedians? (Spanish)\nThis Audio was generated based on this YAML text file.\n# Podcast Interview Configuration\npodcast:\n  info:\n    title: Los que reímos al último\n    description: Un programa donde conversamos sobre la comedia, el humor y los que les gusta terminar el día con una sonrisa\n  host:\n    name: Alfonso Astorga\n    voice: es-US-AlonsoNeural #A value from data/voices.json\n  guest:\n    name: Penelope Antenas\n    voice: es-CO-SalomeNeural #A value from data/voices.json\n  topics:\n    main: Las hormigas y la comedia\n    sub:\n      - ¿Pueden hablar las hormigas?\n      - ¿Pueden las hormigas hacer comedia?\n      - ¿Sobre que se ríen las hormigas?\n      - Cuentanos un chiste clásico que hagan las hormigas.\n      - Nombre un comediante hormiga famoso.\n  output:\n    duration: 5 #Episode length in minutes\n    language: spanish\n    audio: True #Set to False if you want to generate only the text script\n    folder: examples/ants/"
+  },
+  {
+    "objectID": "projects/chatstract/index.html",
+    "href": "projects/chatstract/index.html",
+    "title": "Chatstract",
+    "section": "",
+    "text": "Chatstract is a tool that progressively extracts structured information from multi-turn user chats using pydantic schemas and LLMs. Powered by Instructor."
+  },
+  {
+    "objectID": "projects/chatstract/index.html#basic-example",
+    "href": "projects/chatstract/index.html#basic-example",
+    "title": "Chatstract",
+    "section": "Basic Example",
+    "text": "Basic Example\nFirst, create the pydantic model you wish to fill out through a conversational method.\nfrom datetime import date\nfrom pydantic import BaseModel, Field\nfrom typing import Optional\n\nclass Task(BaseModel):\n    title: str = Field(description=\"A short title of the task.\")\n    due_date: date = Field(description=\"The deadline for the task. Current year: 2024\")\n    responsable: str = Field(description=\"The person assigned to solve the task\")\n    location: str = Field(description=\"The location where the task will be performed\")\n    status: Optional[str] = Field(description=\"The status of the task\", default=None)\nThen, use Chatstract to populate the data model with values from sequential messages provided by the user.\nfrom chatstract.core import Chat\n\nchat = Chat(data_model = Task)\n\nmessages = [\"Jason has to clean his desk\",\n            \"The deadline is september 7th\",\n            \"This task is for the Downtown office\",\n            \"I messed up, the task is for Dorothy at the Uptown office\",\n            \"The status for this task is 'Done'\"]\n\nfor message in messages:\n    info = chat.chat_ai(message)\n    print(f\"User message: {message}\")\n    print(f\"Data: {chat.data_values}\")\n    \n    if len(info.answer) == 0:\n        print(\"Missing information: None\")\n        print(\"Follow-up question: None\")\n        print(\"\\n===\\n\")\n        continue\n    \n    for question in info.answer:\n        print(f\"Missing information: {question.missing_information_key}\")\n        print(f\"Follow-up question: {question.question}\")\n\n    print(\"\\n===\\n\")\nBelow is the output you can expect:\nUser message: Jason has to clean his desk\nData: {'title': 'Clean the desk', 'due_date': None, 'responsable': 'Jason', 'location': None, 'status': None}\nMissing information: due_date\nFollow-up question: What is the due date for the task 'Clean the desk'?\nMissing information: location\nFollow-up question: Where should the task 'Clean the desk' be performed?\n\n===\n\nUser message: The deadline is september 7th\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': None, 'status': None}\nMissing information: location\nFollow-up question: What is the location for the task 'Clean the desk'?\n\n===\n\nUser message: This task is for the Downtown office\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': 'Downtown office', 'status': None}\nMissing information: None\nFollow-up question: None\n\n===\n\nUser message: I messed up, the task is for Dorothy at the Uptown office\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': None}\nMissing information: None\nFollow-up question: None\n\n===\n\nUser message: The status for this task is 'Done'\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': 'Done'}\nMissing information: None\nFollow-up question: None\n\n==="
+  },
+  {
+    "objectID": "spanish.html",
+    "href": "spanish.html",
+    "title": "Blog en Español",
+    "section": "",
+    "text": "Todo lo que siempre quisiste saber sobre la API de OpenAI\n\n\nContado en simple y en español. \n\n\n\nllm\n\n\nia\n\n\npython\n\n\nopenai\n\n\n\n\n\n\n\n\n\nAug 8, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA. \n\n\n\npodcast\n\n\nia\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "talks/hrday-2024/index.html",
     "href": "talks/hrday-2024/index.html",
     "title": "Artificial Intelligence for Natural Brains (Spanish)",
@@ -210,81 +385,11 @@
     "text": "HRday is a wonderful (and free!) event that Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. This year, I was invited again to address a question many of us are asking: Is AI going to take my job?\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Artificial Intelligence for Natural Brains\n(Spanish).” May 15, 2024. https://www.alonsoastroza.com/talks/hrday-2024/."
   },
   {
-    "objectID": "talks/clase-chatgpt/index.html",
-    "href": "talks/clase-chatgpt/index.html",
-    "title": "ChatGPT for beginners (Spanish)",
-    "section": "",
-    "text": "During the ChatGPT craze, I decided to teach an introductory workshop for non-technical people.\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “ChatGPT for Beginners (Spanish).”\nMay 8, 2023. https://www.alonsoastroza.com/talks/clase-chatgpt/."
-  },
-  {
-    "objectID": "talks/hrday-2023/index.html",
-    "href": "talks/hrday-2023/index.html",
-    "title": "AI in Human Resources (Spanish)",
-    "section": "",
-    "text": "HRday is a wonderful (and free!) event that Red de Recursos Humanos has been organizing for some time. I was fortunate to participate as a speaker in the first edition in 2019, with a talk titled “AI in Human Resources.” That’s right, I talked about the topic before it became trendy. By 2023, it was on everyone’s lips, and I was invited back to update the talk. Here is the result:\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2023. “AI in Human Resources (Spanish).”\nMay 25, 2023. https://www.alonsoastroza.com/talks/hrday-2023/."
-  },
-  {
     "objectID": "talks/mono-porfiado/index.html",
     "href": "talks/mono-porfiado/index.html",
     "title": "Podcast Mono Porfiado (Spanish)",
     "section": "",
     "text": "I appeared in an episode of the podcast Mono Porfiado by Defontana.\n\nIn this episode, we will have Alonso Astroza as a guest, who has been connected to the world of innovation and technology since his youth. He is one of the first Chileans to work with and introduce the concept of Artificial Intelligence in our country.\n\n\n\n\n\nCitationFor attribution, please cite this work as:\nAstroza, Alonso. 2024. “Podcast Mono Porfiado (Spanish).”\nApril 17, 2024. https://www.alonsoastroza.com/talks/mono-porfiado/."
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Artificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/github/index.html",
-    "href": "teaching/github/index.html",
-    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
-    "section": "",
-    "text": "This workshop focused on transforming the way students approach data science, shifting from solitary projects in Jupyter Notebook to a more collaborative and practical approach, ready for integration into real software environments."
-  },
-  {
-    "objectID": "teaching/github/index.html#sessions",
-    "href": "teaching/github/index.html#sessions",
-    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
-    "section": "Sessions",
-    "text": "Sessions\nI taught the course on the following occasions:\n\nJanuary 17, 2024, during the CICS UDD Summer School.\nMay 31, 2024, in a workshop session at the CRiSS Lab."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Alonso",
-    "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI’m Alonso Astroza Tagle. This is my resume.\n\n\n🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile.\n\n\n\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Alonso",
-    "section": "",
-    "text": "🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile."
-  },
-  {
-    "objectID": "about.html#personal",
-    "href": "about.html#personal",
-    "title": "Alonso",
-    "section": "",
-    "text": "🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
-  },
-  {
-    "objectID": "about.html#consulting",
-    "href": "about.html#consulting",
-    "title": "Alonso",
-    "section": "Consulting",
-    "text": "Consulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.\nI enjoy building new connections and would be happy to discuss how we can work together. Let’s connect!"
-  },
-  {
-    "objectID": "about.html#suscribe",
-    "href": "about.html#suscribe",
-    "title": "Alonso",
-    "section": "Suscribe",
-    "text": "Suscribe\nSign up using this form to receive an email whenever I post new content."
   },
   {
     "objectID": "consulting.html",
@@ -327,103 +432,5 @@
     "title": "AI Consulting: Transforming Data into Business Value",
     "section": "",
     "text": "GeoVictoria: A leading provider of time and attendance management solutions. We’re developing VictorIA, a conversational AI for HR.\nDefontana: A comprehensive ERP software provider offering solutions for businesses of all sizes, including modules for accounting, HR, POS, and more. I developed an inventory demand prediction tool.\nCoopeuch: A leading Chilean savings and credit cooperative offering financial services like loans, investments, and insurance. I trained the data analytics team on machine learning.\nTRC Recruitme: Connects job seekers with employers. Building an LLM-powered recruitment platform from unstructured data.\nDiscolab: Deployed an OpenAI API-based product that efficiently searches, summarizes, and compares constitutional texts. The site attracted over 5,000 users per day.\nSubconscious.ai: I helped build an AI Copilot for causal market research, using LangChain’s LCEL to transform the query process for LLMs.\n\n\nLet’s harness AI’s power to solve your business problems!\n\nFull Name \nEmail Address \nMessage\n\n\nSend"
-  },
-  {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
-    "section": "",
-    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\nFor code, please refer to the license of each respective repository."
-  },
-  {
-    "objectID": "posteos/podcats-hormigas/index.html",
-    "href": "posteos/podcats-hormigas/index.html",
-    "title": "¿Pueden las hormigas ser comediantes?",
-    "section": "",
-    "text": "Alonso Astroza Tagle · Can ants be standup comedians? (Spanish)\n\nSupongo que bastaron unos segundos para que te dieras cuenta que el audio está generado por IA. De hecho todo el podcast fue generado de esa forma, incluido el guion y las voces.\nPara generar ese audio de 5 minutos solo le entregué un archivo de entrada como este:\n\n¿Cómo lo hice? Con una batería de herramientas de IA, dejé todo el código disponible en la página del proyecto."
-  },
-  {
-    "objectID": "spanish.html",
-    "href": "spanish.html",
-    "title": "Blog en Español",
-    "section": "",
-    "text": "¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA. \n\n\n\npodcast\n\n\nia\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "",
-    "text": "I’m a Machine Learning Engineer. I create products that transform raw data into business value, empowering organizations to optimize their operations and services.\n    \n\n    \n      If you need help solving a problem using data, I’d love to assist you. I enjoy building new connections and would be happy to discuss how we can work together. Let's connect!\n    \n    About Me →"
-  },
-  {
-    "objectID": "index.html#latest-posts",
-    "href": "index.html#latest-posts",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "Latest Posts",
-    "text": "Latest Posts\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities.\n\n\n\nApr 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#latest-projects",
-    "href": "index.html#latest-projects",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "Latest Projects",
-    "text": "Latest Projects\n\n\n\n\n\n\n\n\n\n\nMistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#latest-talks",
-    "href": "index.html#latest-talks",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "Latest Talks",
-    "text": "Latest Talks\n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#latest-workshops",
-    "href": "index.html#latest-workshops",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "Latest Workshops",
-    "text": "Latest Workshops\n\n\n\n\n\n\n\n\n\n\nIntroduction to Machine Learning for Professionals\n\n\nWhat we talk about when we talk about ML\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science\n\n\nMy personal approach to doing reproducible and collaborative data science.\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#lo-último-en-español",
-    "href": "index.html#lo-último-en-español",
-    "title": "\n      Alonso\n      Astroza Tagle\n    ",
-    "section": "Lo último en Español",
-    "text": "Lo último en Español\n\n\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/chatstract/index.html",
-    "href": "projects/chatstract/index.html",
-    "title": "Chatstract",
-    "section": "",
-    "text": "Chatstract is a tool that progressively extracts structured information from multi-turn user chats using pydantic schemas and LLMs. Powered by Instructor."
-  },
-  {
-    "objectID": "projects/chatstract/index.html#basic-example",
-    "href": "projects/chatstract/index.html#basic-example",
-    "title": "Chatstract",
-    "section": "Basic Example",
-    "text": "Basic Example\nFirst, create the pydantic model you wish to fill out through a conversational method.\nfrom datetime import date\nfrom pydantic import BaseModel, Field\nfrom typing import Optional\n\nclass Task(BaseModel):\n    title: str = Field(description=\"A short title of the task.\")\n    due_date: date = Field(description=\"The deadline for the task. Current year: 2024\")\n    responsable: str = Field(description=\"The person assigned to solve the task\")\n    location: str = Field(description=\"The location where the task will be performed\")\n    status: Optional[str] = Field(description=\"The status of the task\", default=None)\nThen, use Chatstract to populate the data model with values from sequential messages provided by the user.\nfrom chatstract.core import Chat\n\nchat = Chat(data_model = Task)\n\nmessages = [\"Jason has to clean his desk\",\n            \"The deadline is september 7th\",\n            \"This task is for the Downtown office\",\n            \"I messed up, the task is for Dorothy at the Uptown office\",\n            \"The status for this task is 'Done'\"]\n\nfor message in messages:\n    info = chat.chat_ai(message)\n    print(f\"User message: {message}\")\n    print(f\"Data: {chat.data_values}\")\n    \n    if len(info.answer) == 0:\n        print(\"Missing information: None\")\n        print(\"Follow-up question: None\")\n        print(\"\\n===\\n\")\n        continue\n    \n    for question in info.answer:\n        print(f\"Missing information: {question.missing_information_key}\")\n        print(f\"Follow-up question: {question.question}\")\n\n    print(\"\\n===\\n\")\nBelow is the output you can expect:\nUser message: Jason has to clean his desk\nData: {'title': 'Clean the desk', 'due_date': None, 'responsable': 'Jason', 'location': None, 'status': None}\nMissing information: due_date\nFollow-up question: What is the due date for the task 'Clean the desk'?\nMissing information: location\nFollow-up question: Where should the task 'Clean the desk' be performed?\n\n===\n\nUser message: The deadline is september 7th\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': None, 'status': None}\nMissing information: location\nFollow-up question: What is the location for the task 'Clean the desk'?\n\n===\n\nUser message: This task is for the Downtown office\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Jason', 'location': 'Downtown office', 'status': None}\nMissing information: None\nFollow-up question: None\n\n===\n\nUser message: I messed up, the task is for Dorothy at the Uptown office\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': None}\nMissing information: None\nFollow-up question: None\n\n===\n\nUser message: The status for this task is 'Done'\nData: {'title': 'Clean the desk', 'due_date': datetime.date(2024, 9, 7), 'responsable': 'Dorothy', 'location': 'Uptown office', 'status': 'Done'}\nMissing information: None\nFollow-up question: None\n\n==="
-  },
-  {
-    "objectID": "projects/podcast/index.html",
-    "href": "projects/podcast/index.html",
-    "title": "AI-Podcast Generator",
-    "section": "",
-    "text": "AI Podcast Generator is a tool that automatically generates podcast scripts and audio from text files. This tool leverages Marvin for text generation and Play.ht API for text-to-speech conversion. The generated audio clips are then merged using pydub to create the final podcast output."
-  },
-  {
-    "objectID": "projects/podcast/index.html#features",
-    "href": "projects/podcast/index.html#features",
-    "title": "AI-Podcast Generator",
-    "section": "Features",
-    "text": "Features\n\nGenerate podcast scripts and audio automatically.\nCustomize podcast details, host, guest, topics, and output settings.\nSupports multiple voices from Play.ht API.\nRequires minimal setup and configuration."
-  },
-  {
-    "objectID": "projects/podcast/index.html#examples",
-    "href": "projects/podcast/index.html#examples",
-    "title": "AI-Podcast Generator",
-    "section": "Examples",
-    "text": "Examples\nSoundcloud Playlist 📻\n\nArtificial Intelligence for Natural Brains\nThis Audio was generated based on this YAML text file.\n# Podcast Interview Configuration\npodcast:\n  info:\n    title: Artificial Intelligence for Natural Brains\n    description: A podcast where we talk about the future of AI and how it will affect our lives\n  host:\n    name: Brandon Bert\n    voice: en-US-BrandonNeural #A value from data/voices.json\n  guest:\n    name: Monica Gradient\n    voice: en-US-MonicaNeural #A value from data/voices.json\n  topics:\n    main: Artificial Intelligence\n    sub:\n      - ChatGPT\n      - Generative AI\n      - AGI\n      - AI Ethics\n  output:\n    duration: 5 #Episode length in minutes\n    language: english\n    audio: True #Set to False if you want to generate only the text script\n    folder: examples/ai/\n\n\nCats and Egyptians Gods (Spanish)\nThis Audio was generated based on this YAML text file.\n# Podcast Interview Configuration\npodcast:\n  info:\n    title: Todos los gatitos se van al cielo\n    description: Un programa donde conversamos sobre gatitos y las divinidades egipcias\n  host:\n    name: Alfonso Astorga\n    voice: es-AR-TomasNeural #A value from data/voices.json\n  guest:\n    name: Alicia Cats\n    voice: es-MX-BeatrizNeural #A value from data/voices.json\n  topics:\n    main: Gatos y Dioses Egipcios\n    sub:\n      - Los Gatos en el Antiguo Egipto\n      - Historias acerca de Gatos y Dioses Egipcios\n      - ¿Por qué los gatos eran considerados divinos?\n  output:\n    duration: 5 #Episode length in minutes\n    language: spanish\n    audio: True #Set to False if you want to generate only the text script\n    folder: examples/cats/\n\n\nCan ants be standup comedians? (Spanish)\nThis Audio was generated based on this YAML text file.\n# Podcast Interview Configuration\npodcast:\n  info:\n    title: Los que reímos al último\n    description: Un programa donde conversamos sobre la comedia, el humor y los que les gusta terminar el día con una sonrisa\n  host:\n    name: Alfonso Astorga\n    voice: es-US-AlonsoNeural #A value from data/voices.json\n  guest:\n    name: Penelope Antenas\n    voice: es-CO-SalomeNeural #A value from data/voices.json\n  topics:\n    main: Las hormigas y la comedia\n    sub:\n      - ¿Pueden hablar las hormigas?\n      - ¿Pueden las hormigas hacer comedia?\n      - ¿Sobre que se ríen las hormigas?\n      - Cuentanos un chiste clásico que hagan las hormigas.\n      - Nombre un comediante hormiga famoso.\n  output:\n    duration: 5 #Episode length in minutes\n    language: spanish\n    audio: True #Set to False if you want to generate only the text script\n    folder: examples/ants/"
   }
 ]

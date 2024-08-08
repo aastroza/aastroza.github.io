@@ -1,16 +1,22 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/structured-generation-benchmark/index.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
-    "items": [
+      "/posts/structured-generation-benchmark/index.html",
+      "/projects/ft-hackathon/index.html",
+      "/projects/datarisas/index.html",
+      "/projects/chatstract/index.html",
+      "/projects/discolab/index.html",
+      "/projects/podcast/index.html",
+      "/talks/hrday-2024/index.html",
+      "/talks/mono-porfiado/index.html",
+      "/talks/hrday-2023/index.html",
+      "/talks/clase-chatgpt/index.html",
       "/teaching/intro-ml/index.html",
       "/teaching/github/index.html",
-      "/teaching/powerbi/index.html"
+      "/teaching/powerbi/index.html",
+      "/posteos/openaiapi-guide/index.html",
+      "/posteos/podcats-hormigas/index.html"
     ]
   },
   {
@@ -33,27 +39,23 @@
     ]
   },
   {
-    "listing": "/spanish.html",
+    "listing": "/teaching.html",
     "items": [
-      "/posteos/podcats-hormigas/index.html"
+      "/teaching/intro-ml/index.html",
+      "/teaching/github/index.html",
+      "/teaching/powerbi/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/posts/structured-generation-benchmark/index.html",
-      "/projects/ft-hackathon/index.html",
-      "/projects/datarisas/index.html",
-      "/projects/chatstract/index.html",
-      "/projects/discolab/index.html",
-      "/projects/podcast/index.html",
-      "/talks/hrday-2024/index.html",
-      "/talks/mono-porfiado/index.html",
-      "/talks/hrday-2023/index.html",
-      "/talks/clase-chatgpt/index.html",
-      "/teaching/intro-ml/index.html",
-      "/teaching/github/index.html",
-      "/teaching/powerbi/index.html",
+      "/posts/structured-generation-benchmark/index.html"
+    ]
+  },
+  {
+    "listing": "/spanish.html",
+    "items": [
+      "/posteos/openaiapi-guide/index.html",
       "/posteos/podcats-hormigas/index.html"
     ]
   }

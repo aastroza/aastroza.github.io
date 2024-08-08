@@ -1,99 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.alonsoastroza.com/projects/ft-hackathon/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.780Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/projects/discolab/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.780Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/projects/datarisas/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/blog.html</loc>
-    <lastmod>2024-07-13T05:41:02.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/teaching.html</loc>
-    <lastmod>2024-07-13T05:41:02.800Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/contact.html</loc>
-    <lastmod>2024-07-13T05:41:02.684Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.alonsoastroza.com/posts/structured-generation-benchmark/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.772Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/projects.html</loc>
-    <lastmod>2024-07-13T05:41:02.772Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/teaching/intro-ml/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.804Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/teaching/powerbi/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.852Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/talks/hrday-2024/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.800Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/talks/clase-chatgpt/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.784Z</lastmod>
+    <lastmod>2024-08-08T02:40:29.096Z</lastmod>
   </url>
   <url>
     <loc>https://www.alonsoastroza.com/talks/hrday-2023/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.796Z</lastmod>
+    <lastmod>2024-08-08T02:40:29.120Z</lastmod>
   </url>
   <url>
-    <loc>https://www.alonsoastroza.com/talks/mono-porfiado/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.800Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/talks.html</loc>
-    <lastmod>2024-07-13T05:41:02.784Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/teaching/github/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.800Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/about.html</loc>
-    <lastmod>2024-07-13T05:41:02.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/consulting.html</loc>
-    <lastmod>2024-07-13T05:41:02.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/license.html</loc>
-    <lastmod>2024-07-13T05:41:02.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/posteos/podcats-hormigas/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.708Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.alonsoastroza.com/spanish.html</loc>
-    <lastmod>2024-07-13T05:41:02.784Z</lastmod>
+    <loc>https://www.alonsoastroza.com/talks/clase-chatgpt/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.112Z</lastmod>
   </url>
   <url>
     <loc>https://www.alonsoastroza.com/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.684Z</lastmod>
+    <lastmod>2024-08-08T02:40:29.012Z</lastmod>
   </url>
   <url>
-    <loc>https://www.alonsoastroza.com/projects/chatstract/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.772Z</lastmod>
+    <loc>https://www.alonsoastroza.com/projects/ft-hackathon/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/projects/datarisas/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/projects/discolab/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/posteos/podcats-hormigas/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.032Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/contact.html</loc>
+    <lastmod>2024-08-08T02:40:29.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/projects.html</loc>
+    <lastmod>2024-08-08T02:40:29.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/teaching/github/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/talks.html</loc>
+    <lastmod>2024-08-08T02:40:29.108Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/about.html</loc>
+    <lastmod>2024-08-08T02:40:29.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/teaching.html</loc>
+    <lastmod>2024-08-08T02:40:29.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/teaching/intro-ml/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.128Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/teaching/powerbi/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.180Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/blog.html</loc>
+    <lastmod>2024-08-08T02:40:29.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/license.html</loc>
+    <lastmod>2024-08-08T02:40:29.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/posteos/openaiapi-guide/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.012Z</lastmod>
   </url>
   <url>
     <loc>https://www.alonsoastroza.com/projects/podcast/index.html</loc>
-    <lastmod>2024-07-13T05:41:02.780Z</lastmod>
+    <lastmod>2024-08-08T02:40:29.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/projects/chatstract/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/spanish.html</loc>
+    <lastmod>2024-08-08T02:40:29.108Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/talks/hrday-2024/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/talks/mono-porfiado/index.html</loc>
+    <lastmod>2024-08-08T02:40:29.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.alonsoastroza.com/consulting.html</loc>
+    <lastmod>2024-08-08T02:40:29.012Z</lastmod>
   </url>
 </urlset>
