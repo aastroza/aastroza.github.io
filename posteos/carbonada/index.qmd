@@ -1,0 +1,32 @@
+---
+title: "Carbonada.cl"
+date: "2024-08-27"
+categories: [ia, huella-carbono]
+subtitle: >
+  Un juego educativo para entender nuestro impacto en el planeta.
+description: ''
+
+links:
+- icon: globe-americas
+  name: Sitio
+  url: https://carbonada.cl
+- icon: github
+  name: Código
+  url: https://github.com/aastroza/carbonada
+---
+
+¿Cómo logramos que los niños comprendan un concepto tan abstracto como la huella de carbono? Sabemos que una charla de una hora en un colegio no lo logrará. Incluso para los adultos, calcular nuestra huella de carbono puede ser una tarea tediosa. Hay calculadoras en internet que requieren que llenemos formularios interminables o usemos planillas de Excel complicadas. ¿Cuánto esfuerzo estamos dispuestos a poner para entender el impacto en el planeta de ese café que tomamos cada mañana?
+
+Así que pensamos: ¿qué tal si lo hacemos divertido? ¿Qué tal si lo convertimos en un juego?
+
+De esta idea nació Carbonada, un juego educativo en el que los niños pueden aprender sobre su impacto en el medio ambiente de manera práctica y entretenida. Imaginemos que estamos cocinando una "carbonada" y que cada ingrediente que eligen se suma a la huella de carbono total. Si se pasan del límite, la carbonada explota. Es una lección simple, pero poderosa, que les enseña a ser conscientes de lo que usan, compran o hacen.
+
+![A screenshot from carbonada.cl](carbonada.PNG)
+
+A todos nos fascina cuando la IA puede escribir historias, componer música o incluso generar imágenes. Esa es la parte sexy de la IA, su capacidad de escribir, hablar o generar cosas. Pero hay algo de la IA que no es tan conocido, algo que podría cambiar la forma en que interactuamos con la información: su capacidad para leer y escuchar.
+
+Piensen en esto: ¿qué tan genial sería tener un amigo que siempre te escucha, que no te deja en visto, que realmente presta atención a cada palabra que dices? Eso es lo que la IA puede hacer hoy. Puede leer y entender todo lo que la humanidad ha escrito. Y no solo eso, sino que también puede buscar y procesar esa información de maneras que nunca antes habíamos imaginado. Así es como funciona la búsqueda semántica, una herramienta que permite a la IA encontrar exactamente lo que necesitamos entre montañas de datos, casi como si estuviera escuchando nuestras preguntas y buscando la mejor respuesta posible.Pero esto no es todo. Imaginemos que podemos dar un paso más. Que no solo le damos a la IA datos para procesar, sino que también le damos instrucciones para actuar. Instrucciones para realizar cálculos complejos o incluso para llevar a cabo flujos de trabajo completos. Es como si le dijéramos a la IA: "No solo entiendas esto, sino haz algo con ello".
+
+Esto es especialmente poderoso cuando pensamos aplicarlo en temas como el cambio climático. Creamos una API que puede estimar  la huella de carbono de casi cualquier cosa, desde el café que tomamos por la mañana hasta las vacaciones soñadas en el otro lado del mundo. Una API es como un puente de comunicación entre dos sistemas, como si pudiéramos enviar mensajes a una computadora gigante y recibir respuestas inteligentes. Todos los días, las apps que usamos en nuestros teléfonos, ya sea para pedir comida, para chatear o para jugar, están enviando y recibiendo información a través de APIs. Nuestra API está disponible de forma pública y puede ser usada por cualquier programa para calcular la huella de carbono. ¿Qué significa esto? Que alguien podría usarla para construir un nuevo filtro en TikTok que muestre el impacto ambiental de cada meme, o para analizar documentos legales gigantes en busca del impacto ambiental de una empresa. Las posibilidades son infinitas.
+
+Lo que comenzó como una simple idea se convirtió en una herramienta educativa que puede cambiar cómo las futuras generaciones entienden su impacto en el planeta. Todo esto se logró en un fin de semana, y lo mejor es que el juego y la API están disponibles de forma gratuita. Pasamos de una idea a una solución técnica viable que puede llegar a miles de niños y, quién sabe, cambiar el mundo.
