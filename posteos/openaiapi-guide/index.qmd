@@ -6,6 +6,8 @@ categories: [llm, ia, python, openai]
 subtitle: >
   Contado en simple y en español.
 description: ''
+draft: true
+draft-mode: unlinked
 
 links:
 - icon: github
