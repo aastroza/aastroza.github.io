@@ -15,7 +15,31 @@
       "/teaching/intro-ml/index.html",
       "/teaching/github/index.html",
       "/teaching/powerbi/index.html",
+      "/posteos/carbonada/index.html",
       "/posteos/podcats-hormigas/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/structured-generation-benchmark/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/intro-ml/index.html",
+      "/teaching/github/index.html",
+      "/teaching/powerbi/index.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/hrday-2024/index.html",
+      "/talks/mono-porfiado/index.html",
+      "/talks/hrday-2023/index.html",
+      "/talks/clase-chatgpt/index.html"
     ]
   },
   {
@@ -29,31 +53,9 @@
     ]
   },
   {
-    "listing": "/talks.html",
-    "items": [
-      "/talks/hrday-2024/index.html",
-      "/talks/mono-porfiado/index.html",
-      "/talks/hrday-2023/index.html",
-      "/talks/clase-chatgpt/index.html"
-    ]
-  },
-  {
-    "listing": "/teaching.html",
-    "items": [
-      "/teaching/intro-ml/index.html",
-      "/teaching/github/index.html",
-      "/teaching/powerbi/index.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/structured-generation-benchmark/index.html"
-    ]
-  },
-  {
     "listing": "/spanish.html",
     "items": [
+      "/posteos/carbonada/index.html",
       "/posteos/podcats-hormigas/index.html"
     ]
   }

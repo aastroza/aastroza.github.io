@@ -102,7 +102,7 @@
     "href": "index.html#lo-último-en-español",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
     "section": "Lo último en Español",
-    "text": "Lo último en Español\n\n\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lo último en Español\n\n\n\n\n\n\n\n\nCarbonada.cl\n\n\nUn juego educativo para entender nuestro impacto en el planeta.\n\n\n\nAug 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/ft-hackathon/index.html",
@@ -182,95 +182,18 @@
     "text": "Alonso Astroza Tagle · Can ants be standup comedians? (Spanish)\n\nSupongo que bastaron unos segundos para que te dieras cuenta que el audio está generado por IA. De hecho todo el podcast fue generado de esa forma, incluido el guion y las voces.\nPara generar ese audio de 5 minutos solo le entregué un archivo de entrada como este:\n\n¿Cómo lo hice? Con una batería de herramientas de IA, dejé todo el código disponible en la página del proyecto."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "I’d love to hear from you! ",
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
     "section": "",
-    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio.\n\n\n\n\n\n\n\n \n\n\n\n\nConsulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice."
+    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\nFor code, please refer to the license of each respective repository."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/github/index.html",
-    "href": "teaching/github/index.html",
-    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
-    "section": "",
-    "text": "This workshop focused on transforming the way students approach data science, shifting from solitary projects in Jupyter Notebook to a more collaborative and practical approach, ready for integration into real software environments."
-  },
-  {
-    "objectID": "teaching/github/index.html#sessions",
-    "href": "teaching/github/index.html#sessions",
-    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
-    "section": "Sessions",
-    "text": "Sessions\nI taught the course on the following occasions:\n\nJanuary 17, 2024, during the CICS UDD Summer School.\nMay 31, 2024, in a workshop session at the CRiSS Lab."
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Artificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Alonso",
-    "section": "",
-    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI’m Alonso Astroza Tagle. This is my resume.\n\n\n🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile.\n\n\n\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Alonso",
-    "section": "",
-    "text": "🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile."
-  },
-  {
-    "objectID": "about.html#personal",
-    "href": "about.html#personal",
-    "title": "Alonso",
-    "section": "",
-    "text": "🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
-  },
-  {
-    "objectID": "about.html#consulting",
-    "href": "about.html#consulting",
-    "title": "Alonso",
-    "section": "Consulting",
-    "text": "Consulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.\nI enjoy building new connections and would be happy to discuss how we can work together. Let’s connect!"
-  },
-  {
-    "objectID": "about.html#suscribe",
-    "href": "about.html#suscribe",
-    "title": "Alonso",
-    "section": "Suscribe",
-    "text": "Suscribe\nSign up using this form to receive an email whenever I post new content."
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Introduction to Machine Learning for Professionals\n\n\nWhat we talk about when we talk about ML\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science\n\n\nMy personal approach to doing reproducible and collaborative data science.\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "teaching/intro-ml/index.html",
-    "href": "teaching/intro-ml/index.html",
-    "title": "Introduction to Machine Learning for Professionals",
-    "section": "",
-    "text": "This brief course is designed to provide a solid understanding of the fundamental principles of Machine Learning (ML) without requiring prior (or future) programming experience.\nOur approach focuses on providing you with the key concepts that will enable you to actively and confidently participate in discussions related to Machine Learning projects in your organization. This will help you fully integrate into the dialogue and decision-making process."
-  },
-  {
-    "objectID": "teaching/intro-ml/index.html#sessions",
-    "href": "teaching/intro-ml/index.html#sessions",
-    "title": "Introduction to Machine Learning for Professionals",
-    "section": "Sessions",
-    "text": "Sessions\nI taught this course to 110 professionals at Telefonica Hispam during four sessions in April 2024."
+    "text": "Sign up using this form to receive an email whenever I post new content on my blog.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities. \n\n\n\nLLM\n\n\nstructured-generation\n\n\nbenchmark\n\n\nfunction-calling\n\n\nevals\n\n\n\n\n\n\n\n\n\nApr 30, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/powerbi/index.html",
@@ -315,18 +238,102 @@
     "text": "Further Steps\n\nHow to import SQLite data to PowerBI\n\n\n\nOther Courses\nIf you are a student at UDD and are interested in delving deeper into this tool, I recommend the following Zigna course."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "teaching/intro-ml/index.html",
+    "href": "teaching/intro-ml/index.html",
+    "title": "Introduction to Machine Learning for Professionals",
     "section": "",
-    "text": "Sign up using this form to receive an email whenever I post new content on my blog.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStructured Generation Benchmark\n\n\nTesting LLM’s function-calling capabilities. \n\n\n\nLLM\n\n\nstructured-generation\n\n\nbenchmark\n\n\nfunction-calling\n\n\nevals\n\n\n\n\n\n\n\n\n\nApr 30, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
+    "text": "This brief course is designed to provide a solid understanding of the fundamental principles of Machine Learning (ML) without requiring prior (or future) programming experience.\nOur approach focuses on providing you with the key concepts that will enable you to actively and confidently participate in discussions related to Machine Learning projects in your organization. This will help you fully integrate into the dialogue and decision-making process."
   },
   {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
+    "objectID": "teaching/intro-ml/index.html#sessions",
+    "href": "teaching/intro-ml/index.html#sessions",
+    "title": "Introduction to Machine Learning for Professionals",
+    "section": "Sessions",
+    "text": "Sessions\nI taught this course to 110 professionals at Telefonica Hispam during four sessions in April 2024."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\nFor code, please refer to the license of each respective repository."
+    "text": "Introduction to Machine Learning for Professionals\n\n\nWhat we talk about when we talk about ML\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOrbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science\n\n\nMy personal approach to doing reproducible and collaborative data science.\n\n\n\nJan 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntro to PowerBI\n\n\nA short workshop to provide a basic introduction to PowerBI.\n\n\n\nOct 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Alonso",
+    "section": "",
+    "text": "Twitter\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n  \n  \nI’m Alonso Astroza Tagle. This is my resume.\n\n\n🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile.\n\n\n\n🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Alonso",
+    "section": "",
+    "text": "🏭 I’m the Deputy Director of Industry Partnerships @ Data Science Institute of Universidad del Desarrollo.\n👨‍💻 Independent Contributor: GeoVictoria - Defontana - Discolab - Subconscious.ai.\n👨🏻‍🏫 Lecturer of the Data Science Master’s program @ Universidad del Desarrollo.\n💡 Electrical Engineer @ Universidad de Chile."
+  },
+  {
+    "objectID": "about.html#personal",
+    "href": "about.html#personal",
+    "title": "Alonso",
+    "section": "",
+    "text": "🔥 Things I’m passionate about: LLMs, AI, Data Products, Python, padel, crossfit, keto diet, videogames.\n🧑‍🤝‍🧑 I have a twin brother.\n⛰️ I’m from Santiago, Chile, South America."
+  },
+  {
+    "objectID": "about.html#consulting",
+    "href": "about.html#consulting",
+    "title": "Alonso",
+    "section": "Consulting",
+    "text": "Consulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice.\nI enjoy building new connections and would be happy to discuss how we can work together. Let’s connect!"
+  },
+  {
+    "objectID": "about.html#suscribe",
+    "href": "about.html#suscribe",
+    "title": "Alonso",
+    "section": "Suscribe",
+    "text": "Suscribe\nSign up using this form to receive an email whenever I post new content."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Artificial Intelligence for Natural Brains (Spanish)\n\n\nMy talk for HRday 2024.\n\n\n\nMay 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPodcast Mono Porfiado (Spanish)\n\n\nI appeared as the main guest on a podcast about entrepreneurship and technology.\n\n\n\nApr 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI in Human Resources (Spanish)\n\n\nMy talk for HRday 2023.\n\n\n\nMay 25, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT for beginners (Spanish)\n\n\nA quick class to make the most of ChatGPT.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/github/index.html",
+    "href": "teaching/github/index.html",
+    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
+    "section": "",
+    "text": "This workshop focused on transforming the way students approach data science, shifting from solitary projects in Jupyter Notebook to a more collaborative and practical approach, ready for integration into real software environments."
+  },
+  {
+    "objectID": "teaching/github/index.html#sessions",
+    "href": "teaching/github/index.html#sessions",
+    "title": "Orbiting Jupiter and Landing on Earth: A Journey in GitHub Towards Practical and Collaborative Data Science",
+    "section": "Sessions",
+    "text": "Sessions\nI taught the course on the following occasions:\n\nJanuary 17, 2024, during the CICS UDD Summer School.\nMay 31, 2024, in a workshop session at the CRiSS Lab."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Mistral AI Fine-Tuning Hackathon\n\n\nMy Mistral FT Hackathon entry.\n\n\n\nJun 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatarisas\n\n\nTracking the history of Chilean humor.\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatstract\n\n\nA tool that extracts structured information from chats.\n\n\n\nMay 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscolab\n\n\nPlatform to compare Chile’s current constitution with its new proposed constitutions using LLMs.\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Podcast Generator\n\n\nA tool that generates podcast from text files.\n\n\n\nApr 23, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "I’d love to hear from you! ",
+    "section": "",
+    "text": "I’d love to hear from you! \nYou can use this form to contact me about speaking engagements, collaborations, consulting or simply to say hello.\n  \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend\n\n\n\n\n\nSi hablas español, inscríbete en mi newsletter \nPuedes usar este formulario para registrarte y recibir una notificación cada vez que publique algo nuevo en el sitio.\n\n\n\n\n\n\n\n \n\n\n\n\nConsulting\nIf you need help solving a problem using AI, I’d love to assist you. I offer various consulting services to support your goals, whether your project is just starting or already in progress. My services include long-term and short-term consulting, private training, and on-demand advice."
+  },
+  {
+    "objectID": "posteos/carbonada/index.html",
+    "href": "posteos/carbonada/index.html",
+    "title": "Carbonada.cl",
+    "section": "",
+    "text": "¿Cómo logramos que los niños comprendan un concepto tan abstracto como la huella de carbono? Sabemos que una charla de una hora en un colegio no lo logrará. Incluso para los adultos, calcular nuestra huella de carbono puede ser una tarea tediosa. Hay calculadoras en internet que requieren que llenemos formularios interminables o usemos planillas de Excel complicadas. ¿Cuánto esfuerzo estamos dispuestos a poner para entender el impacto en el planeta de ese café que tomamos cada mañana?\nAsí que pensamos: ¿qué tal si lo hacemos divertido? ¿Qué tal si lo convertimos en un juego?\nDe esta idea nació Carbonada, un juego educativo en el que los niños pueden aprender sobre su impacto en el medio ambiente de manera práctica y entretenida. Imaginemos que estamos cocinando una “carbonada” y que cada ingrediente que eligen se suma a la huella de carbono total. Si se pasan del límite, la carbonada explota. Es una lección simple, pero poderosa, que les enseña a ser conscientes de lo que usan, compran o hacen.\n\n\n\nA screenshot from carbonada.cl\n\n\nA todos nos fascina cuando la IA puede escribir historias, componer música o incluso generar imágenes. Esa es la parte sexy de la IA, su capacidad de escribir, hablar o generar cosas. Pero hay algo de la IA que no es tan conocido, algo que podría cambiar la forma en que interactuamos con la información: su capacidad para leer y escuchar.\nPiensen en esto: ¿qué tan genial sería tener un amigo que siempre te escucha, que no te deja en visto, que realmente presta atención a cada palabra que dices? Eso es lo que la IA puede hacer hoy. Puede leer y entender todo lo que la humanidad ha escrito. Y no solo eso, sino que también puede buscar y procesar esa información de maneras que nunca antes habíamos imaginado. Así es como funciona la búsqueda semántica, una herramienta que permite a la IA encontrar exactamente lo que necesitamos entre montañas de datos, casi como si estuviera escuchando nuestras preguntas y buscando la mejor respuesta posible.Pero esto no es todo. Imaginemos que podemos dar un paso más. Que no solo le damos a la IA datos para procesar, sino que también le damos instrucciones para actuar. Instrucciones para realizar cálculos complejos o incluso para llevar a cabo flujos de trabajo completos. Es como si le dijéramos a la IA: “No solo entiendas esto, sino haz algo con ello”.\nEsto es especialmente poderoso cuando pensamos aplicarlo en temas como el cambio climático. Creamos una API que puede estimar la huella de carbono de casi cualquier cosa, desde el café que tomamos por la mañana hasta las vacaciones soñadas en el otro lado del mundo. Una API es como un puente de comunicación entre dos sistemas, como si pudiéramos enviar mensajes a una computadora gigante y recibir respuestas inteligentes. Todos los días, las apps que usamos en nuestros teléfonos, ya sea para pedir comida, para chatear o para jugar, están enviando y recibiendo información a través de APIs. Nuestra API está disponible de forma pública y puede ser usada por cualquier programa para calcular la huella de carbono. ¿Qué significa esto? Que alguien podría usarla para construir un nuevo filtro en TikTok que muestre el impacto ambiental de cada meme, o para analizar documentos legales gigantes en busca del impacto ambiental de una empresa. Las posibilidades son infinitas.\nLo que comenzó como una simple idea se convirtió en una herramienta educativa que puede cambiar cómo las futuras generaciones entienden su impacto en el planeta. Todo esto se logró en un fin de semana, y lo mejor es que el juego y la API están disponibles de forma gratuita. Pasamos de una idea a una solución técnica viable que puede llegar a miles de niños y, quién sabe, cambiar el mundo."
   },
   {
     "objectID": "projects/podcast/index.html",
@@ -368,7 +375,7 @@
     "href": "spanish.html",
     "title": "Blog en Español",
     "section": "",
-    "text": "¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA. \n\n\n\npodcast\n\n\nia\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
+    "text": "Carbonada.cl\n\n\nUn juego educativo para entender nuestro impacto en el planeta. \n\n\n\nia\n\n\nhuella-carbono\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA. \n\n\n\npodcast\n\n\nia\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/hrday-2024/index.html",
