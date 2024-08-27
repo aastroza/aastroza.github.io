@@ -15,7 +15,6 @@
       "/teaching/intro-ml/index.html",
       "/teaching/github/index.html",
       "/teaching/powerbi/index.html",
-      "/posteos/openaiapi-guide/index.html",
       "/posteos/podcats-hormigas/index.html"
     ]
   },
@@ -55,7 +54,6 @@
   {
     "listing": "/spanish.html",
     "items": [
-      "/posteos/openaiapi-guide/index.html",
       "/posteos/podcats-hormigas/index.html"
     ]
   }

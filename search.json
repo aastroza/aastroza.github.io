@@ -102,7 +102,7 @@
     "href": "index.html#lo-último-en-español",
     "title": "\n      Alonso\n      Astroza Tagle\n    ",
     "section": "Lo último en Español",
-    "text": "Lo último en Español\n\n\n\n\n\n\n\n\n\n\nTodo lo que siempre quisiste saber sobre la API de OpenAI\n\n\nContado en simple y en español.\n\n\n\nAug 8, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Lo último en Español\n\n\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA.\n\n\n\nMay 8, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/ft-hackathon/index.html",
@@ -329,167 +329,6 @@
     "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\nFor code, please refer to the license of each respective repository."
   },
   {
-    "objectID": "posteos/openaiapi-guide/index.html",
-    "href": "posteos/openaiapi-guide/index.html",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "",
-    "text": "El logo de OpenAI"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#quién-es-openai",
-    "href": "posteos/openaiapi-guide/index.html#quién-es-openai",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "",
-    "text": "El logo de OpenAI"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#qué-es-un-llm",
-    "href": "posteos/openaiapi-guide/index.html#qué-es-un-llm",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Qué es un LLM?",
-    "text": "¿Qué es un LLM?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#qué-es-una-api",
-    "href": "posteos/openaiapi-guide/index.html#qué-es-una-api",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Qué es una API?",
-    "text": "¿Qué es una API?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cómo-uso-una-api",
-    "href": "posteos/openaiapi-guide/index.html#cómo-uso-una-api",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cómo uso una API?",
-    "text": "¿Cómo uso una API?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cuánto-cuesta-usar-la-api-de-openai",
-    "href": "posteos/openaiapi-guide/index.html#cuánto-cuesta-usar-la-api-de-openai",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cuánto cuesta usar la API de OpenAI?",
-    "text": "¿Cuánto cuesta usar la API de OpenAI?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#qué-es-una-api-key",
-    "href": "posteos/openaiapi-guide/index.html#qué-es-una-api-key",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Qué es una API KEY?",
-    "text": "¿Qué es una API KEY?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#qué-es-un-prompt",
-    "href": "posteos/openaiapi-guide/index.html#qué-es-un-prompt",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Qué es un prompt?",
-    "text": "¿Qué es un prompt?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cómo-hago-mi-primera-consulta",
-    "href": "posteos/openaiapi-guide/index.html#cómo-hago-mi-primera-consulta",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cómo hago mi primera consulta?",
-    "text": "¿Cómo hago mi primera consulta?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#qué-cosas-puedo-hacer-usando-la-api-de-openai",
-    "href": "posteos/openaiapi-guide/index.html#qué-cosas-puedo-hacer-usando-la-api-de-openai",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Qué cosas puedo hacer usando la API de OpenAI?",
-    "text": "¿Qué cosas puedo hacer usando la API de OpenAI?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cómo-puedo-generar-texto",
-    "href": "posteos/openaiapi-guide/index.html#cómo-puedo-generar-texto",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cómo puedo generar texto?",
-    "text": "¿Cómo puedo generar texto?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cómo-puedo-generar-imágenes",
-    "href": "posteos/openaiapi-guide/index.html#cómo-puedo-generar-imágenes",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cómo puedo generar imágenes?",
-    "text": "¿Cómo puedo generar imágenes?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cómo-puedo-transcribir-imágenes-a-texto",
-    "href": "posteos/openaiapi-guide/index.html#cómo-puedo-transcribir-imágenes-a-texto",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cómo puedo transcribir imágenes a texto?",
-    "text": "¿Cómo puedo transcribir imágenes a texto?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cómo-puedo-generar-audio",
-    "href": "posteos/openaiapi-guide/index.html#cómo-puedo-generar-audio",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cómo puedo generar audio?",
-    "text": "¿Cómo puedo generar audio?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cómo-puedo-transcribir-audio-a-texto",
-    "href": "posteos/openaiapi-guide/index.html#cómo-puedo-transcribir-audio-a-texto",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cómo puedo transcribir audio a texto?",
-    "text": "¿Cómo puedo transcribir audio a texto?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cómo-puedo-usar-la-api-sin-saber-programar",
-    "href": "posteos/openaiapi-guide/index.html#cómo-puedo-usar-la-api-sin-saber-programar",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cómo puedo usar la API sin saber programar?",
-    "text": "¿Cómo puedo usar la API sin saber programar?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cuál-es-la-forma-más-barata-de-usar-la-api-de-openai",
-    "href": "posteos/openaiapi-guide/index.html#cuál-es-la-forma-más-barata-de-usar-la-api-de-openai",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cuál es la forma más barata de usar la API de OpenAI?",
-    "text": "¿Cuál es la forma más barata de usar la API de OpenAI?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cuál-es-la-forma-más-rápida-de-obtener-resultados-con-la-api-de-openai",
-    "href": "posteos/openaiapi-guide/index.html#cuál-es-la-forma-más-rápida-de-obtener-resultados-con-la-api-de-openai",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cuál es la forma más rápida de obtener resultados con la API de OpenAI?",
-    "text": "¿Cuál es la forma más rápida de obtener resultados con la API de OpenAI?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#por-qué-obtengo-dos-resultados-distintos-para-la-misma-consulta",
-    "href": "posteos/openaiapi-guide/index.html#por-qué-obtengo-dos-resultados-distintos-para-la-misma-consulta",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Por qué obtengo dos resultados distintos para la misma consulta?",
-    "text": "¿Por qué obtengo dos resultados distintos para la misma consulta?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#cómo-puedo-evitar-obtener-resultados-distintos-para-la-misma-consulta",
-    "href": "posteos/openaiapi-guide/index.html#cómo-puedo-evitar-obtener-resultados-distintos-para-la-misma-consulta",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Cómo puedo evitar obtener resultados distintos para la misma consulta?",
-    "text": "¿Cómo puedo evitar obtener resultados distintos para la misma consulta?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#existe-alguna-forma-de-que-las-respuestas-sigan-una-secuencia-estructurada",
-    "href": "posteos/openaiapi-guide/index.html#existe-alguna-forma-de-que-las-respuestas-sigan-una-secuencia-estructurada",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Existe alguna forma de que las respuestas sigan una secuencia estructurada?",
-    "text": "¿Existe alguna forma de que las respuestas sigan una secuencia estructurada?"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#muéstrame-lo-más-entretenido-que-puedas-hacer-usando-la-api-de-openai",
-    "href": "posteos/openaiapi-guide/index.html#muéstrame-lo-más-entretenido-que-puedas-hacer-usando-la-api-de-openai",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¡Muéstrame lo más entretenido que puedas hacer usando la API de OpenAI!",
-    "text": "¡Muéstrame lo más entretenido que puedas hacer usando la API de OpenAI!"
-  },
-  {
-    "objectID": "posteos/openaiapi-guide/index.html#dónde-puedo-seguir-aprendiendo",
-    "href": "posteos/openaiapi-guide/index.html#dónde-puedo-seguir-aprendiendo",
-    "title": "Todo lo que siempre quisiste saber sobre la API de OpenAI",
-    "section": "¿Dónde puedo seguir aprendiendo?",
-    "text": "¿Dónde puedo seguir aprendiendo?"
-  },
-  {
     "objectID": "projects/podcast/index.html",
     "href": "projects/podcast/index.html",
     "title": "AI-Podcast Generator",
@@ -529,7 +368,7 @@
     "href": "spanish.html",
     "title": "Blog en Español",
     "section": "",
-    "text": "Todo lo que siempre quisiste saber sobre la API de OpenAI\n\n\nContado en simple y en español. \n\n\n\nllm\n\n\nia\n\n\npython\n\n\nopenai\n\n\n\n\n\n\n\n\n\nAug 8, 2024\n\n\nAlonso Astroza\n\n\n\n\n\n\n\n\n\n\n\n\n¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA. \n\n\n\npodcast\n\n\nia\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
+    "text": "¿Pueden las hormigas ser comediantes?\n\n\nUn ejemplo de un podcast totalmente generado por IA. \n\n\n\npodcast\n\n\nia\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nAlonso Astroza\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/hrday-2024/index.html",
