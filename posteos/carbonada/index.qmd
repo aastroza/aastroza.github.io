@@ -37,6 +37,8 @@ Nos fascina cuando la IA escribe historias, compone música o genera imágenes. 
 
 La IA puede leer y entender todo lo que la humanidad ha escrito, y buscar y procesar esa información de maneras inimaginables. Así es la búsqueda semántica, una herramienta que permite a la IA encontrar lo que necesitamos entre montañas de datos, casi como si estuviera escuchando nuestras preguntas y buscando la mejor respuesta. Y podemos dar un paso más. No solo le damos datos para procesar, sino también instrucciones para actuar, como realizar cálculos complejos como la huella de carbono de un objeto. Es como decirle: “No solo entiendas esto, sino haz algo con ello”.
 
+![Presentando Carbonada en el matinal de wapptv.cl](wapptv.jpg)
+
 En Carbonada, hemos creado una API que estima la huella de carbono de diversas actividades, desde el café matutino hasta las vacaciones en el extranjero. Una API es un puente de comunicación entre sistemas. Las aplicaciones en nuestros teléfonos, como las de comida, chat o juegos, usan APIs para enviar y recibir información. Nuestra API es pública y puede ser usada para calcular la huella de carbono. Esto permite crear un filtro en TikTok que muestre el impacto ambiental de los memes, o analizar documentos legales en busca del impacto ambiental de una empresa. Las posibilidades son infinitas.
 
 ## Alcances
