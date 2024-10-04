@@ -1,0 +1,16 @@
+---
+title: "Function Calling Explained"
+author: "Alonso Astroza"
+date: "2024-10-07"
+categories: [LLM, structured-generation, function-calling, openai]
+subtitle: >
+  Explaining LLM's function-calling capabilities.
+description: ''
+draft: true
+draft-mode: unlinked
+
+links:
+- icon: github
+  name: Github Code
+  url: https://github.com/aastroza/structured-generation-benchmark
+---
