@@ -1,5 +1,23 @@
 [
   {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/intro-ml/index.html",
+      "/teaching/github/index.html",
+      "/teaching/powerbi/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/ft-hackathon/index.html",
+      "/projects/datarisas/index.html",
+      "/projects/chatstract/index.html",
+      "/projects/discolab/index.html",
+      "/projects/podcast/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/structured-generation-benchmark/index.html",
@@ -26,11 +44,10 @@
     ]
   },
   {
-    "listing": "/teaching.html",
+    "listing": "/spanish.html",
     "items": [
-      "/teaching/intro-ml/index.html",
-      "/teaching/github/index.html",
-      "/teaching/powerbi/index.html"
+      "/posteos/carbonada/index.html",
+      "/posteos/podcats-hormigas/index.html"
     ]
   },
   {
@@ -40,23 +57,6 @@
       "/talks/mono-porfiado/index.html",
       "/talks/hrday-2023/index.html",
       "/talks/clase-chatgpt/index.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/ft-hackathon/index.html",
-      "/projects/datarisas/index.html",
-      "/projects/chatstract/index.html",
-      "/projects/discolab/index.html",
-      "/projects/podcast/index.html"
-    ]
-  },
-  {
-    "listing": "/spanish.html",
-    "items": [
-      "/posteos/carbonada/index.html",
-      "/posteos/podcats-hormigas/index.html"
     ]
   }
 ]

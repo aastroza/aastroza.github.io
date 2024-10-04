@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alonso Astroza">
-<meta name="dcterms.date" content="2023-10-23">
+<meta name="dcterms.date" content="2024-10-07">
 
-<title>Intro to PowerBI – Alonso Astroza Tagle</title>
+<title>Function Calling Explained – Alonso Astroza Tagle</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,18 +72,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="quarto:status" content="draft">
 
 
-<meta property="og:title" content="Intro to PowerBI – Alonso Astroza Tagle">
-<meta property="og:description" content="A short workshop to provide a basic introduction to PowerBI.">
-<meta property="og:image" content="https://www.alonsoastroza.com/teaching/powerbi/powerbi.PNG">
+<meta property="og:title" content="Function Calling Explained – Alonso Astroza Tagle">
+<meta property="og:description" content="Explaining LLM’s function-calling capabilities.">
 <meta property="og:site_name" content="Alonso Astroza Tagle">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner"><div id="quarto-draft-alert" class="alert alert-warning"><i class="bi bi-pencil-square"></i>Draft</div>
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -141,12 +141,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns">
     <div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
-    <h1 class="title">Intro to PowerBI</h1>
-        <p class="subtitle lead"></p><p>A short workshop to provide a basic introduction to PowerBI.</p><p></p>
+    <h1 class="title">Function Calling Explained</h1>
+        <p class="subtitle lead"></p><p>Explaining LLM’s function-calling capabilities.</p><p></p>
                         <div class="quarto-categories">
-                <div class="quarto-category">powerbi</div>
-                <div class="quarto-category">workshop</div>
-                <div class="quarto-category">english</div>
+                <div class="quarto-category">LLM</div>
+                <div class="quarto-category">structured-generation</div>
+                <div class="quarto-category">function-calling</div>
+                <div class="quarto-category">openai</div>
                 </div>
                 </div>
     
@@ -164,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
         <div>
         <div class="quarto-title-meta-heading">Published</div>
         <div class="quarto-title-meta-contents">
-          <p class="date">October 23, 2023</p>
+          <p class="date">October 7, 2024</p>
         </div>
       </div>
       
@@ -173,16 +174,15 @@ ul.task-list li input[type="checkbox"] {
       
     
         <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
-        <a href="data.zip" class="btn btn-secondary text-capitalize"><i class="bi bi-database me-1"></i> Data</a>
-        <a href="https://docs.google.com/presentation/d/1rrs-uyRW4Ugvn4kq_CJtd_MRMBVHfi5BxzVXfQ6ThVY/edit?usp=sharing" class="btn btn-secondary text-capitalize"><i class="bi bi-google me-1"></i> Slides</a>
-        <a href="Visualización_de_Datos_PowerBI[2023].pdf" class="btn btn-secondary text-capitalize"><i class="bi bi-filetype-pdf me-1"></i> Slides</a>
-        <a href="https://youtu.be/e6NI7_kkNu4?si=gVMH_qUYdzpPn9qA" class="btn btn-secondary text-capitalize"><i class="bi bi-youtube me-1"></i> Video Playlist</a>
+        <a href="https://github.com/aastroza/structured-generation-benchmark" class="btn btn-secondary text-capitalize"><i class="bi bi-github me-1"></i> Github Code</a>
         </div>
         
     </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -196,40 +196,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>A short workshop for undergraduate students at Universidad del Desarrollo. The purpose is to highlight the importance of learning data visualization tools like <a href="https://powerbi.microsoft.com">PowerBI</a> and to provide a basic introduction to its use.</p>
-<section id="first-steps" class="level2">
-<h2 class="anchored" data-anchor-id="first-steps">First Steps</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/e6NI7_kkNu4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="data-load" class="level2">
-<h2 class="anchored" data-anchor-id="data-load">Data Load</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/yMcy94APjvs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="data-model" class="level2">
-<h2 class="anchored" data-anchor-id="data-model">Data Model</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/CmNrcFI23l0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="data-visualization" class="level2">
-<h2 class="anchored" data-anchor-id="data-visualization">Data Visualization</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/cBhxh-8HJcA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="further-steps" class="level2">
-<h2 class="anchored" data-anchor-id="further-steps">Further Steps</h2>
-<section id="how-to-import-sqlite-data-to-powerbi" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-import-sqlite-data-to-powerbi">How to import SQLite data to PowerBI</h3>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/n5ELoULhQIo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="other-courses" class="level3">
-<h3 class="anchored" data-anchor-id="other-courses">Other Courses</h3>
-<p>If you are a student at UDD and are interested in delving deeper into this tool, I recommend the following <a href="https://zigna.udd.cl/analisis-de-datos-con-power-bi/">Zigna course</a>.</p>
 
 
-</section>
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-astroza2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Astroza, Alonso. 2023. <span>“Intro to PowerBI.”</span> October 23,
-2023. <a href="https://www.alonsoastroza.com/teaching/powerbi/">https://www.alonsoastroza.com/teaching/powerbi/</a>.
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-astroza2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Astroza, Alonso. 2024. <span>“Function Calling Explained.”</span>
+October 7, 2024. <a href="https://www.alonsoastroza.com/posts/function-calling/">https://www.alonsoastroza.com/posts/function-calling/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
